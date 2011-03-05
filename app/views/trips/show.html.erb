@@ -1,15 +1,16 @@
 <% content_for :head do %>
 <style>
+	#itinerary-wrapper { position: relative; }
 	#day-timeline,
 	#block-timeline,
 	.user-itinerary { height: 27px; position: relative; }
-	.day-offset,
-	.dest-name,
-	.user-info { width: 150px; position: absolute; }
+	.s-offset { width: 150px; position: absolute; }
+	.timeline-header { height: 80%; }
 	.day-header,
 	.timeline-header,
 	.user-timeline { left: 150px; position: absolute; right: 2px; }
 	.day-segment { position: absolute; background-color: gray; }
+	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; }
 	.timeline-segment { position: absolute; font-size: 8pt; }
 	.flight-info { position: absolute; }
 </style>
@@ -17,7 +18,7 @@
 <% total_segments = num_trip_time_blocks(@trip) %>
 <div id="itinerary-wrapper">
 	<div id="day-timeline">
-		<div class="day-offset"></div>
+		<div class="s-offset"></div>
 		<div class="day-header">
 			<% (0..@trip.duration_in_days-1).each do |day_index| %>
 			<div class="day-segment" style="left:<%= 100 * day_index / (@trip.duration_in_days) %>%; width: <%= 100 / (@trip.duration_in_days) %>%">
@@ -26,9 +27,18 @@
 			<% end %>
 		</div>
 	</div>
+	<div id="vertical-timeline">
+		<div class="s-offset"></div>
+		<div class="timeline-header">
+			<% (0..total_segments).each_with_index do |time_segment, index| %>
+				<div class="vbars" style="left:<%= (100 * index) / total_segments %>%;">
+				</div>
+			<% end %>
+		</div>
+	</div>
 	<div id="block-timeline">
 		<% @destinations.each do |dest| %>
-		<div class="dest-name"><%= dest.carrier_flight.from.full_name %></div>
+		<div class="s-offset"><%= dest.carrier_flight.from.full_name %></div>
 		<div class="timeline-header">
 			<% (0..total_segments).each_with_index do |time_segment, index| %>
 				<div class="timeline-segment" style="left:<%= (100 * index) / total_segments %>%;">
@@ -40,7 +50,7 @@
 	</div>
 	<% @trip.users.each do |user| %>
 		<div class="user-itinerary">
-			<div class="user-info">
+			<div class="s-offset">
 				<%= user.full_name %>
 			</div>
 			<div class="user-timeline">
