@@ -1,0 +1,454 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: myoshimoto@gmail.com
+Received: by 10.140.186.12 with SMTP id j12cs184202rvf;
+        Fri, 28 May 2010 16:49:38 -0700 (PDT)
+Received: by 10.231.194.223 with SMTP id dz31mr1197740ibb.87.1275090578039;
+        Fri, 28 May 2010 16:49:38 -0700 (PDT)
+Return-Path: <reservations@jetblue.com>
+Received: from svtmail02.prod.sabre.com (svtmail02.prod.sabre.com [151.193.64.2])
+        by mx.google.com with ESMTP id u18si4864296ibh.100.2010.05.28.16.49.37;
+        Fri, 28 May 2010 16:49:37 -0700 (PDT)
+Received-SPF: neutral (google.com: 151.193.64.2 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) client-ip=151.193.64.2;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 151.193.64.2 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) smtp.mail=reservations@jetblue.com
+Received: from vtlsnp06 (10.208.255.13:30458) by svtmail02.prod.sabre.com (LSMTP for Windows NT v1.1b) with SMTP id <2.0063E0F2@svtmail02.prod.sabre.com>; Fri, 28 May 2010 18:49:37 -0500
+Date: Fri, 28 May 2010 18:49:37 -0500 (CDT)
+From: JetBlue Reservations <reservations@jetblue.com>
+To:  <myoshimoto@gmail.com>
+Message-ID: <27044541.891931275090577354.JavaMail.ita@vtlsnp06>
+Subject: Itinerary for your upcoming trip
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_89193_23843283.1275090577351"
+
+------=_Part_89193_23843283.1275090577351
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+  <head>=09=09 =20
+=09  <style type=3D"text/css" media=3D"screen">
+=09=09body {
+=09=09  font-family: arial,sans-serif; font-size:12px;
+=09=09}
+        a:hover {
+          text-decoration: underline;
+        }
+      </style>
+  </head>
+=09
+
+
+<body id=3D"ticket">
+<div style=3D"line-height:1.35em; margin:0 auto; text-align:left; width:606=
+px; font-family: arial,sans-serif; font-size:12px;">
+  <table style=3D"border:none; width:606px" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center">
+    <tr>
+      <td>
+        <table border=3D"0" style=3D"border:none; width:606px;" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td colspan=3D"4" align=3D"left" valign=3D"top=
+"><img src=3D"https://jetbluereceipt.sabre.com/jb/headert.jpg"/></td></tr><=
+tr><td width=3D"311" align=3D"left"><img src=3D"https://jetbluereceipt.sabr=
+e.com/jb/headerl.jpg"/></td><td width=3D"137" align=3D"left"><div style=3D"=
+font-size:12px; line-height:1.25em;">Scan this barcode to check in at any J=
+etBlue check in kiosk.</div><div style=3D"font-size:1px; line-height:0.05em=
+;"><img src=3D"https://jetbluereceipt.sabre.com/jb/spc.gif" width=3D"139"/>=
+</div></td><td width=3D"133" align=3D"center"><img src=3D"https://www.jetbl=
+ue.com/itinerarybarcode/barcode.aspx?value=3DLGBHNJ"/></td><td width=3D"25"=
+ align=3D"right"><img src=3D"https://jetbluereceipt.sabre.com/jb/headerr.jp=
+g"/></td></tr><tr><td colspan=3D"4" valign=3D"bottom"><img src=3D"https://j=
+etbluereceipt.sabre.com/jb/headerb.jpg"/></td></tr><tr><td colspan=3D"4" va=
+lign=3D"bottom" align=3D"center"><table style=3D"border:none; width:556px" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" style=3D"text-=
+align:center; padding-top:6px;"><a style=3D"display:block; text-align:cente=
+r; color:#4b90cd; text-decoration:none; font-weight:bold;" href=3D"http://w=
+ww.jetblue.com/?source=3Demitin_home" title=3D"Home">Home</a></td><td style=
+=3D"color:#cccccc;">|</td><td align=3D"center" style=3D"text-align:center; =
+padding-top:6px;"><a style=3D"display:block; text-align:center; color:#4b90=
+cd; text-decoration:none; font-weight:bold;" href=3D"http://www.jetblue.com=
+/flightstatus/?source=3Demitin_flightstatus" title=3D"Flight Status">Flight=
+ Status</a></td><td style=3D"color:#cccccc;">|</td><td align=3D"center" sty=
+le=3D"text-align:center; padding-top:6px;"><a style=3D"display:block; text-=
+align:center; color:#4b90cd; text-decoration:none; font-weight:bold;" href=
+=3D"http://myflights.jetblue.com/B6.myb/" title=3D"Change/Cancel">Change/Ca=
+ncel</a></td><td style=3D"color:#cccccc;">|</td><td align=3D"center" style=
+=3D"text-align:center; padding-top:6px;"><a style=3D"display:block; text-al=
+ign:center; color:#4b90cd; text-decoration:none; font-weight:bold;" href=3D=
+"http://myflights.jetblue.com/B6.myb/" title=3D"Seats">Seats</a></td><td st=
+yle=3D"color:#cccccc;">|</td><td align=3D"center" style=3D"text-align:cente=
+r; padding-top:6px;"><a style=3D"display:block; color:#4b90cd; text-decorat=
+ion:none; font-weight:bold;" href=3D"http://www.jetblue.com/help/topics/hel=
+p_topic_baggageinfo.html?source=3Demitin_changeseat" title=3D"Baggage info"=
+>Baggage info</a></td></tr><tr><td colspan=3D"9">&nbsp;</td></tr></table></=
+td></tr><tr><td colspan=3D"4"><img src=3D"https://jetbluereceipt.sabre.com/=
+jb/narrow-line.gif"/></td></tr></table><br/><div style=3D"color:#004A91; fo=
+nt-size:30px; font-weight:bold; padding-top:10px">You're all set!</div><br/=
+><div>Thanks for choosing JetBlue. Please review this booking confirmation =
+carefully as it includes some important and helpful information about your =
+trip. Although you don=E2=80=99t need this document to check in, we recomme=
+nd that you print it out for your reference.</div><br/><table border=3D"0" =
+cellspacing=3D"0" width=3D"100%" height=3D"32" style=3D"border:none; backgr=
+ound: #d8e8f5;"><tr><td width=3D"9" style=3D"padding:0cm 0cm 0cm 0cm;"><img=
+ border=3D"0" src=3D"https://jetbluereceipt.sabre.com/jb/bg-confirmation-le=
+ft.gif"/></td><td style=3D"padding-left:5px; padding-top:0px; padding-botto=
+m:0px; color:#004A91; font-size:16px; font-weight:bold;">Your confirmation =
+number is LGBHNJ.</td><td width=3D"9" style=3D"padding:0cm 0cm 0cm 0cm;"><i=
+mg border=3D"0" src=3D"https://jetbluereceipt.sabre.com/jb/bg-confirmation-=
+right.gif"/></td></tr></table><br/><p><table style=3D"border:none;"><tr><td=
+ rowspan=3D"2" width=3D"95"><img src=3D"https://jetbluereceipt.sabre.com/jb=
+/more-room.gif"/></td><td><div style=3D"color:#004A91; font-weight:bold;">E=
+ven More Legroom</div></td></tr><tr><td><div>If you booked an Even More Leg=
+room seat, congratulations!<br/>If not, here's another opportunity. Startin=
+g at just $10 more, you can stretch out in one of our most spacious seats w=
+ith up to four more inches of legroom. <a style=3D"color:#4b90cd; text-deco=
+ration:none;" href=3D"http://myflights.jetblue.com/B6.myb/">Change your sea=
+t.</a></div></td></tr></table></p><p><img src=3D"https://jetbluereceipt.sab=
+re.com/jb/line.gif"/></p>=09  =09<div style=3D"color: #004A91; font-size: 1=
+8px; font-weight: bold;">Your itinerary</div>
+=09<br/>
+=09<table cellpadding=3D"0" cellspacing=3D"0">
+=09=09<tr>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5; width:90px;">Date</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5;">Departs/<br/>Arrives</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5; width:250px;">Route</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5;">Flight</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5; width:110px;">Travelers</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5;">Seats</td>
+=09=09=09<td height=3D"35" style=3D"padding:7px 7px; font-size:12px; font-w=
+eight:bold; vertical-align:top; background:#f2f2f2; border-bottom:1px solid=
+ #e5e5e5;">Terminal</td>
+=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09<tr>
+=09  =09    <td style=3D"padding:7px 7px; vertical-align:top; font-size:11p=
+x;">
+=09=09=09=09Sat, May 29
+=09=09=09=09      =09=09</td>
+=09    =09<td style=3D"padding:7px 7px; vertical-align:top; font-size:11px;=
+">
+=09    =09    =09=09=09=09    =09=09=09=0910:40&nbsp;a.m.
+    =09=09=09<br/>
+    =09=09=09=0912:09&nbsp;p.m.
+=09=09=09</td>
+=09  =09    <td style=3D"padding:7px 7px; vertical-align:top; font-size:11p=
+x;">
+=09=09=09=09<strong>SAN FRANCISCO, CA</strong>
+=09  =09    =09to<br/>
+=09  =09    =09<strong>LONG BEACH, CA</strong>
+=09  =09    </td>
+=09  =09    <td style=3D"padding:7px 7px; vertical-align:top; font-size:11p=
+x;">
+=09=09=09=091433
+=09  =09    </td>
+=09  =09        =09=09=09<td colspan=3D"2" style=3D"padding:7px 0px 5px; ve=
+rtical-align:top; font-size:11px;">
+    =09=09=09<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">=09
+    =09=09=09          =09=09=09          =09=09=09    <tr>=09=09
+                =09=09=09<td style=3D"padding:0px 7px 2px; vertical-align:t=
+op; font-size:11px; width:110px;">            =09
+                =09=09=09=09=09Mabel Yoshimoto<br/>        =09=09=09=09=09 =
+   =09=09=09
+                =09    =09</td>
+                =09  =09    <td style=3D"padding:0px 7px 2px; vertical-alig=
+n:top; color:#f15722; font-weight:bold; font-size:11px;">
+                =09  =09                        =09=09=09=09               =
+ =09=09=09=09=0922C=09=09=09=09=09=09
+                =09=09=09=09=09                =09=09=09=09                =
+=09  =09    </td>
+            =09  =09    </tr>
+            =09  =09          =09  =09      =09  =09    </table>
+    =09  =09    </td>
+    =09  =09=09  =09    <td style=3D"padding:7px 7px; vertical-align:top; f=
+ont-size:11px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09INTERNATIONAL TERMINAL
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09</tr>
+=09  =09<tr>
+=09=09=09<td colspan=3D"7">
+=09=09=09=09<div><img src=3D"https://jetbluereceipt.sabre.com/jb/narrow-lin=
+e.gif"/></div>
+=09  =09  =09</td>
+=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09<td colspan=3D"7">
+=09=09=09=09&nbsp;
+=09=09=09</td>
+=09=09</tr>
+=09</table>
+
+=09<div><img src=3D"https://jetbluereceipt.sabre.com/jb/line.gif"/></div>
+=09<br/>
+=09<div style=3D"color:#004A91; font-size:16px; font-weight:bold;">Payment<=
+/div>
+=09<br/>
+=09<table border=3D"0" width=3D"606" style=3D"border:none;" cellpadding=3D"=
+0" cellspacing=3D"0">
+        <tr>
+    =09=09<td width=3D"240" valign=3D"top">For a detailed receipt, select a=
+ customer:</td>
+    =09=09<td width=3D"366" align=3D"left">
+    =09=09=09    =09=09=09    =09=09=09=09<a style=3D"color:#4b90cd;text-de=
+coration:none;" href=3D'https://jetbluereceipt.sabre.com/new/eticket.html?a=
+ction=3DprintEticket&pnr=3DLGBHNJ&ticketNumber=3D2792145073765&eticketTotal=
+=3D1&pcc=3DNIH&hostID=3DB6'>Mabel&nbsp;Yoshimoto</a>  =09            =09=09=
+=09=09=09=09
+    =09=09=09=09    =09=09=09    =09=09</td>
+    =09</tr>=09=09     =20
+=09</table>
+=09<br/>
+=09<div>Please <a style=3D"color:#4b90cd;text-decoration:none;" href=3D"htt=
+p://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll?New,Kb=3DaskBlue,case=3Dobj(=
+383871)">click here</a> for details regarding change and cancel policies.</=
+div>
+=09<br/>
+
+<div><img src=3D"https://jetbluereceipt.sabre.com/jb/line.gif"/></div><br/>
+<table border=3D"0" width=3D"100%" style=3D"border:none;"><tr><td>
+<div style=3D"color:#004A91; font-size:16px; font-weight:bold;">Insurance c=
+onfirmation</div><br/>
+<div>For Access America flight insurance inquiries, please call 1-800-284-8=
+300.</div></td>
+<td width=3D"100"><img src=3D"https://jetbluereceipt.sabre.com/jb/access.gi=
+f"/></td></tr></table><br/>
+<div><img src=3D"https://jetbluereceipt.sabre.com/jb/line.gif"/></div>
+<br/><div style=3D"color: #004A91; font-size: 16px; font-weight: bold;">Spe=
+cial travel deals</div><br/>
+<table border=3D"0" width=3D"100%" style=3D"border:none;"><tr><td width=3D"=
+100" valign=3D"top"><a style=3D"color:#4b90cd;text-decoration:none;" href=
+=3D"http://www.jetblue.com/hotels/?source=3Demitin_hotels"><img src=3D"http=
+s://jetbluereceipt.sabre.com/jb/hotels.jpg" border=3D"0"/></a></td><td><div=
+>We've teamed up with <a style=3D"color:#4b90cd; text-decoration:none;" hre=
+f=3D"http://www.jetblue.com/hotels/?source=3Demitin_hotels">hotels.com</a> =
+to offer you a huge selection of hotels.<ul><li>Special Internet Rate Price=
+ Match Guarantee<sup>1</sup></li><li>No Change or Cancel fee<sup>2</sup></l=
+i><li>No phone booking fee</li><li>Thousands of TripAdvisor&reg; customer r=
+eviews</li></ul><a style=3D"color:#4b90cd; text-decoration:none;" href=3D"h=
+ttp://www.jetblue.com/hotels/?source=3Demitin_hotels">Click here</a> or cal=
+l <b>800-544-3681</b> to book your hotel now.</div></td></tr></table><br/>
+<div><img src=3D"https://jetbluereceipt.sabre.com/jb/narrow-line.gif"/></di=
+v><br/>
+<table border=3D"0" width=3D"100%" style=3D"border:none;"><tr><td width=3D"=
+100" valign=3D"top"><a style=3D"color:#4b90cd; text-decoration:none;" href=
+=3D"http://www.jetblue.com/cars/?source=3DEMitinerary_cars"><img src=3D"htt=
+ps://jetbluereceipt.sabre.com/jb/cars.jpg" border=3D"0"/></a></td><td><div>=
+Find great car rentals from Hertz, Enterprise, Dollar, Avis and more <a sty=
+le=3D"color:#4b90cd; text-decoration:none;" href=3D"http://www.jetblue.com/=
+cars/?source=3DEMitinerary_cars">right here</a> =E2=80=93 no need to go web=
+site hopping.</div></td></tr></table><br/>
+<div><img src=3D"https://jetbluereceipt.sabre.com/jb/narrow-line.gif"/></di=
+v><br/>
+<table border=3D"0" width=3D"100%" style=3D"border:none;"><tr><td width=3D"=
+100" valign=3D"top"><a style=3D"color:#4b90cd;text-decoration:none;" href=
+=3D"http://www.jetblue.com/tools/exit.asp?intcmp=3DclIMGLimores&uri=3Dhttp:=
+//limos.jetblue.com"><img src=3D"https://jetbluereceipt.sabre.com/jb/townca=
+r.gif" border=3D"0"/></a></td><td><div>Ride in style with private car servi=
+ce to/from the airport from our new partner, LimoRes. It's a lot less than =
+you think - rates start at just $49<sup>3</sup>. <a style=3D"color:#4b90cd;=
+ text-decoration:none;" href=3D"http://www.jetblue.com/tools/exit.asp?intcm=
+p=3DclIMGLimores&uri=3Dhttp://limos.jetblue.com">Book online now.</a></div>=
+</td></tr></table>
+<br/><br/><div><img src=3D"https://jetbluereceipt.sabre.com/jb/inflight-ent=
+ertainment.jpg" style=3D"border:none" usemap=3D"#ie-map"/><map name=3D"ie-m=
+ap"><area shape=3D"rect" coords=3D"25,35,125,165" href=3D"http://www.jetblu=
+e.com/about/whyyoulllike/directv/guide/TribuneTVFront/?source=3DItinerary:d=
+irectv" alt=3D"DIRECTV"/><area shape=3D"rect" coords=3D"165,35,280,155" hre=
+f=3D"http://www.jetblue.com/about/whyyoulllike/about_WhyXMRadio.html?source=
+=3DItinerary:XMSatelilte" alt=3D"XM radio"/><area shape=3D"rect" coords=3D"=
+320,35,440,180" href=3D"http://www.jetblue.com/about/whyyoulllike/about_why=
+snacks.html?source=3DItinerary:dunkin" alt=3D"Snacks"/><area shape=3D"rect"=
+ coords=3D"475,35,590,170" href=3D"http://www.jetblue.com/about/whyyoulllik=
+e/about_WhyMoviesandMore.html?source=3DItinerary:moviesnmore" alt=3D"JetBlu=
+e features"/></map></div><br/>
+<div style=3D"font-size:8pt;">=E2=80=A0DIRECTV=C2=AE and XM Radio=C2=AE ser=
+vices and not available outside the continental U.S.; however, where applic=
+able, movies from JetBlue Features=E2=84=A2 are offered complimentary on th=
+ese routes.</div>
+<div>
+<p style=3D"font-size:8pt;">
+1. Price Match Guarantee: Special Internet Rate reservations booked through=
+ Hotels.com are guaranteed to be the lowest rate you can find.  If there is=
+ a lower rate available for the same dates and the same hotel, you must con=
+tact Hotels.com prior to the property's cancellation deadline of your "Spec=
+ial Internet Rate" reservation.  After verifying the lower rate, Hotels.com=
+ will, at its choice, either match the lower rate or cancel the reservation=
+ without a cancellation fee.  This Guarantee only applies to booked prepaid=
+ reservations of rates indicated as "Special Internet Rates." It does not a=
+pply to special events such as New Year's, the Super Bowl, Mardi Gras, Jazz=
+Fest, etc.  Other restrictions may apply. To learn more or to claim a Guara=
+ntee, see <a style=3D"color:#4b90cd;text-decoration:none;" href=3D"http://h=
+otels.jetblue.com/index.jsp?pageName=3Dguarantee">http://hotels.jetblue.com=
+/index.jsp?pageName=3Dguarantee</a>.
+</p>
+<p style=3D"font-size:8pt;">
+2. No Change/Cancel Fees: Hotels.com does not charge a change or cancel fee=
+; however, each property has independent penalties for changes/cancellation=
+s. See full hotel details and descriptions for details.
+</p>
+<p style=3D"font-size:8pt;">
+3. *Advertised rates are based on trips between airports and downtown metro=
+politan area locations in an economy class vehicle. Rates do not include ad=
+ditional charges that may be applicable, such as charges for tolls, extra s=
+tops, parking fees, telephone usage, pets, extra in-car bags, car seats, wa=
+iting time, or custom requests. Rates include local and state taxes and fee=
+s, except in NY, NJ, and CT; passengers in these states are responsible for=
+ taxes and fees (including, in NY, a 2% NYC workmen=E2=80=99s compensation =
+charge and 8.875% state and local sales taxes). Rates include gratuity, exc=
+ept in NY, NJ, and CT; passengers traveling in these states are encouraged =
+to provide appropriate gratuity based on the service received. Economy pric=
+ing may not be available at all times during the day or during certain weat=
+her conditions. Advertised rates only apply for bookings made online at lim=
+os.jetblue.com or by calling 1-888-478-8190.
+</p>
+<p style=3D"font-size:10pt;"><b>CUSTOMER CONCERNS</b><br/>Any customer inqu=
+iries or concerns can be addressed <a href=3D"http://www.jetblue.com/help/c=
+ontactus/">here</a> or sent to JetBlue Airways, 6322 South 3000 East, Suite=
+ G10, Salt Lake City, UT 84121.</p>
+<p style=3D"font-size:10pt;"><b>NOTICE OF INCORPORATED TERMS</b><br/>All tr=
+avel on JetBlue, whether it is domestic or international travel, is subject=
+ to JetBlue's Contract of Carriage, the terms of which are incorporated her=
+ein by reference. International travel may also be subject to JetBlue's int=
+ernational passenger rules tariffs on file with the U.S. and other governme=
+nts, and, where applicable, the Montreal Convention or the Warsaw Conventio=
+n and its amendments and special contracts. Incorporated terms include, but=
+ are not restricted to:<br/><br/>1. Liability limitations for baggage, incl=
+uding special rules for fragile and perishable goods and the availability o=
+f excess valuation.<br/>2. Liability limitations for personal injury or dea=
+th.<br/>3. Claims restrictions, including time periods within which passeng=
+ers must file a claim or bring an action against JetBlue.<br/>4. Rights of =
+JetBlue to change the terms of contract.<br/>5. Rules on reservations, chec=
+k-in, and refusal to carry.<br/>6. JetBlue's rights and limits on its liabi=
+lity for delay or failure to perform service, including schedule changes, s=
+ubstitution of aircraft or alternate air carriers, and rerouting.<br/>7. No=
+n-refundability of reservations.<br/>8. The Contract of Carriage and tariff=
+s may be inspected at all JetBlue airport customer service counters, and up=
+on request you have the right to receive by mail a copy of the full text of=
+ the Contract of Carriage or tariffs. Additional information on items one t=
+hrough seven can be obtained on JetBlue's website at <a style=3D"color:#4b9=
+0cd;text-decoration:none;" href=3D"http://www.jetblue.com/about/legal/legal=
+.asp?source=3Demitin_coc">www.JetBlue.com</a> or at any U.S. location where=
+ JetBlue transportation is sold.<br/></p>
+<p style=3D"font-size:9pt;"><b>CARRY-ON BAGGAGE RULES</b><br/>Each customer=
+ may bring one bag that fits in the overhead bin plus one personal item (pu=
+rse, briefcase, laptop, etc.) that fits under the seat in front of you.  Se=
+e details for more information. For TSA information regarding carryons, <a =
+style=3D"color:#4b90cd;text-decoration:none;" href=3D"http://help.jetblue.c=
+om/SRVS/CGI-BIN/webisapi.dll?New,Kb=3DaskBlue,case=3Dobj(633)">click here.<=
+/a></p>
+<p style=3D"font-size:9pt;"><b>CHECKED BAGGAGE ALLOWANCE/FEES</b><br/>For d=
+omestic flights, JetBlue allows one free checked bag, subject to weight and=
+ size/dimension restrictions. For flights booked on or after June 2, 2009, =
+a $30.00 fee applies to a second checked bag ($20.00 for flights booked bef=
+ore June 2, 2009) , subject to weight and size/dimension restrictions. Addi=
+tional fees apply for additional excess baggage and oversized and overweigh=
+t baggage. <a style=3D"color:#4b90cd;text-decoration:none;" href=3D"http://=
+help.jetblue.com/SRVS/CGI-BIN/webisapi.dll?New,Kb=3DaskBlue,case=3Dobj(634)=
+">Click here</a> for more information. For international flights and codesh=
+are/interline travel, excess baggage rules and weight and size/dimension ru=
+les may vary depending on load availability. See <a style=3D"color:#4b90cd;=
+text-decoration:none;" href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisap=
+i.dll?New,Kb=3DaskBlue,case=3Dobj(634)">details</a> for more information.</=
+p>
+<p style=3D"font-size:9pt;"><b>CHECK-IN TIMES</b><br/>For domestic flights,=
+ customers traveling without checked baggage must obtain a boarding pass tw=
+enty (20) minutes prior to scheduled departure and customers traveling with=
+ checked baggage must obtain a boarding pass thirty minutes prior to schedu=
+led departure.  Customers must be present in the boarding gate are fifteen =
+(15) minutes prior to scheduled departure or the posted aircraft departure =
+time. For international flights, customers traveling with or without checke=
+d bags must obtain a boarding pass sixty (60) minutes prior to scheduled de=
+parture.  Customers must be present in the boarding gate twenty (20) minute=
+s prior to scheduled departure or the posted aircraft departure time.</p>
+<p style=3D"font-size:9pt;"><b>DOCUMENTATION REQUIREMENTS</b><br/>For domes=
+tic travel, customers over the age of 18 will be required to show a U.S. fe=
+deral or state-issued photo ID that contains the following information: nam=
+e, date of birth, gender, expiration date and a tamper-resistant feature. C=
+ustomers traveling to/from an international destination are required to pre=
+sent proper documentation at the time of check-in. Documents required for t=
+ravel vary according to citizenship, residency, country of travel, age (for=
+ minors), length of stay, purpose of visit, student status, etc. Please che=
+ck for specific requirements for the country, or countries, you are visitin=
+g to make sure you have the correct documents. In addition, Customers trave=
+ling to a country other than their country of citizenship or residency are =
+required to hold proof of return or onward travel. Failure to present prope=
+r documentation could result in denied boarding.</p><p style=3D"font-size:1=
+0pt;"><b>ADVICE TO INTERNATIONAL PASSENGERS ON LIMITATION OF LIABILITY</b><=
+br/>Where a passenger's journey involves an ultimate destination or a stop =
+in a country other than the country of departure, either the Warsaw Convent=
+ion and the Hague Protocol, their amendments, and any special contracts of =
+carriage embodied in applicable tariffs that waive Warsaw/Hague limits, or =
+the Montreal Convention may apply to the entire journey including the porti=
+on within the countries of departure or destination and, in some cases, may=
+ limit the liability of the carrier for death or personal injury, delay, an=
+d for loss of or damage to baggage. The Montreal Convention, where applicab=
+le, does not impose, and special contracts voluntarily entered into by many=
+ carriers, including JetBlue, waive, the Warsaw/Hague limitations for compe=
+nsatory damages arising out of personal injury or wrongful death caused by =
+an accident, as defined by the applicable treaty. The names of carriers par=
+ty to the special contracts are available at all ticket offices of such car=
+riers and may be examined upon request.</p>
+<p style=3D"font-size:10pt;"><b>NOTICE OF BAGGAGE LIABILITY LIMITS</b><br/>=
+For international transportation (including domestic portions) governed by =
+the Montreal Convention, JetBlue's liability for baggage is limited to 1,00=
+0 SDRs (see, www.imf.org for current value) per passenger unless a higher v=
+alue is declared and an extra charge is paid. For international transportat=
+ion governed by the Warsaw Convention and the Hague Protocol and their amen=
+dments, JetBlue's liability for baggage is limited to $9.07 per pound for c=
+hecked baggage and $400 per passenger for unchecked baggage unless a higher=
+ value is declared and an extra charge is paid. Special rules may apply to =
+valuable articles. For domestic transportation, JetBlue's liability for bag=
+gage is limited to $3,300 per passenger. General baggage rules: As set fort=
+h more fully in its Contract of Carriage and international passenger rules =
+tariffs, JetBlue will not be responsible for fragile or perishable goods. J=
+etBlue assumes no liability for oversized, overweight or overpacked baggage=
+, or for loss of or damage to baggage parts such as wheels, straps, pockets=
+, pull handles, zippers, hanger hooks or other items attached to baggage. J=
+etBlue will not be responsible for the following items in checked or unchec=
+ked baggage: money, jewelry including watches, cameras, camcorders, any typ=
+e of electronic equipment, including computers, valuable papers or document=
+s and other similar items as described in more detail in the Contract of Ca=
+rriage.</p></div>
+<div style=3D"font-size:12pt;">
+<p><b>NOTICE OF OVERBOOKING OF FLIGHTS</b><br/>Although JetBlue does not in=
+tentionally overbook its flights, there is a slight chance that a seat will=
+ not be available on a flight for which a person has a confirmed reservatio=
+n. If the flight is overbooked, no one will be denied a seat until airline =
+personnel first ask for volunteers willing to give up their reservation in =
+exchange for compensation of the airline's choosing. If there are not enoug=
+h volunteers, JetBlue will deny boarding to other persons in accordance wit=
+h its particular boarding priority. With few exceptions, including failure =
+to comply with JetBlue's check-in deadline (which are available upon reques=
+t from JetBlue), persons denied boarding involuntarily are entitled to comp=
+ensation. The complete rules for the payment of compensation and JetBlue's =
+boarding priorities are available at all airport ticket counters and boardi=
+ng locations. <b>Some airlines do not apply these consumer protections to t=
+ravel from some foreign countries, although other consumer protections may =
+be available. Check with your airline or your travel agent.</b></p>
+</div>
+<p style=3D"text-align:center;">JetBlue Airways, 6322 South 3000 East, Suit=
+e G10, Salt Lake City, UT 84121</p>
+
+
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+------=_Part_89193_23843283.1275090577351--
+

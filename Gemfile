@@ -8,6 +8,9 @@ gem 'rails', '3.0.5'
 #gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'mysql'
 
+gem 'nokogiri'
+gem 'mail'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

@@ -1,0 +1,806 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: myoshimoto@gmail.com
+Received: by 10.216.139.195 with SMTP id c45cs30401wej;
+        Wed, 2 Feb 2011 12:32:03 -0800 (PST)
+Received: by 10.142.131.20 with SMTP id e20mr9240266wfd.309.1296678722060;
+        Wed, 02 Feb 2011 12:32:02 -0800 (PST)
+Return-Path: <prvs=00787031b=reservations@email-usairways.com>
+Received: from mailout.usairways.com (tempe-b.flyawa.com [12.47.205.120])
+        by mx.google.com with ESMTP id w24si326825ybk.67.2011.02.02.12.32.00;
+        Wed, 02 Feb 2011 12:32:02 -0800 (PST)
+Received-SPF: neutral (google.com: 12.47.205.120 is neither permitted nor denied by best guess record for domain of prvs=00787031b=reservations@email-usairways.com) client-ip=12.47.205.120;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 12.47.205.120 is neither permitted nor denied by best guess record for domain of prvs=00787031b=reservations@email-usairways.com) smtp.mail=prvs=00787031b=reservations@email-usairways.com
+Received: from phx-52n-wbsap01.lcc.usairways.com (HELO WEBSENSE-F6F8F4) ([10.52.100.20])
+  by mailout.usairways.com with ESMTP; 02 Feb 2011 13:31:58 -0700
+Received: from websense-f6f8f4 ([127.0.0.1]) by WEBSENSE-F6F8F4 with Microsoft SMTPSVC(6.0.3790.4675);
+	 Wed, 2 Feb 2011 12:31:58 -0800
+Received: from PHX-52N-EXN03A.lcc.usairways.com ([10.52.113.80]) by websense-f6f8f4 with Microsoft SMTPSVC(6.0.3790.4675);
+	 Wed, 2 Feb 2011 12:31:58 -0800
+Received: from phx-52n-msmq (10.52.101.240) by
+ phx-52n-exn03a.lcc.usairways.com (10.52.113.80) with Microsoft SMTP Server id
+ 8.2.176.0; Wed, 2 Feb 2011 13:31:57 -0700
+Identifier: 28158006
+MIME-Version: 1.0
+From: <reservations@email-usairways.com>
+To: myoshimoto@gmail.com
+Date: Wed, 2 Feb 2011 13:31:57 -0700
+Subject: Your US Airways flight
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Message-ID:
+ <f78585a6-5085-4e94-abd4-1c8b26193539@PHX-52N-EXN03A.lcc.usairways.com>
+Return-Path: reservations@email-usairways.com
+X-OriginalArrivalTime: 02 Feb 2011 20:31:58.0124 (UTC) FILETIME=[3D0F5EC0:01CBC318]
+
+=0D=0A=0D=0A<div style=3D"font-family: Arial, Helvetica, sans-serif">=0D=0A=
+    =0D=0A    <table width=3D"1" border=3D"0" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0">=0D=0A        <tr>=0D=0A            <td valign=3D"top"=
+ height=3D"81">=0D=0A                <img src=3D"http://images.usairways.com/newEmail/gen3/templates/header_630px_yrs.gif"=
+ alt=3D"US Airways - Your Reservation" align=3D"top" border=3D"0" height=3D"81"=
+ width=3D"630" />=0D=0A            </td>=0D=0A        </tr>=0D=0A      =
+  <tr>=0D=0A            <td align=3D"center" valign=3D"top">=0D=0A     =
+           <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-left:=
+ 1px solid #C0C0C0;=0D=0A                    border-right: 1px solid #C0C0C0;=
+ height: auto">=0D=0A                    <tr>=0D=0A                    =
+    <td align=3D"center" valign=3D"top">=0D=0A                         =
+   <table width=3D"613" border=3D"0" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0">=0D=0A                                <tr>=0D=0A    =
+                                =0D=0A											<td>=0D=0A												<a=
+ title=3D"Book travel" href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://shopping.usairways.com/Flights/AdvancedSearch.aspx?book=3Dnew%26redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_bookTravel"><img=
+ src=3D"http://images.usairways.com/newEmail/Gen3/templates/nav_book.gif"=
+ border=3D"0" height=3D"39" width=3D"116" /></a>=0D=0A											</td>=0D=0A=
+										=0D=0A											<td>=0D=0A												<a title=3D"Travel tools"=
+ href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/traveltools/default.html?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_travelTools"><img=
+ src=3D"http://images.usairways.com/newEmail/Gen3/templates/nav_tools.gif"=
+ border=3D"0" height=3D"39" width=3D"111" /></a>=0D=0A											</td>=0D=0A=
+										=0D=0A											<td>=0D=0A												<a title=3D"Dividend Miles"=
+ href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/dividendmiles/default.html?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_DividendMiles"><img=
+ src=3D"http://images.usairways.com/newEmail/Gen3/templates/nav_dm.gif"=
+ border=3D"0" height=3D"39" width=3D"125" /></a>=0D=0A											</td>=0D=0A=
+										=0D=0A											<td>=0D=0A												<a title=3D"Specials" href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/specials/default.html?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_specials"><img=
+ src=3D"http://images.usairways.com/newEmail/Gen3/templates/nav_sp.gif"=
+ border=3D"0" height=3D"39" width=3D"96" /></a>=0D=0A											</td>=0D=0A=
+										=0D=0A											<td>=0D=0A												<a title=3D"US Airways=
+ Vacations" href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www.usairwaysvacations.com/?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_vacations"><img=
+ src=3D"http://images.usairways.com/newEmail/Gen3/templates/nav_usv.gif"=
+ border=3D"0" height=3D"39" width=3D"165" /></a>=0D=0A											</td>=0D=0A=
+										=0D=0A                                </tr>=0D=0A            =
+                </table>=0D=0A                            <table width=3D"600"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0D=0A               =
+                 <tr>=0D=0A                                    <td align=3D"left"=
+ valign=3D"top" style=3D"padding: 13px 0 0 0; margin: 0">=0D=0A        =
+                                <h1 style=3D"font: bold 18px Arial, Helvetica,=
+ sans-serif; color: #C67F00; margin: 0;=0D=0A                          =
+                  padding: 0">=0D=0A                                   =
+         Confirmation code:=0D=0A                                      =
+      &nbsp;=0D=0A                                            D8PCDR=0D=0A=
+                                        </h1>=0D=0A                    =
+                    <p style=3D"font: normal 11px Arial, Helvetica, sans-serif;=
+ color: #333333; margin: 0 0 13px 0;=0D=0A                             =
+               padding: 0">=0D=0A                                      =
+      Date issued:=0D=0A                                            &nbsp;=
+=0D=0A                                            Wednesday, February 02,=
+ 2011=0D=0A                                        </p>=0D=0A          =
+                             <table id=3D"alerts1_table44" width=3D"360"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font: normal=
+ 11px Arial, Helvetica, sans-serif;=0D=0A    color: #333333;">=0D=0A	<tr=
+ id=3D"alerts1_tr5">=0D=0A		<td align=3D"left" valign=3D"top" width=3D"16">=
+=0D=0A            <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/info.gif"=
+ border=3D"0" height=3D"16" width=3D"16" style=3D"margin: 0; padding: 0;=
+ border:0" />=0D=0A        </td>=0D=0A		<td align=3D"left">=0D=0A      =
+      <ul style=3D"font: normal 11px Arial, Helvetica, sans-serif; color:=
+ #333333; list-style-image: url(http://images.usairways.com/newEmail/Gen3/templates/disc_blue.gif);=
+=0D=0A                margin-top: 0px; margin-bottom: 0px;">=0D=0A     =
+           =0D=0A                        <li style=3D"margin: 0">=0D=0A=
+                            <a href=3D"http://www2.usairways.com/en-US/traveltools/baggage/baggagepolicies.html?redir=3DEmail&c=3Deml_sys_RevenueConf_00000000_NewBaggagePolicies"=
+  target=3D"_blank" style=3D"font: normal 11px Arial, Helvetica, sans-serif;=
+ color:#24427C;">New baggage policy</a>=0D=0A                        </li>=
+=0D=0A                    =0D=0A            </ul>=0D=0A        </td>=0D=0A=
+	</tr>=0D=0A</table>=0D=0A=0D=0A=0D=0A                                 =
+      =0D=0A                                    </td>=0D=0A            =
+                        <td align=3D"right" width=3D"225" valign=3D"top"=
+ style=3D"padding: 13px 0 0 10px; margin: 0">=0D=0A                    =
+                    <img src=3D"http://shopping.usairways.com/Shared/BarCode.ashx?codeText=3D6KbWSzzGEXMJmoPeH7ncfw%3d%3d&rotate=3DFalse&symbology=3DCode128"=
+ id=3D"BarcodeImage" alt=3D"Barcode" border=3D"0" longdesc=3D"" />=0D=0A=
+                                        <p style=3D"font: normal 11px Arial,=
+ Helvetica, sans-serif; color: #333; padding-right: 3px; margin: 0">=0D=0A=
+                                            Scan at any US Airways kiosk=
+ to check in.</p>=0D=0A                                        =0D=0A  =
+                                  </td>=0D=0A                          =
+      </tr>=0D=0A                            </table>=0D=0A            =
+                =0D=0A=0D=0A<table width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0">=0D=0A    <tr>=0D=0A        <td style=3D"padding-left:=
+ 15px;">=0D=0A            <p style=3D"font: bold 14px Arial, Helvetica,=
+ sans-serif; color: #24427C; padding: 0;=0D=0A                margin: 20px=
+ 0 13px;">=0D=0A                Passengers=0D=0A            </p>=0D=0A =
+       </td>=0D=0A    </tr>=0D=0A    <tr align=3D"left" valign=3D"middle"=
+ bgcolor=3D"#ECF4F8" style=3D"font: bold 11px Arial, Helvetica, sans-serif;=
+=0D=0A        color: #277DB2; height: 40px;">=0D=0A        <td width=3D"160">=
+=0D=0A            <p style=3D"margin: 0 5px 0 12px">=0D=0A             =
+   Passenger name=0D=0A            </p>=0D=0A        </td>=0D=0A       =
+ <td width=3D"160">=0D=0A            <p style=3D"margin-right: 5px">=0D=0A=
+                Frequent flyer # (Airline)=0D=0A            </p>=0D=0A =
+       </td>=0D=0A        <td width=3D"126">=0D=0A            <p style=3D"margin-right:=
+ 5px">=0D=0A                Ticket number=0D=0A            </p>=0D=0A  =
+      </td>=0D=0A        <td width=3D"180">=0D=0A            <p style=3D"margin-right:=
+ 5px">=0D=0A                Special needs=0D=0A            </p>=0D=0A  =
+      </td>=0D=0A    </tr>=0D=0A    =0D=0A            <tr style=3D"font:=
+ normal 11px Arial, Helvetica, sans-serif; color: #333333; height: 43px">=
+=0D=0A                <td align=3D"left" valign=3D"middle" style=3D"padding-left:=
+ 12px; border-bottom: 1px solid #C0C0C0">=0D=0A                    Mabel=
+ Yoshimoto=0D=0A                </td>=0D=0A                <td align=3D"left"=
+ valign=3D"middle" style=3D"border-bottom: 1px solid #C0C0C0">=0D=0A   =
+                 03146432920&nbsp;<font=0D=0A                          =
+  color=3D"#277DB2"><span id=3D"passengerInformation1_PassengerRepeater_ctl00_Label1">(UA)</span></font>=
+=0D=0A                    =0D=0A                    &nbsp;=0D=0A       =
+         </td>=0D=0A                <td align=3D"left" valign=3D"middle"=
+ style=3D"border-bottom: 1px solid #C0C0C0">=0D=0A                    03724186349214&nbsp;=
+=0D=0A                </td>=0D=0A                <td align=3D"left" valign=3D"middle"=
+ style=3D"border-bottom: 1px solid #C0C0C0">=0D=0A                    =0D=0A=
+                    &nbsp;=0D=0A                </td>=0D=0A            </tr>=
+=0D=0A        =0D=0A            <tr style=3D"font: normal 11px Arial, Helvetica,=
+ sans-serif; background-color: #F0EFEB;=0D=0A                color: #333333;=
+ height: 43px">=0D=0A                <td align=3D"left" valign=3D"middle"=
+ style=3D"padding-left: 12px; border-bottom: 1px solid #C0C0C0">=0D=0A =
+                   Elsa Patricia Yoshimoto=0D=0A                </td>=0D=0A=
+                <td align=3D"left" valign=3D"middle" style=3D"border-bottom:=
+ 1px solid #C0C0C0">=0D=0A                    =0D=0A                   =
+ &nbsp;=0D=0A                </td>=0D=0A                <td align=3D"left"=
+ valign=3D"middle" style=3D"border-bottom: 1px solid #C0C0C0">=0D=0A   =
+                 03724186349225&nbsp;=0D=0A                </td>=0D=0A =
+               <td align=3D"left" valign=3D"middle" style=3D"border-bottom:=
+ 1px solid #C0C0C0">=0D=0A                    =0D=0A                   =
+ &nbsp;=0D=0A                </td>=0D=0A            </tr>=0D=0A        =
+=0D=0A</table>=0D=0A=0D=0A                            <table width=3D"88%"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"padding: 25px=
+ 0 25px 0;=0D=0A                                margin: 0;">=0D=0A     =
+                           <tr>=0D=0A                                  =
+  <td width=3D"50%" align=3D"left" valign=3D"top">=0D=0A               =
+                         <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dtopleft;sz=3D234x60;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dtopleft;sz=3D234x60;ord=3D135603566.251511"=
+ height=3D"60" width=3D"234" border=3D"0" /></a>=0D=0A                 =
+                   </td>=0D=0A                                    <td width=3D"50%"=
+ align=3D"right" valign=3D"top">=0D=0A                                 =
+       <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dtopright;sz=3D234x60;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dtopright;sz=3D234x60;ord=3D135603566.251511"=
+ height=3D"60" width=3D"234" border=3D"0" /></a>=0D=0A                 =
+                   </td>=0D=0A                                </tr>=0D=0A=
+                            </table>=0D=0A                            =0D=0A=
+=0D=0A<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"padding: 0 0 25px 0;=0D=0A    margin: 0;">=0D=0A    <tr>=0D=0A=
+        <td colspan=3D"20" valign=3Dtop>=0D=0A            <table border=3D"0"=
+ align=3D"left" cellpadding=3D"0" cellspacing=3D"0">=0D=0A             =
+   <tr>=0D=0A                    <td  valign=3Dtop align=3D"left" style=3D"font:=
+ bold 14px Arial, Helvetica, sans-serif; color: #24427C;=0D=0A         =
+               padding: 0 15px 20px 12px;">=0D=0A                      =
+  Trip details=0D=0A                    </td>=0D=0A                    <td=
+   valign=3Dtop width=3D"25" align=3D"left">=0D=0A                     =
+   <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/arrow_blu_down.gif"=
+ align=3D"absmiddle" border=3D"0" height=3D"15" width=3D"15" />=0D=0A  =
+                  </td>=0D=0A                    <td  valign=3Dtop width=3D"130"=
+ align=3D"left" style=3D"font: normal 11px Arial, Helvetica, sans-serif;=
+=0D=0A                        color: #24427C; margin: 0; padding: 0">=0D=0A=
+                        <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttps%3a%2f%2freservations.usairways.com%2fd2o%2fDefault.aspx%3fpnr%3dD8PCDR%26DeptDate%3d20110412"=
+ style=3D"color: #24427C">Download to Outlook</a>=0D=0A                =
+    </td>=0D=0A                    <td  valign=3Dtop width=3D"19" align=3D"left">=
+=0D=0A                        =0D=0A                    </td>=0D=0A    =
+                <td  valign=3Dtop width=3D"87" align=3D"left" style=3D"font:=
+ normal 11px Arial, Helvetica, sans-serif;=0D=0A                       =
+ color: #24427C; margin: 0; padding: 0;">=0D=0A                        =
+=0D=0A                    </td>=0D=0A                </tr>=0D=0A       =
+     </table>=0D=0A        </td>=0D=0A    </tr>=0D=0A    =0D=0A        =
+    <tr style=3D"padding: 0 0 3px 0; margin: 0;">=0D=0A                <td=
+ colspan=3D"5" align=3D"left" valign=3D"top" height=3D"22" style=3D"font:=
+ normal 13px Arial, Helvetica, sans-serif;=0D=0A                    padding:=
+ 0 0 0 12px">=0D=0A                    <p>=0D=0A                       =
+ <font id=3D"tripDetails1_SliceRepeater_ctl00_DepartLabelSpan" style=3D"color:=
+ #C67F00">=0D=0A                            Depart:=0D=0A              =
+          </font>&nbsp; <font style=3D"color: #277DB2">=0D=0A          =
+                  San Francisco, CA&nbsp;=0D=0A                        =
+    (SFO)=0D=0A                            <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/icon_CircleArrow.gif"=
+ align=3D"absmiddle" border=3D"0" height=3D"18" width=3D"28" />=0D=0A  =
+                          Barcelona, Spain&nbsp;=0D=0A                 =
+           (BCN)=0D=0A                        </font>=0D=0A            =
+        </p>=0D=0A                </td>=0D=0A                <td colspan=3D"3"=
+ align=3D"left" valign=3D"top">=0D=0A                    <table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">=0D=0A                        <tr>=0D=0A=
+                            <td style=3D"white-space: nowrap; padding-bottom:=
+ 5px;">=0D=0A                                <div style=3D"margin: 5px 0=
+ 0 12px; font: normal 11px Arial, Helvetica, sans-serif;=0D=0A         =
+                           color: #333333; padding: 0;">=0D=0A         =
+                           <strong>=0D=0A                              =
+          Date:=0D=0A                                    </strong>&nbsp;Tuesday,=
+ April 12, 2011=0D=0A                                </div>=0D=0A      =
+                      </td>=0D=0A                        </tr>=0D=0A   =
+                     <tr>=0D=0A                            <td style=3D"white-space:=
+ nowrap;">=0D=0A                                <div style=3D"margin: 0px=
+ 0 5px 12px; font: normal 11px Arial, Helvetica, sans-serif;=0D=0A     =
+                               color: #c67f00; padding: 0;">=0D=0A     =
+                               <strong><font style=3D"color: #333333;">=
+=0D=0A                                        Status:=0D=0A            =
+                        </font>&nbsp;Active=0D=0A                      =
+              </strong>=0D=0A                                </div>=0D=0A=
+                            </td>=0D=0A                        </tr>=0D=0A=
+                    </table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A            <tr align=3D"left" valign=3D"middle" bgcolor=3D"#ECF4F8"=
+ style=3D"font: bold 11px Arial, Helvetica, sans-serif;=0D=0A          =
+      color: #277DB2; height: 40px;">=0D=0A                <td width=3D"109"=
+ align=3D"left" style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A =
+                   <p style=3D"margin: 0 5px 0 12px">=0D=0A            =
+            Flight #/ Carrier=0D=0A                    </p>=0D=0A      =
+          </td>=0D=0A                <td width=3D"90" align=3D"left" style=3D"padding-top:=
+ 5px; padding-bottom: 5px">=0D=0A                    <p style=3D"margin-right:=
+ 5px">=0D=0A                        Depart=0D=0A                    </p>=
+=0D=0A                </td>=0D=0A                <td width=3D"90" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Arrive=
+=0D=0A                    </p>=0D=0A                </td>=0D=0A        =
+        <td width=3D"70" align=3D"left" style=3D"padding-top: 5px; padding-bottom:=
+ 5px">=0D=0A                    <p style=3D"margin-right: 5px">=0D=0A  =
+                      Travel time=0D=0A                    </p>=0D=0A  =
+              </td>=0D=0A                <td width=3D"78" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Meal=0D=0A=
+                    </p>=0D=0A                </td>=0D=0A              =
+  <td width=3D"78" align=3D"left" style=3D"padding-top: 5px; padding-bottom:=
+ 5px">=0D=0A                    <p style=3D"margin-right: 5px">=0D=0A  =
+                      Aircraft=0D=0A                    </p>=0D=0A     =
+           </td>=0D=0A                <td width=3D"59" align=3D"left" style=3D"padding-top:=
+ 5px; padding-bottom: 5px">=0D=0A                    <p style=3D"margin-right:=
+ 5px">=0D=0A                        Cabin=0D=0A                    </p>=
+=0D=0A                </td>=0D=0A                <td width=3D"52" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Seats=0D=0A=
+                    </p>=0D=0A                </td>=0D=0A            </tr>=
+=0D=0A            =0D=0A                    <tr style=3D"font: normal 11px=
+ Arial, Helvetica, sans-serif; color: #333333; height: 45px;">=0D=0A   =
+                     <td align=3D"left" valign=3D"middle">=0D=0A       =
+                     <p style=3D"margin: 0 5px 0 12px">=0D=0A          =
+                      <strong><font color=3D"#24427C">=0D=0A           =
+                         964</font></strong>=0D=0A                     =
+           &nbsp;&nbsp;<img src=3D"https://content.usairways.com/en-US/Resources/images/icons/airline/usflag_wifi.gif"=
+ id=3D"tripDetails1_SliceRepeater_ctl00_SegmentRepeater_ctl00_AircraftImage"=
+ border=3D"0" /></p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            08:25 AM&nbsp;=0D=0A                                <font style=3D"color:=
+ #227db2;">=0D=0A                                    SFO</font></p>=0D=0A=
+                        </td>=0D=0A                        <td align=3D"left"=
+ valign=3D"middle">=0D=0A                            <p style=3D"margin-right:=
+ 5px">=0D=0A                                04:47 PM&nbsp;=0D=0A       =
+                         <font style=3D"color: #227db2;">=0D=0A        =
+                            PHL</font></p>=0D=0A                       =
+ </td>=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin-right: 5px">=0D=0A=
+                                5h 22m</p>=0D=0A                       =
+ </td>=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin-right: 5px">=0D=0A=
+                                <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&u=3Dhttps://www2.usairways.com/en-US/traveltools/intheair/foodandbeverages/maincabin.html"=
+ id=3D"tripDetails1_SliceRepeater_ctl00_SegmentRepeater_ctl00_MealLink"=
+ style=3D"color: #24427c;">=0D=0A                                    In-flight=
+ Caf&#233;</a>=0D=0A                                =0D=0A             =
+               </p>=0D=0A                        </td>=0D=0A           =
+             <td align=3D"left" valign=3D"middle">=0D=0A               =
+             <p style=3D"margin-right: 5px">=0D=0A                     =
+           A321</p>=0D=0A                        </td>=0D=0A           =
+             <td align=3D"left" valign=3D"middle">=0D=0A               =
+             <p style=3D"margin-right: 5px">=0D=0A                     =
+           Coach</p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            =0D=0A                                        =0D=0A       =
+                                         18D =0D=0A                    =
+                        =0D=0A                                         =
+       18F =0D=0A                                            =0D=0A    =
+                                =0D=0A                            </p>=0D=0A=
+                        </td>=0D=0A                    </tr>=0D=0A     =
+           =0D=0A                    <tr>=0D=0A                        <td=
+ colspan=3D"8" align=3D"left" valign=3D"middle" style=3D"padding-left: 40px;">=
+=0D=0A                            <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"font: normal 11px Arial, Helvetica,=
+ sans-serif;=0D=0A                                color: #333333; height:=
+ 10px;">=0D=0A                                <tr>=0D=0A               =
+                     <td>=0D=0A                                        <font=
+ id=3D"tripDetails1_SliceRepeater_ctl00_SegmentRepeater_ctl01_StopChangeSeparator"=
+ style=3D"font: 9px normal Arial, Helvetica, sans-serif;=0D=0A         =
+                                   color: #277DB2">=0D=0A              =
+                              Stop: Change plane in Philadelphia, PA=0D=0A=
+                                            &nbsp; (PHL)=0D=0A         =
+                               </font>=0D=0A                           =
+         </td>=0D=0A                                    <td width=3D"350"=
+ align=3D"right">=0D=0A                                        <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/dotted_changeplane.gif"=
+ border=3D"0" height=3D"7" width=3D"350" />=0D=0A                      =
+              </td>=0D=0A                                </tr>=0D=0A   =
+                         </table>=0D=0A                        </td>=0D=0A=
+                    </tr>=0D=0A                =0D=0A                  =
+  <tr style=3D"font: normal 11px Arial, Helvetica, sans-serif; color: #333333;=
+ height: 45px;">=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin: 0 5px 0 12px">=0D=0A=
+                                <strong><font color=3D"#24427C">=0D=0A =
+                                   742</font></strong>=0D=0A           =
+                     &nbsp;&nbsp;<img src=3D"https://content.usairways.com/en-US/Resources/images/icons/airline/usflag.gif"=
+ id=3D"tripDetails1_SliceRepeater_ctl00_SegmentRepeater_ctl02_AircraftImage"=
+ border=3D"0" /></p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            06:20 PM&nbsp;=0D=0A                                <font style=3D"color:=
+ #227db2;">=0D=0A                                    PHL</font></p>=0D=0A=
+                        </td>=0D=0A                        <td align=3D"left"=
+ valign=3D"middle">=0D=0A                            <p style=3D"margin-right:=
+ 5px">=0D=0A                                08:25 AM&nbsp;=0D=0A       =
+                         <font style=3D"color: #227db2;">=0D=0A        =
+                            BCN</font></p>=0D=0A                       =
+ </td>=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin-right: 5px">=0D=0A=
+                                8h 5m</p>=0D=0A                        </td>=
+=0D=0A                        <td align=3D"left" valign=3D"middle">=0D=0A=
+                            <p style=3D"margin-right: 5px">=0D=0A      =
+                          =0D=0A                                Dinner=0D=0A=
+                            </p>=0D=0A                        </td>=0D=0A=
+                        <td align=3D"left" valign=3D"middle">=0D=0A    =
+                        <p style=3D"margin-right: 5px">=0D=0A          =
+                      767</p>=0D=0A                        </td>=0D=0A =
+                       <td align=3D"left" valign=3D"middle">=0D=0A     =
+                       <p style=3D"margin-right: 5px">=0D=0A           =
+                     Coach</p>=0D=0A                        </td>=0D=0A=
+                        <td align=3D"left" valign=3D"middle">=0D=0A    =
+                        <p style=3D"margin-right: 5px">=0D=0A          =
+                      =0D=0A                                        =0D=0A=
+                                                18F =0D=0A             =
+                               =0D=0A                                  =
+              18G =0D=0A                                            =0D=0A=
+                                    =0D=0A                            </p>=
+=0D=0A                        </td>=0D=0A                    </tr>=0D=0A=
+                =0D=0A            =0D=0A                <tr>=0D=0A     =
+               <td align=3D"left" valign=3D"top" style=3D"padding: 0px 10px=
+ 0px 15px; border-top: 1px dashed #c0c0c0;"=0D=0A                      =
+  colspan=3D"8">=0D=0A                        <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0">=0D=0A                            <tr>=0D=0A        =
+                        <td width=3D"16" valign=3D"top">=0D=0A         =
+                           <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/exclamation_red.gif"=
+ border=3D"0" style=3D"margin: 0; padding: 0; border:0" />=0D=0A       =
+                         </td>=0D=0A                                <td=
+ align=3D"left" valign=3D"top">=0D=0A                                  =
+  =0D=0A                                            <ul style=3D"font: normal=
+ 11px Arial, Helvetica, sans-serif; line-height: 18px; margin-top: 0px;=
+=0D=0A                                                margin-bottom: 0px;=
+ color: #333333; list-style-image: url(http://images.usairways.com/newEmail/Gen3/templates/disc_red.gif);">=
+=0D=0A                                        =0D=0A                   =
+                         <li style=3D"padding: 0; margin: 0">=0D=0A    =
+                                            Flight # 742 : Arrives next=
+ day, Wednesday, April 13, 2011</li>=0D=0A                             =
+           =0D=0A                                            </ul>=0D=0A=
+                                        =0D=0A                         =
+       </td>=0D=0A                            </tr>=0D=0A              =
+          </table>=0D=0A                    </td>=0D=0A                </tr>=
+=0D=0A            =0D=0A            <tr>=0D=0A                <td colspan=3D"15"=
+ style=3D"padding: 0 0 8px 0; margin: 0;">=0D=0A                    &nbsp;=
+=0D=0A                </td>=0D=0A            </tr>=0D=0A        =0D=0A =
+           <tr style=3D"padding: 0 0 3px 0; margin: 0;">=0D=0A         =
+       <td colspan=3D"5" align=3D"left" valign=3D"top" height=3D"22" style=3D"font:=
+ normal 13px Arial, Helvetica, sans-serif;=0D=0A                    padding:=
+ 0 0 0 12px">=0D=0A                    <p>=0D=0A                       =
+ <font id=3D"tripDetails1_SliceRepeater_ctl01_ReturnLabelSpan" style=3D"color:=
+ #C67F00; padding: 0 0 15px 0;">=0D=0A                            Return:=
+=0D=0A                        </font>&nbsp; <font style=3D"color: #277DB2">=
+=0D=0A                            Barcelona, Spain&nbsp;=0D=0A         =
+                   (BCN)=0D=0A                            <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/icon_CircleArrow.gif"=
+ align=3D"absmiddle" border=3D"0" height=3D"18" width=3D"28" />=0D=0A  =
+                          San Francisco, CA&nbsp;=0D=0A                =
+            (SFO)=0D=0A                        </font>=0D=0A           =
+         </p>=0D=0A                </td>=0D=0A                <td colspan=3D"3"=
+ align=3D"left" valign=3D"top">=0D=0A                    <table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">=0D=0A                        <tr>=0D=0A=
+                            <td style=3D"white-space: nowrap; padding-bottom:=
+ 5px;">=0D=0A                                <div style=3D"margin: 5px 0=
+ 0 12px; font: normal 11px Arial, Helvetica, sans-serif;=0D=0A         =
+                           color: #333333; padding: 0;">=0D=0A         =
+                           <strong>=0D=0A                              =
+          Date:=0D=0A                                    </strong>&nbsp;Wednesday,=
+ April 27, 2011=0D=0A                                </div>=0D=0A      =
+                      </td>=0D=0A                        </tr>=0D=0A   =
+                     <tr>=0D=0A                            <td style=3D"white-space:=
+ nowrap;">=0D=0A                                <div style=3D"margin: 0px=
+ 0 5px 12px; font: normal 11px Arial, Helvetica, sans-serif;=0D=0A     =
+                               color: #c67f00; padding: 0;">=0D=0A     =
+                               <strong><font style=3D"color: #333333;">=
+=0D=0A                                        Status:=0D=0A            =
+                        </font>&nbsp;Active=0D=0A                      =
+              </strong>=0D=0A                                </div>=0D=0A=
+                            </td>=0D=0A                        </tr>=0D=0A=
+                    </table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A            <tr align=3D"left" valign=3D"middle" bgcolor=3D"#ECF4F8"=
+ style=3D"font: bold 11px Arial, Helvetica, sans-serif;=0D=0A          =
+      color: #277DB2; height: 40px;">=0D=0A                <td width=3D"109"=
+ align=3D"left" style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A =
+                   <p style=3D"margin: 0 5px 0 12px">=0D=0A            =
+            Flight #/ Carrier=0D=0A                    </p>=0D=0A      =
+          </td>=0D=0A                <td width=3D"90" align=3D"left" style=3D"padding-top:=
+ 5px; padding-bottom: 5px">=0D=0A                    <p style=3D"margin-right:=
+ 5px">=0D=0A                        Depart=0D=0A                    </p>=
+=0D=0A                </td>=0D=0A                <td width=3D"90" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Arrive=
+=0D=0A                    </p>=0D=0A                </td>=0D=0A        =
+        <td width=3D"70" align=3D"left" style=3D"padding-top: 5px; padding-bottom:=
+ 5px">=0D=0A                    <p style=3D"margin-right: 5px">=0D=0A  =
+                      Travel time=0D=0A                    </p>=0D=0A  =
+              </td>=0D=0A                <td width=3D"78" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Meal=0D=0A=
+                    </p>=0D=0A                </td>=0D=0A              =
+  <td width=3D"78" align=3D"left" style=3D"padding-top: 5px; padding-bottom:=
+ 5px">=0D=0A                    <p style=3D"margin-right: 5px">=0D=0A  =
+                      Aircraft=0D=0A                    </p>=0D=0A     =
+           </td>=0D=0A                <td width=3D"59" align=3D"left" style=3D"padding-top:=
+ 5px; padding-bottom: 5px">=0D=0A                    <p style=3D"margin-right:=
+ 5px">=0D=0A                        Cabin=0D=0A                    </p>=
+=0D=0A                </td>=0D=0A                <td width=3D"52" align=3D"left"=
+ style=3D"padding-top: 5px; padding-bottom: 5px">=0D=0A                =
+    <p style=3D"margin-right: 5px">=0D=0A                        Seats=0D=0A=
+                    </p>=0D=0A                </td>=0D=0A            </tr>=
+=0D=0A            =0D=0A                    <tr style=3D"font: normal 11px=
+ Arial, Helvetica, sans-serif; color: #333333; height: 45px;">=0D=0A   =
+                     <td align=3D"left" valign=3D"middle">=0D=0A       =
+                     <p style=3D"margin: 0 5px 0 12px">=0D=0A          =
+                      <strong><font color=3D"#24427C">=0D=0A           =
+                         743</font></strong>=0D=0A                     =
+           &nbsp;&nbsp;<img src=3D"https://content.usairways.com/en-US/Resources/images/icons/airline/usflag.gif"=
+ id=3D"tripDetails1_SliceRepeater_ctl01_SegmentRepeater_ctl00_AircraftImage"=
+ border=3D"0" /></p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            10:45 AM&nbsp;=0D=0A                                <font style=3D"color:=
+ #227db2;">=0D=0A                                    BCN</font></p>=0D=0A=
+                        </td>=0D=0A                        <td align=3D"left"=
+ valign=3D"middle">=0D=0A                            <p style=3D"margin-right:=
+ 5px">=0D=0A                                01:50 PM&nbsp;=0D=0A       =
+                         <font style=3D"color: #227db2;">=0D=0A        =
+                            PHL</font></p>=0D=0A                       =
+ </td>=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin-right: 5px">=0D=0A=
+                                9h 5m</p>=0D=0A                        </td>=
+=0D=0A                        <td align=3D"left" valign=3D"middle">=0D=0A=
+                            <p style=3D"margin-right: 5px">=0D=0A      =
+                          =0D=0A                                Lunch=0D=0A=
+                            </p>=0D=0A                        </td>=0D=0A=
+                        <td align=3D"left" valign=3D"middle">=0D=0A    =
+                        <p style=3D"margin-right: 5px">=0D=0A          =
+                      767</p>=0D=0A                        </td>=0D=0A =
+                       <td align=3D"left" valign=3D"middle">=0D=0A     =
+                       <p style=3D"margin-right: 5px">=0D=0A           =
+                     Coach</p>=0D=0A                        </td>=0D=0A=
+                        <td align=3D"left" valign=3D"middle">=0D=0A    =
+                        <p style=3D"margin-right: 5px">=0D=0A          =
+                      =0D=0A                                        =0D=0A=
+                                                20F =0D=0A             =
+                               =0D=0A                                  =
+              20G =0D=0A                                            =0D=0A=
+                                    =0D=0A                            </p>=
+=0D=0A                        </td>=0D=0A                    </tr>=0D=0A=
+                =0D=0A                    <tr>=0D=0A                   =
+     <td colspan=3D"8" align=3D"left" valign=3D"middle" style=3D"padding-left:=
+ 40px;">=0D=0A                            <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"font: normal 11px Arial, Helvetica,=
+ sans-serif;=0D=0A                                color: #333333; height:=
+ 10px;">=0D=0A                                <tr>=0D=0A               =
+                     <td>=0D=0A                                        <font=
+ id=3D"tripDetails1_SliceRepeater_ctl01_SegmentRepeater_ctl01_StopChangeSeparator"=
+ style=3D"font: 9px normal Arial, Helvetica, sans-serif;=0D=0A         =
+                                   color: #277DB2">=0D=0A              =
+                              Stop: Change plane in Philadelphia, PA=0D=0A=
+                                            &nbsp; (PHL)=0D=0A         =
+                               </font>=0D=0A                           =
+         </td>=0D=0A                                    <td width=3D"350"=
+ align=3D"right">=0D=0A                                        <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/dotted_changeplane.gif"=
+ border=3D"0" height=3D"7" width=3D"350" />=0D=0A                      =
+              </td>=0D=0A                                </tr>=0D=0A   =
+                         </table>=0D=0A                        </td>=0D=0A=
+                    </tr>=0D=0A                =0D=0A                  =
+  <tr style=3D"font: normal 11px Arial, Helvetica, sans-serif; color: #333333;=
+ height: 45px;">=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin: 0 5px 0 12px">=0D=0A=
+                                <strong><font color=3D"#24427C">=0D=0A =
+                                   469</font></strong>=0D=0A           =
+                     &nbsp;&nbsp;<img src=3D"https://content.usairways.com/en-US/Resources/images/icons/airline/usflag.gif"=
+ id=3D"tripDetails1_SliceRepeater_ctl01_SegmentRepeater_ctl02_AircraftImage"=
+ border=3D"0" /></p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            03:55 PM&nbsp;=0D=0A                                <font style=3D"color:=
+ #227db2;">=0D=0A                                    PHL</font></p>=0D=0A=
+                        </td>=0D=0A                        <td align=3D"left"=
+ valign=3D"middle">=0D=0A                            <p style=3D"margin-right:=
+ 5px">=0D=0A                                09:02 PM&nbsp;=0D=0A       =
+                         <font style=3D"color: #227db2;">=0D=0A        =
+                            SFO</font></p>=0D=0A                       =
+ </td>=0D=0A                        <td align=3D"left" valign=3D"middle">=
+=0D=0A                            <p style=3D"margin-right: 5px">=0D=0A=
+                                8h 7m</p>=0D=0A                        </td>=
+=0D=0A                        <td align=3D"left" valign=3D"middle">=0D=0A=
+                            <p style=3D"margin-right: 5px">=0D=0A      =
+                          <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&u=3Dhttps://www2.usairways.com/en-US/traveltools/intheair/foodandbeverages/maincabin.html"=
+ id=3D"tripDetails1_SliceRepeater_ctl01_SegmentRepeater_ctl02_MealLink"=
+ style=3D"color: #24427c;">=0D=0A                                    In-flight=
+ Caf&#233;</a>=0D=0A                                =0D=0A             =
+               </p>=0D=0A                        </td>=0D=0A           =
+             <td align=3D"left" valign=3D"middle">=0D=0A               =
+             <p style=3D"margin-right: 5px">=0D=0A                     =
+           A320</p>=0D=0A                        </td>=0D=0A           =
+             <td align=3D"left" valign=3D"middle">=0D=0A               =
+             <p style=3D"margin-right: 5px">=0D=0A                     =
+           Coach</p>=0D=0A                        </td>=0D=0A          =
+              <td align=3D"left" valign=3D"middle">=0D=0A              =
+              <p style=3D"margin-right: 5px">=0D=0A                    =
+            =0D=0A                                        =0D=0A       =
+                                         20D =0D=0A                    =
+                        =0D=0A                                         =
+       20F =0D=0A                                            =0D=0A    =
+                                =0D=0A                            </p>=0D=0A=
+                        </td>=0D=0A                    </tr>=0D=0A     =
+           =0D=0A            =0D=0A                <tr>=0D=0A          =
+          <td align=3D"left" valign=3D"top" style=3D"padding: 0px 10px 0px=
+ 15px; border-top: 1px dashed #c0c0c0;"=0D=0A                        colspan=3D"8">=
+=0D=0A                        <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">=
+=0D=0A                            <tr>=0D=0A                           =
+     <td width=3D"16" valign=3D"top">=0D=0A                            =
+        <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/exclamation_red.gif"=
+ border=3D"0" style=3D"margin: 0; padding: 0; border:0" />=0D=0A       =
+                         </td>=0D=0A                                <td=
+ align=3D"left" valign=3D"top">=0D=0A                                  =
+  =0D=0A                                            <ul style=3D"font: normal=
+ 11px Arial, Helvetica, sans-serif; line-height: 18px; margin-top: 0px;=
+=0D=0A                                                margin-bottom: 0px;=
+ color: #333333; list-style-image: url(http://images.usairways.com/newEmail/Gen3/templates/disc_red.gif);">=
+=0D=0A                                        =0D=0A                   =
+                         <li style=3D"padding: 0; margin: 0">=0D=0A    =
+                                            Flight # 469 : Stops in LAS:=
+ No plane change required</li>=0D=0A                                   =
+     =0D=0A                                            </ul>=0D=0A     =
+                                   =0D=0A                              =
+  </td>=0D=0A                            </tr>=0D=0A                   =
+     </table>=0D=0A                    </td>=0D=0A                </tr>=
+=0D=0A            =0D=0A            <tr>=0D=0A                <td colspan=3D"15"=
+ style=3D"padding: 0 0 8px 0; margin: 0;">=0D=0A                    &nbsp;=
+=0D=0A                </td>=0D=0A            </tr>=0D=0A        =0D=0A</table>=
+=0D=0A<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-top: 1px solid #c0c0c0;=0D=0A    padding-bottom: 10px;">=
+=0D=0A    =0D=0A            <tr>=0D=0A                =0D=0A           =
+             <td width=3D"50%" height=3D"40" align=3D"left" valign=3D"middle"=
+ style=3D"padding: 0 0 0 35px;">=0D=0A                            <font=
+ style=3D"font: 11px normal Arial, Helvetica, sans-serif; padding: 0 10px=
+ 0 0">=0D=0A                                <img src=3D"https://content.usairways.com/en-US/Resources/images/icons/airline/usflag.gif"=
+ id=3D"tripDetails1_AirlineKeyRepeater_ctl00_CarrierRepeater_ctl00_AirlineKeyImage"=
+ border=3D"0" />&nbsp;=0D=0A                                US Airways=0D=0A=
+                            </font>=0D=0A                        </td>=0D=0A=
+                    =0D=0A                        <td width=3D"50%" height=3D"40"=
+ align=3D"left" valign=3D"middle" style=3D"padding: 0 0 0 35px;">=0D=0A=
+                            <font style=3D"font: 11px normal Arial, Helvetica,=
+ sans-serif; padding: 0 10px 0 0">=0D=0A                               =
+ <img src=3D"https://content.usairways.com/en-US/Resources/images/icons/wifi.gif"=
+ id=3D"tripDetails1_AirlineKeyRepeater_ctl00_CarrierRepeater_ctl01_AirlineKeyImage"=
+ border=3D"0" />&nbsp;=0D=0A                                <table cellpadding=3D0=
+ cellspacing=3D0 border=3D0><tr><td align=3D"left"><div class=3D"bold">US=
+ Airways</div>Flight operated by US Airways<div class=3D"padtopxsm"></div><span=
+ class=3D"wifisrvcmsg"><b>Wi-Fi on board (<span class=3D"green">$</span>)</b><br>Provided=
+ by Gogo&trade; Inflight Internet</span></td></tr></table>=0D=0A       =
+                     </font>=0D=0A                        </td>=0D=0A  =
+                  =0D=0A            </tr>=0D=0A        =0D=0A</table>=0D=0A=
+=0D=0A                            <br />=0D=0A                         =
+   <table width=3D"96%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+=0D=0A                                <tr>=0D=0A                       =
+             <td align=3D"center">=0D=0A                               =
+         <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dfirst;sz=3D190x100;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dfirst;sz=3D190x100;ord=3D135603566.251511"=
+ height=3D"100" width=3D"190" border=3D"0" /></a>=0D=0A                =
+                    </td>=0D=0A                                    <td align=3D"center">=
+=0D=0A                                        <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dsecond;sz=3D190x100;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dsecond;sz=3D190x100;ord=3D135603566.251511"=
+ height=3D"100" width=3D"190" border=3D"0" /></a>=0D=0A                =
+                    </td>=0D=0A                                    <td align=3D"center">=
+=0D=0A                                        <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dthird;sz=3D190x100;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dthird;sz=3D190x100;ord=3D135603566.251511"=
+ height=3D"100" width=3D"190" border=3D"0" /></a>=0D=0A                =
+                    </td>=0D=0A                                </tr>=0D=0A=
+                            </table>=0D=0A                            <br=
+ />=0D=0A                            <table width=3D"95%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">=0D=0A                                <tr>=0D=0A    =
+                                <td width=3D"58%" align=3D"left" valign=3D"top">=
+=0D=0A                                        <table width=3D"88%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"font: normal 11px Arial, Helvetica,=
+ sans-serif;=0D=0A                                            color: #333333;">=
+=0D=0A                                            <tr>=0D=0A           =
+                                     <td height=3D"30" colspan=3D"3" align=3D"left"=
+ valign=3D"top">=0D=0A                                                 =
+   <p style=3D"font: normal 14px Arial, Helvetica, sans-serif; color: #24427C;=
+ margin: 0;=0D=0A                                                      =
+  padding: 0;">=0D=0A                                                  =
+      Total travel cost (2 passengers)=0D=0A                           =
+                         </p>=0D=0A                                    =
+            </td>=0D=0A                                            </tr>=
+=0D=0A                                            =0D=0A													<tr>=
+=0D=0A														<td align=3D"left">=0D=0A															=0D=0A					=
+										2 Adults=0D=0A														</td>=0D=0A														<td align=3D"right"=
+ style=3D"padding-right: 10px">=0D=0A															&nbsp;$1,414.00&nbsp;=
+=0D=0A														</td>=0D=0A														<td></td>=0D=0A											=
+		</tr>=0D=0A												=0D=0A													<tr>=0D=0A														<td=
+ align=3D"left">=0D=0A															<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&u=3Dhttp://www2.usairways.com/en-US/traveltools/specialneeds/ticketingpolicies/taxesfees.html"=
+ id=3D"FaresRepeater_ctl01_FareLink" style=3D"color: #24427C;">=0D=0A		=
+														Taxes + fees=0D=0A															</a>=0D=0A														=
+	=0D=0A														</td>=0D=0A														<td align=3D"right" style=3D"padding-right:=
+ 10px">=0D=0A															&nbsp;$176.00&nbsp;=0D=0A														</td>=
+=0D=0A														<td></td>=0D=0A													</tr>=0D=0A												=
+=0D=0A													<tr>=0D=0A														<td height=3D"30" colspan=3D"3"=
+ align=3D"left" valign=3D"middle">=0D=0A															<hr size=3D"1" noshade=
+ color=3D"#C0C0C0">=0D=0A														</td>=0D=0A													</tr>=0D=0A=
+													<tr>=0D=0A														<td height=3D"22" align=3D"left">=0D=0A=
+															<strong>Fare total</strong>=0D=0A														</td>=0D=0A=
+														<td align=3D"right" style=3D"padding-right: 10px">=0D=0A	=
+													=0D=0A														<strong>$1,590.00</strong></td>=0D=0A	=
+													<td align=3D"left"><font style=3D"color: #227db2;">Non-refundable</font></td>=
+=0D=0A													</tr>=0D=0A													<tr>=0D=0A														<td height=3D"30"=
+ colspan=3D"3" align=3D"left" valign=3D"middle">=0D=0A															<hr=
+ size=3D"1" noshade color=3D"#C0C0C0">=0D=0A														</td>=0D=0A		=
+											</tr>=0D=0A												=0D=0A											=0D=0A              =
+                                =0D=0A											=0D=0A											 =0D=0A=
+											=0D=0A											=0D=0A                                     =
+       <tr valign=3D"top" style=3D"font: bold 13px Arial, Helvetica, sans-serif;=
+ color: #227db2">=0D=0A                                                <td=
+ align=3D"left">=0D=0A                                                 =
+   Total=0D=0A                                                </td>=0D=0A=
+                                                <td height=3D"35" align=3D"right"=
+ style=3D"padding-right: 10px">=0D=0A                                  =
+                  $1,590.00=0D=0A                                      =
+          </td>=0D=0A                                                <td=
+ style=3D"padding-right: 10px">=0D=0A                                  =
+                  &nbsp;=0D=0A                                         =
+       </td>=0D=0A                                            </tr>=0D=0A=
+                                            =0D=0A                     =
+                       <tr>=0D=0A                                      =
+          <td height=3D"30" colspan=3D"3" align=3D"left" valign=3D"middle">=
+=0D=0A                                                    <hr size=3D"1"=
+ noshade color=3D"#C0C0C0">=0D=0A                                      =
+          </td>=0D=0A                                            </tr>=0D=0A=
+                                            <tr>=0D=0A                 =
+                               <td colspan=3D"3" align=3D"left">=0D=0A =
+                                                   <table cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" style=3D"font: normal 11px Arial, Helvetica,=
+ sans-serif;=0D=0A                                                     =
+   color: #333333;">=0D=0A                                             =
+           <tr>=0D=0A                                                  =
+          <td valign=3D"top" align=3D"left" width=3D"20">=0D=0A        =
+                                                        <img src=3D"http://images.usairways.com/newEmail/Gen3/templates/drop_arrow.gif"=
+ align=3D"left" border=3D"0" height=3D"10" width=3D"13" />=0D=0A       =
+                                                     </td>=0D=0A       =
+                                                     <td>=0D=0A        =
+                                                        Charged to Elsa=
+ Yoshimoto=0D=0A                                                       =
+         <br />=0D=0A                                                  =
+              ***********5018 (American Express)=0D=0A                 =
+                                           </td>=0D=0A                 =
+                                       </tr>=0D=0A                     =
+                                     <tr>=0D=0A                        =
+                                    <td colspan=3D"2">=0D=0A           =
+                                                    &nbsp;=0D=0A       =
+                                                     </td>=0D=0A       =
+                                                 </tr>=0D=0A           =
+                                             <tr>=0D=0A                =
+                                            <td colspan=3D"2">=0D=0A   =
+                                                             =0D=0A    =
+                                                        </td>=0D=0A    =
+                                                    </tr>=0D=0A        =
+                                            </table>=0D=0A             =
+                                       =0D=0A                          =
+                          =0D=0A                                       =
+             =0D=0A                                                    <p>=
+=0D=0A                                                        =0D=0A   =
+                                                 </p>=0D=0A            =
+                                    </td>=0D=0A                        =
+                    </tr>=0D=0A                                        =
+      <tr>=0D=0A                                                <td height=3D"30"=
+ colspan=3D"3" align=3D"left" valign=3D"middle">=0D=0A                 =
+                                   <hr size=3D"1" noshade color=3D"#C0C0C0">=
+=0D=0A                                                </td>=0D=0A      =
+                                      </tr>=0D=0A                      =
+                  </table>=0D=0A                                    </td>=
+=0D=0A                                    <td align=3D"left" valign=3D"top"=
+ style=3D"color: #24427C;">=0D=0A                                      =
+  <p style=3D"font: normal 14px Arial, Helvetica, sans-serif; margin: 0;=
+ padding: 0;">=0D=0A                                            Helpful=
+ links=0D=0A                                        </p>=0D=0A         =
+                               <br />=0D=0A                            =
+            <p style=3D"font: normal 11px/18pt Arial, Helvetica, sans-serif;=
+ margin: 0; padding: 0;">=0D=0A                                        =
+    =0D=0A                                            <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttps://reservations.usairways.com/YourReservation.aspx"=
+ style=3D"color: #24427C;">Manage your reservation</a><br />=0D=0A     =
+                                       =0D=0A													<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://membership.usairways.com/Create/AccountInformation.aspx?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_HelpfulLinksJoinDM"=
+ style=3D"color: #24427C;">Join Dividend Miles</a>=0D=0A												<br=
+ />=0D=0A													<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/traveltools/checkin/airportcheckin/airportterminals.html?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_HelpfulLinksAirportInfo"=
+ style=3D"color: #24427C;">Airport information</a>=0D=0A												<br=
+ />=0D=0A													<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/traveltools/baggage/baggagepolicies.html?redir=3DEmail%26c=3Deml_sys_RevenueConf_00000000_HelpfulLinksBaggagePolicies"=
+ style=3D"color: #24427C;">Baggage policies</a>=0D=0A												<br />=
+=0D=0A													<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www.tsa.gov/"=
+ style=3D"color: #24427C;">TSA regulations</a>=0D=0A												<br />=0D=0A=
+													<a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://www2.usairways.com/en-US/traveltools/checkin/airportcheckin/airportcheckintimes.html?redir=3DEmail%26c=3Deml_sys_RedemptionConf_00000000_HelpfulLinksExitRowKiosk"=
+ style=3D"color: #24427C;">Seated in an exit row? Read about checking in.</a>=
+=0D=0A												=0D=0A                                            <br=
+ />=0D=0A                                        </p>=0D=0A            =
+                        </td>=0D=0A                                </tr>=
+=0D=0A                            </table>=0D=0A                       =
+     <table width=3D"87%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"padding: 25px 0 25px 0;=0D=0A                                margin:=
+ 0;">=0D=0A                                <tr>=0D=0A                  =
+                  <td width=3D"50%" align=3D"left" valign=3D"top">=0D=0A=
+                                        <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dbottomleft;sz=3D234x60;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dbottomleft;sz=3D234x60;ord=3D135603566.251511"=
+ height=3D"60" width=3D"234" border=3D"0" /></a>=0D=0A                 =
+                   </td>=0D=0A                                    <td width=3D"50%"=
+ align=3D"right" valign=3D"top">=0D=0A                                 =
+       <a href=3D"http://www2.usairways.com/linktracker/Link.ashx?e=3D28158006&amp;u=3Dhttp://ad.doubleclick.net/jump/usair.g3.emails/confirmation;pos=3Dbottomright;sz=3D234x60;ord=3D135603566.251511"><img=
+ src=3D"http://ad.doubleclick.net/ad/usair.g3.emails/confirmation;pos=3Dbottomright;sz=3D234x60;ord=3D135603566.251511"=
+ height=3D"60" width=3D"234" border=3D"0" /></a>=0D=0A                 =
+                   </td>=0D=0A                                </tr>=0D=0A=
+                            </table>=0D=0A                            =0D=0A=
+=0D=0A<table width=3D"95%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+=0D=0A    <tr>=0D=0A        <td align=3D"left" valign=3D"top">=0D=0A   =
+         <p style=3D"font:bold 14px Arial, Helvetica, sans-serif; color:#24427C;=
+ margin:0; padding: 15px 0 0 0">=0D=0A                Terms &amp; conditions=
+=0D=0A            </p>=0D=0A            <div style=3D"margin: -5px;">=0D=0A=
+                =0D=0A                        <ul style=3D"font:normal 11px=
+ Arial, Helvetica, sans-serif; color:#333333">=0D=0A                   =
+ =0D=0A                        <li>Ticket is non-transferable.</li>=0D=0A=
+                    =0D=0A                        <li>Ticket is non-refundable.=
+=0D=0A	<li>Unused tickets must be cancelled on the date of departure to=
+ retain value.</li></li>=0D=0A                    =0D=0A               =
+         <li>Any change to this reservation, including flights, dates, or=
+ cities, =0D=0A    is subject to a fee per passenger (according to the rules=
+ of the original fare). =0D=0A    The new itinerary will be priced at the=
+ lowest available published fare at the time of change, =0D=0A    which=
+ may result in a fare increase.</li>=0D=0A                    =0D=0A   =
+                     <li>Customers traveling to international destinations=
+ can review our=0A<a href=3D"http://www.usairways.com/en-US/traveltools/specialneeds/ticketingpolicies/international.html"=
+ target=3D"_blank">International Travel Advisements</a>=0A for information=
+ regarding required documentation and baggage limitations.</li>=0D=0A  =
+                  =0D=0A                        <li>Ticket expires one year=
+ from original date of issue. Unflown value expires one year from original=
+ date of issue.</li>=0D=0A                    =0D=0A                   =
+     <li><a href=3D"http://www.usairways.com/en-US/traveltools/baggage/baggagepolicies.html"=
+ target=3D"_blank">Checked baggage fees may apply</a>.</li>=0D=0A      =
+              =0D=0A                        <li>Air transportation on US=
+ Airways is subject to the US Airways Contract of Carriage. <a href=3D"http://www.usairways.com/en-US/resources/_downloads/aboutus/US_contract_of_carriage.pdf"=
+ target=3D"_blank">View this document</a> in PDF format.</li>=0D=0A    =
+                =0D=0A                        <li>Security regulations may=
+ require us to disclose to government agencies the data you provide to us=
+ in connection with this reservation.</li>=0D=0A                    =0D=0A=
+                        <li>Changes to the country of origin are not permitted,=
+ except for changes between the United States and U.S. territories.</li>=
+=0D=0A                    =0D=0A                        <li><a href=3D"http://www.usairways.com/en-US/contact/customer_relations.html"=
+ target=3D"_blank">Send</a> US your compliments and/or complaints.</li>=
+=0D=0A                    =0D=0A                        </ul>=0D=0A    =
+                =0D=0A            </div>=0D=0A        </td>=0D=0A    </tr>=
+=0D=0A</table>=0D=0A=0D=0A                        </td>=0D=0A          =
+          </tr>=0D=0A                    <tr>=0D=0A                    =
+    <td align=3D"right" valign=3D"top" style=3D"padding: 10px 0;">=0D=0A=
+                            <img src=3D"http://images.usairways.com/newEmail/gen3/templates/star_alliance.gif"=
+ border=3D"0" />=0D=0A                            <br />=0D=0A         =
+               </td>=0D=0A                    </tr>=0D=0A              =
+  </table>=0D=0A            </td>=0D=0A        </tr>=0D=0A        <tr>=0D=0A=
+            <td>=0D=0A                <img src=3D"http://images.usairways.com/newEmail/gen3/templates/efooter.gif"=
+ border=3D"0" height=3D"61" width=3D"630" />=0D=0A            </td>=0D=0A=
+        </tr>=0D=0A        <tr>=0D=0A            <td>=0D=0A            =
+    <table width=3D"96%" border=3D"0" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0">=0D=0A                    <tr>=0D=0A                =
+        <td>=0D=0A                            <p style=3D"color: #828181">=
+=0D=0A                                <font style=3D"font: normal 10px Arial,=
+ Helvetica, sans-serif">=0D=0A                                    <br />We=
+ are committed to protecting your privacy. Your information is kept private=
+ and confidential.=0AFor information about our privacy policy visit <a href=3D"http://www2.usairways.com/en-US/privacy.html?redir=3DEmail&c=3Deml_sys_RevenueConf_00000000_privacy"=
+ target=3D"_blank" style=3D"color: #24427C">usairways.com</a>.=0A=0APlease=
+ do not reply to this email, it is not monitored. If you'd like to contact=
+ us, please visit our website.=0D=0A                                </font>=
+=0D=0A                            </p>=0D=0A                        </td>=
+=0D=0A                    </tr>=0D=0A                </table>=0D=0A    =
+        </td>=0D=0A        </tr>=0D=0A    </table>=0D=0A    <img src=3D"http://www2.usairways.com/linktracker/Image.ashx?e=3D28158006"=
+ height=3D"0" width=3D"0" border=3D"0" />=0D=0A</div>=0D=0A<input id=3D"Diagnostic"=
+ type=3D"hidden" value=3D"+Qv7B2lBV/q5P8besEvOgv0Ck8egmOkYgc2lEUgYm6Z8ztGGMAKla3dnOaGu/HJT"></input>
+

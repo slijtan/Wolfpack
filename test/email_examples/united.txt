@@ -1,0 +1,1519 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: myoshimoto@gmail.com
+Received: by 10.204.120.139 with SMTP id d11cs40122bkr;
+        Wed, 11 Aug 2010 00:02:45 -0700 (PDT)
+Received: by 10.100.23.2 with SMTP id 2mr21066212anw.119.1281510164325;
+        Wed, 11 Aug 2010 00:02:44 -0700 (PDT)
+Return-Path: <UNITED-CONFIRMATION@united.com>
+Received: from mx02.mail.united.com (mx02.mail.united.com [209.87.113.21])
+        by mx.google.com with SMTP id y9si17222239anf.197.2010.08.11.00.02.43;
+        Wed, 11 Aug 2010 00:02:44 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of UNITED-CONFIRMATION@united.com designates 209.87.113.21 as permitted sender) client-ip=209.87.113.21;
+Authentication-Results: mx.google.com; spf=pass (google.com: best guess record for domain of UNITED-CONFIRMATION@united.com designates 209.87.113.21 as permitted sender) smtp.mail=UNITED-CONFIRMATION@united.com
+Received: (qmail 25952 invoked from network); 11 Aug 2010 07:02:43 -0000
+Received: from prdual10.uls-prod.com (209.87.120.178)
+  by mx02.mail.united.com with SMTP; 11 Aug 2010 07:02:43 -0000
+Received: from prdual10.uls-prod.com (localhost [127.0.0.1])
+	by prdual10.uls-prod.com (8.13.8+Sun/8.13.8) with ESMTP id o7B72hLA005716;
+	Wed, 11 Aug 2010 02:02:43 -0500 (CDT)
+Date: Wed, 11 Aug 2010 02:02:43 -0500 (CDT)
+From: UNITED-CONFIRMATION@UNITED.COM
+To: MYOSHIMOTO@GMAIL.COM, EPYOSHIMOTO@YAHOO.COM
+Message-ID: <7487220.2067071281510163054.JavaMail.wladmin@prdual10.uls-prod.com>
+Subject: Your United flight confirmation - August 28, 2010 - San Francisco
+ to Seattle
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_207248_6391100.1281510163047"
+
+------=_Part_207248_6391100.1281510163047
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+=09=09<head>
+=09=09=09<title>United Airlines</title>=20
+<base href=3D"https://travel.united.com" /><title></title>
+=09=09=09<style>
+=09=09=09=09.border td{padding: 10PX; border-top-style: dashed; border-righ=
+t-style: dashed; border-bottom-style: dashed;
+=09=09=09=09=09=09border-left-style: dashed; border-top-color: #cccccc; bor=
+der-right-color: #cccccc; border-bottom-color: #cccccc; border-left-color: =
+#cccccc; border-top-width: 0px;
+=09=09=09=09=09=09border-right-width: 0px; border-bottom-width: 0px; border=
+-left-width: 1px;
+=09=09=09=09=09=09}
+=09=09=09=09.noborder td{border: none;}
+=09=09=09=09a { font-family: "Arial", sans-serif; color: #0038A5;}
+=09=09=09=09a:hover { color: #0099FF; }
+=09=09=09</style>
+=09=09</head>
+=09=09<body marginwidth=3D"0" marginheight=3D"0" topmargin=3D"0" leftmargin=
+=3D"0">
+=09=09=09<div style=3D'margin-top:10px; margin-left:5px; font-size: 11px; f=
+ont-family: "Arial"; color: #333333; width:570px' >
+=09=09=09=09<!--BookConfInfo -->
+=09=09=09=09
+
+
+
+
+
+
+
+
+
+   =20
+   =20
+
+
+=09
+=09=09
+
+
+=09
+
+
+=09
+=09
+
+
+   =20
+   =20
+=09=09=09=09
+
+<DIV style=3D"height:20px">
+  <a title=3D"United" href=3D"http://www.united.com" target=3D"_top">
+  <img src=3D'http://www.united.com/ual/asset/us-ualogo2.gif' alt=3D'United=
+ Airlines' width=3D'144' height=3D'15' border=3D"0"></a>
+</DIV>
+<DIV style=3D"background-image:url(http://travel.united.com/ube/images/divi=
+der.png); height:1px; width:575px; font-size:0px"></DIV>
+<DIV style=3D"padding-left:10px; padding-bottom:5px; padding-top:30px; font=
+-weight:bold; text-align:left; font-size:14px">
+=09united.com purchase details:
+<script type=3D"text/javascript" language=3D"JavaScript">
+if (!window.vsCustomItems)
+{
+=09var vsCustomItems =3D new Array();
+=09var vsPageTitle =3D escape("United US-  Confirmation Page");
+}
+vsCustomItems[vsCustomItems.length] =3D new Array("v_pn", vsPageTitle);
+</script></DIV>
+=09
+
+<!-- Added for star awards -->
+<DIV style=3D"background-image:url(http://travel.united.com/ube/images/divi=
+der.png); height:1px; width:575px; font-size:0px margin-top:5px;"></DIV>
+=09
+=09<table cellspacing=3D"0" cellpadding=3D"0" class=3D"tal">
+=09=09=09<tr>
+=09=09=09=09<td valign=3D"top" class=3D"pl10">=09=09
+=09=09=09=09=09<div class=3D"_fD fdDetails" style=3D"width:460px">=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09<div class=3D"prd-fxd-div pt5 bold"><img src=3D"/ube/imag=
+es/UA_logo.png"/>&nbsp;United</div>
+=09=09=09=09=09=09 =09<div class=3D"prd-fxd-div">
+=09=09=09=09=09=09 =09=09Confirmation #
+=09=09=09=09=09 =09=09=09K31F3O
+=09=09=09=09=09=09 =09</div>=20
+=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09</div>
+=09=09=09=09       </div><!-- fD End  -->
+       =09=09=09=09</td>       =09=09=09=09
+       =09=09=09=09<td style=3D"width:260px; vertical-align:top;">
+=09=09=09=09=09
+=09=09=09=09=09=09<table width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<tr>
+=09=09=09       =09=09=09=09=09<td class=3D"noWrap">
+=09=09=09=09=09 =09=09=09=09=09=09<a class=3D"hover ml10" href=3D"javascrip=
+t:parent.print()" >&gt;
+=09=09=09=09=09=09=09=09=09=09=09Print Itinerary</a>
+=09=09=09=09       =09=09=09=09</td>
+=09=09=09       =09=09=09</tr>
+=09=09=09       =09=09=09
+=09=09=09       =09=09=09<tr>
+=09=09=09=09=09=09=09=09<td class=3D"noWrap">
+=09=09=09=09=09=09=09=09=09=09=09=09  =09
+=09=09=09=09  =09=09=09=09=09 <!-- and SessionHelper.loggedInUserTravelling=
+ -->=20
+=09=09=09=09  =09=09=09=09=09=09<a href=3D"/ube/myitin.do" class=3D"hover m=
+l10" >&gt;
+=09=09=09=09  =09=09=09=09=09=09View itinerary</a>
+=09=09=09=09  =09=09=09=09=09
+=09=09=09=09  =09=09=09=09=09
+=09=09=09=09 =09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09       =09=09=09<tr>
+=09=09=09       =09=09=09=09=09<td class=3D"noWrap">
+=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"hover ml10" href=3D"http://=
+www.united.com/easycheckinonline" >&gt;
+=09=09=09=09=09=09=09=09=09=09=09=09EasyCheck-in Online</a>
+=09=09=09=09       =09=09=09=09</td>
+=09=09=09       =09=09=09</tr>=09=09=09=09=09=09
+=09=09=09=09=09=09</table> =20
+=09       =09=09=09      =09=09=09=09
+       =09=09=09=09</td>
+       =09=09=09</tr>
+       =09=09</table>=09
+ <DIV style=3D"clear:both; font-size:0px; line-height:0px; height:0px;"></D=
+IV>
+=20
+=20
+=09=09=09=09<!-- BookConfInfo -->
+=09=09=09=09<!-- Itinerary.jsp -->
+=09=09=09=09
+
+
+
+
+
+
+
+
+
+
+
+
+=09
+=09
+
+
+
+=09
+=09
+
+
+
+=09
+=09=09
+=09=09
+=09
+
+
+
+
+
+
+   =20
+   =20
+   =20
+       =20
+
+
+
+<!--
+name=09=3D Review Purchase & Confirm Itinerary
+wire=09=3D I30
+
+used=09=3D /review/_reviewBody.jsp
+=09=09=3D /booking/_booking.jsp=20
+
+link=09=3D=20
+-->
+
+
+
+
+<div id=3D"flightinfo-header" style=3D"font: 11px, sans-serif; color: #3333=
+33;width: 585;">
+
+
+
+
+
+<div id=3D"flightinfo" =09style=3D"padding-right:20px;">
+=09<div=20
+=09=09
+=09=09=09style=3D"float:left; font-size:16px; color:#999999; padding-left: =
+15px;"
+=09=09=09
+=09=09>
+=09=09Flight info
+=09</div>
+=09
+=09=09
+=09=09
+=09=09=09<div style=3D"width:570px; padding-left:14px; padding-top:3px; cle=
+ar:both; float:none; text-align:left;" >
+=09=09
+=09
+=09=09<table id=3D"flightTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"font-size: 11px; font-family: 'Arial';" >
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<td colspan=3D"5" style=3D"background: url(http://travel.uni=
+ted.com/ube/images/title_background.png); height:23px; padding-left:9px; fo=
+nt-weight:bold">
+=09=09=09=09=09=09<span>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09Sat,&nbsp;Aug&nbsp;28,&nbsp;2010San Francisco, CA (SFO=
+)  <img src=3Dhttp://travel.united.com/ube/images/arrow.png  width=3D12 > S=
+eattle, WA (SEA)=20
+=09=09=09=09=09=09</span>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr style=3D"font-weight:bold; height:20px">
+=09=09=09=09=09<td style=3D"width: 132px; padding-left:10px;" >Flight</td>
+=09=09=09=09=09<td style=3D"width: 124px;" >Depart</td>
+=09=09=09=09=09<td style=3D"width: 124px;" >Arrive</td>
+=09=09=09=09=09<td style=3D"width: 77px;" >Cabin</td>
+=09=09=09=09=09<td style=3D"width: 113px; text-align: right; padding-right:=
+ 10px;" >Seats</td>
+=09=09=09=09</tr>
+=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09<!-- ube:flightSegment begin -->
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09<tr style=3D"vertical-align: top;" >
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td style=3D"padding-left: 10px; padding-bottom:15px;"=
+ >
+=09=09=09=09=09=09=09=09=09 =09
+=09 =09=09=09=09=09=09=09<img width=3D"15" border=3D"0" src=3D"https://www.=
+united.com/ual/asset/UA_logo.gif"/>
+=09=09=09=09=09=09=09=09United 0064<br>
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09<span style=3D"border-bottom: 1px dotted black;">SF=
+O</span>
+=09=09=09=09=09=09=09=0906:20 AM
+<br/>
+=09=09=09=09=09=09=09=09<span style=3D"color:#999999;">Sat, Aug 28, 2010
+</span>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09<span style=3D"border-bottom: 1px dotted black;">SE=
+A</span>
+=09=09=09=09=09=09=09=0908:29 AM
+<br/>
+=09=09=09=09=09=09=09=09<span style=3D"color:#999999;">Sat, Aug 28, 2010
+</span>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09<td style=3D"padding-bottom:20px;" >
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09Economy (K)
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<!-- moved to equipment row -->
+=09=09=09=09=09=09=09 <!-- end of moved to equipment row -->
+=09=09=09=09=09=09=09<td style=3D"padding-right: 10px; text-align: right;">
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<span style=3D"font:11px/15px Arial, sans-serif;">2=
+9D</span>
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr><!-- end of segment row -->
+=09=09=09=09=09=09
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td colspan=3D"5" >
+=09=09=09=09=09=09=09=09<div style=3D"padding: 5px 15px 5px 0px; display: b=
+lock; text-align: right;">
+=09=09=09=09=09=09=09=09=09Equipment:
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09752
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09 <!-- eqp. chooose end -->=20
+=09=09=09=09=09=09=09=09=09&nbsp;|&nbsp;Duration:2h 9m &nbsp;|&nbsp;Non-sto=
+p&nbsp;|&nbsp;Fare code:
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09KAO7GS
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09<br/>
+=09=09=09=09=09=09=09=09=09Traveled miles:678&nbsp;|&nbsp;
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09Award miles:678&nbsp;|
+=09=09=09    =09=09=09=09=09
+=09=09=09=09=09=09=09=09=09&nbsp;No Meal Service
+=09=09=09=09=09=09=09=09</div><br>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09
+=09=09=09=09
+
+=09=09=09
+
+=09=09</table>
+=09</div>
+</div>
+
+
+
+<div class=3D"disc">
+=09
+=09
+=09
+=09
+=09=09
+=09
+=09
+=09<div style=3D"width:511px;  padding-left: 20px;">
+=09=09
+=09=09=09<b style=3D"font:11px/15px Arial, sans-serif;font-weight:bold">Che=
+ck-in information</b><br>
+=09=09=09
+=09=09=09<br><span style=3D"font:11px/15px Arial, sans-serif;">Please note =
+that valid, government-issued photo identification must be presented at che=
+ck-in.</span>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+
+
+
+
+
+
+=09
+=09=09
+=09=09
+=09=09
+=09=09=09=09
+=09=09   =09
+=09
+=09=09=09
+=09=09=09
+=09=09
+=09=09
+=09</div>
+</div>
+
+</div>
+
+
+=09=09=09=09<!-- Itinerary.jsp -->
+=09=09=09=09
+
+
+
+
+
+
+=09=09
+=09=09
+=09=09
+
+
+
+
+   =20
+   =20
+       =20
+
+
+
+    =09
+=09   =20
+=09   =20
+    =09
+
+
+
+    =09
+=09   =20
+
+
+   =20
+   =20
+   =20
+       =20
+
+
+   =20
+   =20
+   =20
+       =20
+
+
+=09
+=09
+=09   =20
+
+
+=09
+=09
+
+
+
+=09=09<div style=3D"padding-left: 20px;padding-bottom: 10px;">
+=09=09=09<sp> </sp>
+=09=09</div>
+
+<div id=3D"FSNECONTAINER" class=3D"m115" >
+=09<br>
+=09<div style=3D"float: left; padding-left: 20px; font-size: 16px; color: #=
+999999;">Review</div>
+=09=09
+=09=09
+=09=09<div id=3D"_travelerReviewHTMLEmail"=20
+=09=09=09=09
+=09=09=09=09=09style=3D"width: 570px; padding-top: 3px; clear: both; float:=
+ none; text-align: left;  font-size: 11px; font-family: Arial; margin-left:=
+ 15px;"
+=09=09=09=09=09
+=09=09=09=09
+=09=09=09>
+=09=09=09
+=09=09=09<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"f=
+ont-size: 11px; font-family: 'Arial';">
+=09=09=09=09<tr style=3D"font-weight: bold; height: 20px;">
+=09=09=09=09=09<td style=3D"background: padding-top:5px; padding-bottom:5px=
+; background:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif)=
+ repeat-x; border-bottom:1px solid #d4dceb; height: 23px; font-weight: bold=
+; width: 104px; padding-left: 10px; text-align: left;">
+=09=09=09=09=09=09Name
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"padding-top:5px; padding-bottom:5px; background=
+:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif) repeat-x; b=
+order-bottom:1px solid #d4dceb; font-weight: bold; width: 101px; text-align=
+: left;">
+=09=09=09=09=09=09Frequent flyer
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"padding-top:5px; padding-bottom:5px; background=
+:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif) repeat-x; b=
+order-bottom:1px solid #d4dceb; font-weight: bold; width: 80px; text-align:=
+ left;">
+=09=09=09=09=09=09Ticket
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"padding-top:5px; padding-bottom:5px; background=
+:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif) repeat-x; b=
+order-bottom:1px solid #d4dceb; font-weight: bold; width: 105px; text-align=
+: right;">
+=09=09=09=09=09=09Fare(s)
+=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09<td style=3D"padding-top:5px; padding-bottom:5px; background=
+:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif) repeat-x; b=
+order-bottom:1px solid #d4dceb; font-weight: bold; width: 97px; text-align:=
+ right;">
+=09=09=09=09=09=09Additional&nbsp;&nbsp;&nbsp;</br>taxes and fees
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"padding-top:5px; padding-bottom:5px; background=
+:url(http://travel.united.com/ube/images/grayTableHeaderBg.gif) repeat-x; b=
+order-bottom:1px solid #d4dceb; font-weight: bold; width: 83px; text-align:=
+ right; padding-right: 10px;">
+=09=09=09=09=09=09Fare subtotal(s)
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09<tr style=3D"height: 25px;">
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<td style=3D"padding-left: 10px; text-align: left;"=
+>
+=09=09=09=09=09=09=09=09=09MABEL YOSHIMOTO
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09<td style=3D"text-align: left;">03146432920</td>
+=09=09=09=09=09=09=09=09<td style=3D"text-align: left;">0162111942787</td>
+=09=09=09=09=09=09=09=09<td style=3D"text-align: right;">
+=09=09=09=09=09=09=09=09=0964.00USD
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<td style=3D"text-align: right;">
+=09=09=09=09=09=09=09=09=0910.70
+=09=09=09=09=09=09=09=09=09USD
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09<td style=3D"padding-right: 10px; text-align: right=
+;">
+=09=09=09=09=09=09=09=09=0974.70
+=09=09=09=09=09=09=09=09=09USD
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09</tr>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding-left: 10px;" colspan=3D"6">
+=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"font-size: 11px; font-family: 'Arial';">
+=09=09=09=09=09=09=09=09=20
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td width=3D"25" valign=3D"top" style=3D"padd=
+ing-top: 2px;">
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.united.com/u=
+al/asset/white-tick-mark.gif" alt=3D"Complete">
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09<td valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09Secure Flight data complete
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://www.united.com/pag=
+e/genericpage/0,,52172,00.html?navSource=3DDropdown07&linkTitle=3Ditinerari=
+es">Review</a>
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09
+=09=09=09=09
+=09=09=09</table>
+=09=09=09<div style=3D"border-top:1px solid #d4dceb; height: 1px; padding-b=
+ottom: 3px;" colspan=3D"6"></div>
+=09=09=09
+=09=09=09=09<div style=3D"float: left; color: #999999; padding-left: 10px;"=
+>
+=09=09=09=09=09Please review the <a href=3D"javascript:showFareRules()">far=
+e rules</a> for this itinerary.
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09=09=09<div style=3D"padding-right: 10px; text-align: right; ">
+=09=09=09=09=09Fare total:
+=09=09=09=09=0974.70
+=09=09=09=09=09USD
+=09=09=09=09</div>
+=09=09=09=09<div style=3D"clear:both;"></div>
+=09=09=09
+=09=09</div>
+=09
+</div><!--outer box-->
+<br>
+=09=09=09=09<!-- passenger details end here. -->
+=09=09=09=09<!-- PURCHASE SUMMARY -->
+=09=09=09=09
+
+
+
+
+=20
+
+
+
+
+
+    =09=09    =09   =20
+    =09
+
+
+=09
+=09
+=09   =20
+
+
+
+
+
+
+
+
+<script language=3D"JavaScript" type=3D"text/javascript">=20
+=09function getMyEReceipt(bookingRefId,PNRIndex)
+=09 {    =09
+=09 =09var url =3D "https://" + "travel.united.com" + "/ube/myEreceipt.do?b=
+ookingRefId=3D"+bookingRefId;
+=09=09dialogWindow =3D window.open( url);               =20
+=09 }
+=09var vs_R40_Product_Price_Array =3D new Array();
+=09var vs_R40_Booking_Conf_Currency;
+=09var s40_vs_fix_switch =3D "Confirmation";
+=09var productPriceIndex =3D 0;
+=09document.write('<scr'+'ipt type=3D"text/javascript" src=3D"/ube/js/fix38=
+_vsUpdates_in_40.js"><\/scr'+'ipt>');
+</script>
+
+
+
+=09
+
+
+
+
+=09
+=09=20
+
+
+
+=09
+=09=09
+=09=09=09
+=09=09
+=09=09
+=09
+
+
+=20
+
+
+=09
+=09=09
+=09=09=09
+=09=09
+=09=09
+=09
+
+
+
+=09
+=09
+=09=09=09
+=09=09=09=09=09
+=09
+=09
+=09
+
+=09
+
+<div id=3D"travelOption"=20
+  =20
+=09=09
+=09=09=09style=3D"margin-left:15px; width: 570px;"
+=09=09
+=09=09=09
+=09=20
+=09>
+
+<div style=3D"float: left; padding-left: 5px; padding-top: 20px; font-size:=
+ 16px; color: rgb(153, 153, 153);" >
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09Purchase summary
+
+
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09=09
+=09=09=09
+=09=09
+=09=09
+=09=09=09
+=09=09=09=09<div style=3D"float: right; color: rgb(153, 153, 153); padding-=
+top: 20px; ">
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09</div>
+
+
+<div style=3D"clear: both; "></div>
+
+<div class=3D'tablebox' >
+
+
+=20
+=09
+=09=20
+=09=09=09=09
+=09
+
+
+<table width=3D'100%' cellspacing=3D"0" cellpadding=3D"0" border=3D"0" id=
+=3D"table4"
+=09style=3D"font-family: 'Arial'; font-size: 11px;"  >
+=09
+=09
+
+=09<tr style=3D"font-weight: bold;">
+=09=09<td class=3D"tableHeader" style=3D"background: url(http://travel.unit=
+ed.com/ube/images/title_background.png); height: 23px; font-weight: bold; w=
+idth: 164px; padding-left: 10px;">
+=09=09=09Product</td>
+=09=09<td class=3D"tableHeader" style=3D"background: url(http://travel.unit=
+ed.com/ube/images/title_background.png); height: 23px; font-weight: bold;  =
+width: 193px; text-align: left;">
+=09=09=09
+=09=09=09=09
+=09=09=09=09
+=09=09=09=09=09Credit card:
+=09=09=09=09
+=09=09=09
+=09=09</td>
+=09=09<td class=3D"tableHeader" style=3D"background: url(http://travel.unit=
+ed.com/ube/images/title_background.png); height: 23px; font-weight: bold;  =
+width: 103px; text-align: left;">
+=09=09=09Receipt</td>
+=09=09<td class=3D"tableHeader" style=3D"background: url(http://travel.unit=
+ed.com/ube/images/title_background.png); height: 23px; font-weight: bold;  =
+width: 110px; text-align: right; padding-right: 15px;">
+=09=09=09Price</td>
+=09</tr>
+=09
+=20
+=09=20
+=09=09
+=09=09=09<tr id=3D"_var_tktPrice" style=3D"height: 25px;" >
+=09=09=09
+=09=09=09=09
+=09         =09  =09<td style=3D"text-align: left; padding-left: 10px;" >
+=09         =09  =09=09Ticket price
+=09         =09  =09</td>
+=09        =09 =20
+=09        =09=20
+=09       =20
+=09       =20
+=09=09=09<!-- end -->
+=09 =09=09=09
+=09          =09
+=09              =09<td>
+=09                    =09=09American Express=20
+=09                    =09=09xxxxxxxxxx5018
+=09                  </td>
+=09               =09<td >
+=09               =09 =09=09K31F3O
+=09               =09</td>
+=09=09=09=09
+=09                  =09
+=09=09=09=09=20
+=09       =09=09<td style=3D"text-align: right; padding-right: 15px; font-w=
+eight: normal">
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09                    =0974.70&nbsp;
+=09=09=09=09=09=09=20
+=09=09=09=09=09
+=09                USD
+=09        =09</td>
+=09   =09=09</tr>=09=09
+=09=09=09<!-- for TI outside travel options -->=09=09=09
+=09=09=09
+=09=09=09=09
+=09=09=09
+=09=09=09=09
+=09=09
+</table>
+=09
+=09=09<div style=3D"border-top:1px solid #d4dceb; padding-bottom: 3px;"></d=
+iv>
+=09
+=09<div style=3D"clear: both; font-size: 0px; line-height: 0px; height: 0px=
+;"></div>
+=09
+=09=09<div class=3D"grayHr pb50 tar pr15 itinerarytotal"  style=3D"text-ali=
+gn: right; padding-right: 10px;">
+=09=09=09
+=09=09=09=09
+=09=09=09=09
+=09=09=09=09=09Ticket total:&nbsp;74.70&nbsp;USD
+=09=09=09=09
+=09=09=09
+=09=09</div>
+=09
+</div>
+<script>
+=09vs_R40_Booking_Conf_Currency =3D 'USD';
+</script>
+=09=09<div class=3D"grandtotalBorder"
+=09=09 style=3D"border-top: 1px solid #d4dceb; margin-top: 50px;">
+=09=09=09
+=09=09=09=09<DIV=20
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09style=3D"float: left; font-size: 14px; font-weight: bo=
+ld; padding-left: 10px;"
+=09=09=09=09=09=09
+=09=09     =09=09=09
+=09=09     =09=09
+=09=09=09=09>=20
+=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09Itinerary total:
+=09=09=09=09=09
+=09=09=09=09=20
+=09=09=09=09</DIV>
+=09=09=09
+=09=09=09<DIV=20
+=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09style=3D"float: right; font-size: 14px; font-weight: bold=
+; padding-right: 10px;"
+=09=09=09=09=09
+=09     =09=09=09
+=09     =09=09>
+=09=09=09
+=09=09=09=09
+=09=09=09=09=09Grand total:=20
+=09=09=09=09
+=09=09=09=09
+=09=09=09 =09=20
+=09=09=09
+     =09=09=09
+     =09=09=09
+     =09=09=09=09=0974.70&nbsp;
+     =09=09=09=09=09USD
+     =09=09=09
+     =09=09
+=09=09</DIV>
+=09=09<div style=3D"clear: both; font-size: 0px; line-height: 0px; height: =
+0px;"></div>
+=09 </div>
+  </div> <!-- travelOption div ended -->
+  <div style=3D"clear: both; height: 2px;">&nbsp;</div>
+ <!-- is enhancements valid? true  -->
+
+
+
+
+=09=09=09=09<!-- PAYMENT DETAILS -->
+=09=09=09=09
+=09=09=09=09=09
+
+
+
+
+
+
+
+
+
+
+<!-- emailMode: true -->=09=09
+<div id=3D"billing"=20
+=09
+=09
+=09=09style=3D"margin-left: 10px; padding-top: 25px; clear: both; float: no=
+ne; text-align: left; font-size: 16px; font-family: 'Arial'; width: 570px;"
+=09=09 =20
+=09
+=09 =09
+ >
+  =20
+   =09
+=09
+=09
+=09=09
+=09=09
+=09=09=09<div style=3D"padding-left:10px; font-size:16px; color:#999999;">
+=09=09=09=09Billing / Delivery information
+=09=09=09</div>
+=09=09
+=09=09
+=09=09
+=09  =09=09<div class=3D"pt8 pb8" style=3D"border-top:1px solid #D4DCEB; bo=
+rder-bottom:1px solid #D4DCEB;">
+=09  =09=09=09<div=20
+=09=09=09=09  =09
+=09=09=09=09=09
+=09=09=09=09=09=09style=3D"padding-left: 10px; font-size: 11px;"
+=09=09=09=09=09=09 =20
+=09=09=09=09=09
+=09=09=09=09  =09
+=09  =09=09=09>=09=09
+=09=09=09=09=09ELSA P YOSHIMOTO<br>
+=09=09=09=09=09184 IRONWOOD DR
+MARTINEZ CA 94553
+USA
+
+=09=09=09=09=09
+=09=09=09=09</div>
+=09=09=09</div>
+       =20
+ =20
+</div>
+
+
+
+=09=09=09=09
+=09=09=09=09<!--  hotels start here. -->
+=09=09=09=09
+
+
+
+
+=09
+   =20
+   =20
+=09
+
+
+=09
+   =20
+   =20
+=09
+
+
+<DIV id=3D"Ads" class=3D"pl10" style=3D"margin-left: 15px;" >
+=09  =09
+=09=09
+=09=09=09<DIV style=3D"clear:both; font-size:0px; line-height:0px; height:0=
+px;padding-top:30px"></DIV>=09=09=09
+=09=09=09<DIV style=3D"background: url(http://travel.united.com/ube/images/=
+Ads_title1.png) top left no-repeat; height:38px; width:573px">
+=09=09=09<div style=3D"padding-top:10px; padding-left:10px; text-align:left=
+; font-size:16px;  font-weight:bold; color:#666666;">
+=09=09=09=09Book your hotel</div>
+=09=09=09</DIV>
+=09=09=09 =20
+=09=09
+=09  =09
+
+=09=09<DIV=20
+=09=09  =09
+=09=09=09
+=09=09=09=09style=3D"width:570px; padding-left:14px; padding-top:3px; clear=
+:both; float:none; text-align:left;"
+=09=09=09=09 =20
+=09=09=09
+=09=09  =09
+=09=09>
+=09=09<TABLE cellSpacing=3D"0" cellPadding=3D"0" border=3D"0">
+        <TBODY>
+               =20
+       =20
+=09       =20
+=09        =09
+=09=09=09=09  =09
+=09=09=09=09=09=09
+=09=09=09            <TR style=3D"font-weight:bold; height:20px; font-size:=
+ 11px;">
+=09=09=09=09=09=09=09<TD style=3D"width:92px; padding-left:5px;">Location</=
+TD>
+=09=09=09=09=09=09=09<TD style=3D"width:94px;">Dates of stay</TD>
+=09=09=09=09=09=09=09<TD style=3D"width:114px;">Hotel</TD>
+=09=09=09=09=09=09=09<TD style=3D"width:97px; text-align:cente">Rating</TD>
+=09=09=09=09=09=09=09<TD style=3D"width:173px; padding-left:10px;">Price</T=
+D>
+=09=09=09=09=09=09</TR>
+=09=09=09=09=09=09=09 =20
+=09=09=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09
+=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09=09
+=09=09=09=09=09=09<TR style=3D"height:20px; font-size: 11px;">
+=09=09=09                <TD style=3D"padding-left:5px;">Seattle</TD>
+=09=09=09                <TD style=3D"">08/28-08/29</TD>
+=09=09=09=09=09=09=09<TD style=3D"font-weight:bold">The Belltown Inn</TD>
+=09=09=09=09=09=09=09<TD style=3D"text-align:center">
+=09=09=09=09=09=09=09=09<img src=3D'https://united.wwte1.com/eta/hotstar2.0=
+.gif' alt=3D"">
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</TD>
+=09=09=09=09=09=09=09<TD style=3D"padding-right:10px;"><div>As low as USD10=
+6.63 per night<br>
+=09=09=09=09=09=09=09<div style=3D"text-align:right; padding-top:5px; paddi=
+ng-right:20px;"><a href=3D"http://united.wwte1.com/pubspec/scripts/eap.asp?=
+eapid=3D11378-30001&amp;Lang=3D1033&amp;OVRD=3D3&amp;hotelid=3D2330513&amp;=
+rfrr=3D-6477&amp;GOTO=3DHOTDETAILS&amp;indate=3D08/28&amp;outdate=3D08/29" =
+target=3D"_blank">
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.united.com/ual/asset/=
+btn_BookNow.png" alt=3D"Book Now" width=3D"89" height=3D"18" />
+=09=09=09=09=09=09=09=09=09 =20
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09</a></div></div></TD>
+=09=09=09=09=09=09</TR>
+=09=09=09=09=09=09 =20
+=09=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09=09
+=09=09=09=09=09=09<TR style=3D"height:20px; font-size: 11px;">
+=09=09=09                <TD style=3D"padding-left:5px;">Seattle</TD>
+=09=09=09                <TD style=3D"">08/28-08/29</TD>
+=09=09=09=09=09=09=09<TD style=3D"font-weight:bold">Mediterranean Inn</TD>
+=09=09=09=09=09=09=09<TD style=3D"text-align:center">
+=09=09=09=09=09=09=09=09<img src=3D'https://united.wwte1.com/eta/hotstar2.5=
+.gif' alt=3D"">
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</TD>
+=09=09=09=09=09=09=09<TD style=3D"padding-right:10px;"><div>As low as USD12=
+1.75 per night<br>
+=09=09=09=09=09=09=09<div style=3D"text-align:right; padding-top:5px; paddi=
+ng-right:20px;"><a href=3D"http://united.wwte1.com/pubspec/scripts/eap.asp?=
+eapid=3D11378-30001&amp;Lang=3D1033&amp;OVRD=3D3&amp;hotelid=3D897598&amp;r=
+frr=3D-6477&amp;GOTO=3DHOTDETAILS&amp;indate=3D08/28&amp;outdate=3D08/29" t=
+arget=3D"_blank">
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.united.com/ual/asset/=
+btn_BookNow.png" alt=3D"Book Now" width=3D"89" height=3D"18" />
+=09=09=09=09=09=09=09=09=09 =20
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09</a></div></div></TD>
+=09=09=09=09=09=09</TR>
+=09=09=09=09=09=09 =20
+=09=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09=09
+=09=09=09=09=09=09<TR style=3D"height:20px; font-size: 11px;">
+=09=09=09                <TD style=3D"padding-left:5px;">Seattle</TD>
+=09=09=09                <TD style=3D"">08/28-08/29</TD>
+=09=09=09=09=09=09=09<TD style=3D"font-weight:bold">W Seattle</TD>
+=09=09=09=09=09=09=09<TD style=3D"text-align:center">
+=09=09=09=09=09=09=09=09<img src=3D'https://united.wwte1.com/eta/hotstar4.0=
+.gif' alt=3D"">
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</TD>
+=09=09=09=09=09=09=09<TD style=3D"padding-right:10px;"><div>As low as USD17=
+9.00 per night<br>
+=09=09=09=09=09=09=09<div style=3D"text-align:right; padding-top:5px; paddi=
+ng-right:20px;"><a href=3D"http://united.wwte1.com/pubspec/scripts/eap.asp?=
+eapid=3D11378-30001&amp;Lang=3D1033&amp;OVRD=3D3&amp;hotelid=3D284304&amp;r=
+frr=3D-6477&amp;GOTO=3DHOTDETAILS&amp;indate=3D08/28&amp;outdate=3D08/29" t=
+arget=3D"_blank">
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.united.com/ual/asset/=
+btn_BookNow.png" alt=3D"Book Now" width=3D"89" height=3D"18" />
+=09=09=09=09=09=09=09=09=09 =20
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09  =09
+=09=09=09=09=09=09=09</a></div></div></TD>
+=09=09=09=09=09=09</TR>
+=09=09=09=09=09=09 =20
+=09=09=09=09=09
+=09=09=09=09  =09
+=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=20
+=09=09
+=09=09
+=09=09=09=20
+=09=09</TBODY>
+=09=09</TABLE>=09=09
+=09=09</DIV>
+
+=09  =09
+=09=09
+=09=09=09<div style=3D"background-image: url(http://travel.united.com/ube/i=
+mages/Ads_title2.png); height: 25px; width: 572px;">
+=09=09=09=09<div style=3D"padding-top: 5px; padding-left: 10px; text-align:=
+ left;">
+=09=09=09=09<a href=3D"javascript:void(0)">More hotels</a></div>
+=09=09=09</div>
+=09=09=09 =20
+=09=09
+=09=09=09=09=09
+=09=09
+=09  =09
+=09=09
+=09=09=09<DIV style=3D"padding-top:20px"></DIV>
+=09=09=09<!--  cars from here - start -->
+=09=09=09<!-- BEGING HERTZ + HILTON EMAIL CONTENT -->
+<div class=3D"Ads_title1"><div class=3D"pt10 pl10 tal"><h4>Reserve your car=
+ with the United discount</h4></div></div>
+<table>
+=09<tr>
+=09=09<td align=3D"left" valign=3D"middle"><div class=3D"floatLeft pt5 tac =
+image_place"><img src=3D"https://www.united.com/ual/asset/new_hertz_ad_118x=
+46.jpg" /></div></td>
+=09=09<td align=3D"left" valign=3D"top">
+=09=09=09<div class=3D"floatLeft pt5 tal" style=3D"padding-left: 8px;">
+=09=09=09=09=09<li style=3D"list-style-type: none;">&#8226; Save up to 20% =
+with the United discount and earn double miles</li>
+=09=09=09=09=09<li style=3D"list-style-type: none;">&#8226; Additional savi=
+ngs on the weekends and rentals of 5 or more days</li>
+=09=09=09=09=09<li style=3D"list-style-type: none;">&#8226; Plus, earn a <s=
+trong>1,000 mile</strong> booking bonus <a href=3D"http://www.hertzft.com/u=
+nited/conf/?utm_source=3Dconfirmation&utm_medium=3Demail&utm_campaign=3Dcon=
+f&navSource=3DUnited+US-Confirmation&navSource=3DHertz+Ad">Reserve now</a><=
+/li>
+=09=09=09</div>
+=09=09</td>
+=09</tr>
+</table>
+<div class=3D"clear pt5"></div>
+<!-- END HERTZ + HILTON EMAIL CONTENT -->
+=09=09=09<DIV style=3D"padding-top:20px"></DIV>
+=09=09=09<!--  cars from here - end -->
+=09=09=09<!--  Enahnce your travel experience  - start-->
+=09=09=09<!--  TM - SURVEY           -->
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.united.com/u=
+al/asset/surveyprintstyle.css" media=3D"print">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.united.com/u=
+al/asset/surveyscreenstyle.css" media=3D"screen">
+
+<div id=3D"popupbox">=20
+</div>
+
+<SCRIPT LANGUAGE=3D"JavaScript" SRC=3D"https://www.united.com/ual/asset/sur=
+veycontrollerforhttps.js"></SCRIPT>=20
+<script>
+var webAnalyticsPageTitle1 =3D document.title;//stay clear of webanalytics =
+page title variable
+
+surveycontrollerforhttps();
+</script>
+<!--  TM - END SURVEY           -->
+
+<!-- BEGIN SLOGANS -->
+<br/>
+<div class=3D"fN">
+<h2>Enhance your travel experience</h2>
+</div>
+<table class=3D"det" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr class=3D"hdr"><td class=3D"one" style=3D"padding-bottom: 10px;"><img he=
+ight=3D"16" alt=3D"" src=3D"images/d.gif" width=3D"1" /></td>
+<td style=3D"padding-bottom: 10px;"> </td>
+</tr>
+<tr class=3D"odd">
+<td align=3D"center" class=3D"one" style=3D"padding-bottom: 10px;"><img alt=
+=3D"United Mileage Plus Visa" src=3D"https://www.united.com/ual/asset/MP_vi=
+sa_75x50.jpg"></td>
+<td valign=3D"middle" style=3D"padding-bottom: 10px;"><b>United Mileage Plu=
+s<font size=3D"1"><sup>&#174;</sup></font> Visa</b><br>
+  Earn 30,000 miles, and 1 mile per eligible $1. Redeem with no blackouts. =
+<a href=3D"http://www.mpfamilyofcards.com/signature/?CELL=3D6YH6&linkTitle=
+=3DVisa_30k_BConfirmEmail_1003">Apply now.</a>
+
+
+<script language=3D"JavaScript" type=3D"text/javascript">
+document.write('</td></tr>');
+function runCACode() {
+=09if (typeof AdBkCode=3D=3D'object') {
+=09//check country
+=09=09document.write('<scr'+'ipt type=3D"text/javascript" src=3D"https://ww=
+w.united.com/ual/asset/commonsetgetdelCookies.js"><\/scr'+'ipt>');=20
+=09 =09var testCnt =3D getCookie('UALLocaleCookie'); =20
+ =09=09var testCntSet =3D new Array();=20
+=09=09try {
+ =09=09=09testCntSet =3D testCnt.split('/');
+ =09=09}
+ =09=09catch (e){
+ =09=09=09testCnt =3D 'en/us';
+ =09=09=09testCntSet =3D testCnt.split('/');
+ =09=09}
+  =09=09if (testCntSet[1] =3D=3D 'us') {
+  =09=09=09//us test=09=09
+=09=09=09chkCADest(1);
+=09=09}=09=09=09
+=09}
+}
+
+function chkCADest(chkUS) {
+// check book code
+=09testBkVal=3Dfalse;
+=09
+//check us ipos
+=09=09if (chkUS=3D=3D1) {
+=09=09=09chkDestCode =3D new Array('LHR','NRT','CDG','FRA','MEX','CUN','LGW=
+','ICN','AMS','NAS','TPE','GDL','MBJ','SJD','HKG','KIX','SDQ','PVR','FCO','=
+TLV','SJO','MAN','GRU','SAL','DUB','MAD','MUC','MNL','PEK','ZRH','MXP','PUJ=
+','AUA','NGO','GUA','STI','SYD','PTY','EZE','KIN','LIM','PVG','SIN','BOG','=
+CCS','SNN','CPH','MTY','AKL','BDA','SXM','BRU','BOM','GCM','PAP','SCL','POS=
+','DUS','DEL','BKK','BJX','SVO','ATH','ARN','GIG','KEF','BCN','MGA','GYE','=
+WAW','VIE','DXB','BGI','FPO','PLS','IST','MZT','BZE','JNB','VCE','UIO','SAP=
+','TXL','LIS','PPT','MEL','GVA','MLM','LIR','GLA','MDE','EDI','PRG','CLO','=
+ACA','BUD','ZIH','CAI','AMM','SGN','TGU','EIS','HEL','ANU','POP','KWI','CAN=
+','STR','CZM','NCE','BNE','KBP','HAM','KUL','UVF','NAN','FUK','OSL','CUR','=
+GEO','BHX','MAR','CMN','MHH','SKB','HYD','OKA','AGU','MAA','KRK','BFS','BLR=
+','BAQ','MID','KHI','ZCL','SLU','BRS','VLN','NBO','MVD','LRM','OTP','LOS','=
+STN','FLR','APW','CGN','GOT','HMO');
+=09=09=09testDestVal=3Dfalse;
+=09=09=09for (j=3D0; j<chkDestCode.length;j++) {
+=09=09=09=09if (chkDestCode[j] =3D=3D destCode) {
+=09=09=09=09=09testDestVal=3Dtrue;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09adC=3D"<tr class=3D'odd'>";
+=09=09adC=3DadC+"<td align=3D'center' class=3D'one' style=3D'padding-bottom=
+: 10px;'><img alt=3D'Purchase Foreign Currency' src=3D'"+sHeader+"://www.un=
+ited.com/ual/asset/currencyAd.gif'><\/td>";
+=09=09adC=3DadC+"<td valign=3D'middle' style=3D'padding-bottom: 10px;'>Buy =
+foreign currency hassle free - great prices, without commissions, and deliv=
+ered to your door.<br><a href=3D'https://www.ezforex.com/login.asp?Affiliat=
+e=3D2851&WebUser=3D11905&navSource=3Dconfpage&linkTitle=3Dcurrency"+destCod=
+e+"'>Buy now<\/a>.<\/td>";
+=09=09adC=3DadC+"<\/tr>";
+
+=09=09if (testDestVal =3D=3D true) { =09=09
+=09=09=09document.write(adC);
+=09=09}=09=09=09
+=09}
+}
+runCACode();
+</script>
+<tr class=3D"odd">
+<td align=3D"center" class=3D"one" style=3D"padding-bottom: 10px;"><img alt=
+=3D"Access America" src=3D"https://www.united.com/ual/asset/accessamerica.G=
+IF"></td>
+<td style=3D"padding-bottom: 10px;">Protect your travel plans with <b>Trip =
+Protector</b> offered by United with Access America. <a href=3D"http://www.=
+united.com/travelinsurance">Learn more.</a></td>
+</tr>
+<tr class=3D"odd">
+<td align=3D"center" class=3D"one" style=3D"padding-bottom: 10px;"><img alt=
+=3D"United Easycheckin" src=3D"https://www.united.com/ual/asset/easycheckin=
+.GIF"></td>
+<td style=3D"padding-bottom: 10px;">Save time with EasyCheck-in Online. <a =
+href=3D"http://www.united.com/easycheckin">Find out more.</a></td>
+</tr>
+<tr class=3D"odd">
+<td align=3D"center" class=3D"one" style=3D"padding-bottom: 10px;"><img alt=
+=3D"Mileage Plus Dining" src=3D"https://www.united.com/ual/asset/mpdining.G=
+IF"></td>
+<td style=3D"padding-bottom: 10px;">Dining opportunities to earn miles. <a =
+href=3D"http://mpdining.rewardsnetwork.com/bonus.htm?id=3DU847&detail=3Dy&c=
+m_mmc=3DUA-_-email-_-external-_-confirmation.emails.2.1.2010&linkTitle=3DDE=
+_MPDining_BConfirmEmail_1003">Sign up now</a>.</td>
+</tr>
+</tbody>
+</table>
+<div class=3D"foot"><img height=3D"7" alt=3D"" src=3D"images/d.gif" width=
+=3D"1" border=3D"0"></div>
+=09=09=09<!--  Enahnce your travel experience  - end-->
+=09=09=09<DIV style=3D"clear:both; font-size:0px; line-height:0px; height:0=
+px"></DIV>
+=09=09=09 =20
+=09=09
+=09  =09
+=09=09<!-- content keys end -->
+=09=09
+=09</DIV>
+<!-- hotel links end -->=09
+
+=09=09=09=09<!--  hotels ends here. -->
+=09=09=09=09<!--  Book Hold Instructions start here. -->
+=09=09=09=09
+
+=09  =20
+
+=09
+
+
+
+<!--DYNAMIC MESSAGE-->
+
+
+
+
+
+=20
+=09<div style=3D"margin-bottom: 10px;padding: 5px 10px 0px 10px;background:=
+#FFFFFF;"><BR></div>
+
+
+
+<div style=3D"height: 20px;">
+<a target=3D"_top" href=3D"http://www.united.com" title=3D"United">
+<img width=3D"144" height=3D"15" border=3D"0" alt=3D"United Airlines" src=
+=3D"http://www.united.com/ual/asset/us-ualogo2.gif"/></a>
+</div>
+<!--  TM - SURVEY           -->
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.united.com/u=
+al/asset/surveyprintstyle.css" media=3D"print">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.united.com/u=
+al/asset/surveyscreenstyle.css" media=3D"screen">
+
+<div id=3D"popupbox">=20
+</div>
+
+<SCRIPT LANGUAGE=3D"JavaScript" SRC=3D"https://www.united.com/ual/asset/sur=
+veycontrollerforhttps.js"></SCRIPT>=20
+<script>
+var webAnalyticsPageTitle1 =3D document.title;//stay clear of webanalytics =
+page title variable
+
+surveycontrollerforhttps();
+</script>
+<!--  TM - END SURVEY           -->
+
+<!-- BEGIN SLOGANS -->
+
+<br/>
+<div class=3D"fN"><img alt=3D"united.com" src=3D"https://www.united.com/ual=
+/asset/unitedlogo.GIF" />=20
+
+<p>Thank you for booking at united.com where you'll always enjoy:</p>
+
+<ul>
+<li>United's guaranteed lowest fares <a href=3D"http://www.united.com/lowfa=
+re" target=3D"_blank">Learn more</a></li>
+
+<li>No booking fees</li>
+
+
+</ul>
+</div>
+<br>
+=09=09
+=09=09
+<div class=3D"w">
+<div class=3D"ml15 _fH" style=3D"width:511px;font:11px/15px Arial, sans-ser=
+if;margin-bottom: 5px;padding: 10px 10px 5px 10px;">
+<BR><br>
+<div style=3D"font-family: Arial, Helvatica; font-size: 10px; color #000000=
+; padding: 0px 2px 4px 4px; width: 490px;">
+=09Airline tickets are nontransferable.
+=09The name on your ticket must match the name on your government-issued ph=
+oto ID presented at time of check-in.
+=09<span style=3D"color: #cc0000;">You may also be asked during check-in to=
+ present the credit card used for purchase.</span>
+=09<br/><br/>
+=09Passengers traveling on United Airlines (UA) carriers are subject to Uni=
+ted's=20
+=09<a href=3D"http://www.united.com/page/article/0,6722,2743,00.html">contr=
+act of carriage</a>,
+=09which is available for download at united.com.
+=09The contract of carriage governs matters such as:
+=09<ul style=3D"list-style-position: outside; list-style-image: url('https:=
+//www.united.com/ual/asset/list_marker_4px.gif');">
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6722,2131,00.html"=
+>Check-in requirements</a> for domestic and international travel,
+=09=09=09including information about when service may be refused;
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6867,2671,00.html#=
+limitsOnLiability">Limits on liability</a> for delay, damage or loss of bag=
+gage,
+=09=09=09including fragile or perishable goods;
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6867,2671,00.html#=
+claimsRestrictions">Claims restrictions</a>, including time periods within =
+which
+=09=09=09a passenger must file a claim or bring an action against the UA Ca=
+rrier;
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6867,2671,00.html#=
+uaCarriersRights">The UA Carriers' rights and limits on liability for delay=
+ or failure to perform service</a>,
+=09=09=09including schedule changes, rerouting and substitution of alternat=
+e air carrer, aircraft or mode of travel;
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6867,2671,00.html#=
+overbookingOfFlights">Rules on overbooking and reconfirmation of reservatio=
+ns; and</a>
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; padding-bottom: 1px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6867,2671,00.html#=
+baggageInformation">Baggage policies, including carry-on allowances and siz=
+e and weight restrictions for checked bags.</a>
+=09=09</li>
+<li style=3D"padding-left: 10px; padding-bottom: 1px;"><a href=3D"http://ww=
+w.united.com/contactcustomerrelations">Contact United customer relations</a=
+> to provide comments or file a complaint about United's scheduled flight s=
+ervice.</li>
+=09</ul>
+=09<ul style=3D"list-style-position: outside; list-style-image: url('https:=
+//www.united.com/ual/asset/list_marker_square_4px.gif'); position: relative=
+; left: -28px;">
+=09=09<li>Ticket rules:
+=09=09=09Ticket validity is based on fare and point of origin. Refundable t=
+ickets are valid for one year from date of issue. Nonrefundable tickets are=
+ valid as issued and, for travel originating in the U.S., will lose remaini=
+ng value if changes are not made prior to your originally scheduled departu=
+re time on your current ticketed travel dates. Certain fees/charges may als=
+o apply.=20
+=09=09</li>
+=09=09<br/>
+=09=09<li>International travel:
+=09=09=09Be sure to bring a copy of your E-Ticket receipt to the airport, a=
+long with your passport and any other required travel documents. Internatio=
+nal travel information such as State Department advisories and visa informa=
+tion can be found through the united.com <a href=3D"http://www.united.com/p=
+age/article/0,6722,52070,00.html">Travel Requirements</a> page.
+=09=09</li>
+=09=09<br/>
+=09=09<li>Important travel tips:
+=09=09=09Please visit the <a href=3D"http://www.united.com/page/article/0,6=
+722,1821,00.html">Traveler Guide</a> page at united.com for updated baggage=
+ policies, information about online and airport check-in, security screenin=
+g procedures, flight status, airport maps, information for customers with s=
+pecial needs, in-flight movie schedules and more.=20
+=09=09</li>
+=09</ul>
+=09<div style=3D"border-top: 1px dashed #cccccc; width 580px; padding-botto=
+m: 8px;"></div>
+=09If you would like to <a href=3D"http://www.united.com/page/genericpage/0=
+,,52172,00.html">view or modify your itinerary</a>, please visit
+=09<a href=3D"http://www.united.com">united.com</a>, where you can also:
+=09<ul style=3D"position: relative; top: -8px; list-style-position: outside=
+; list-style-image: url('https://www.united.com/ual/asset/list_marker_4px.g=
+if');">
+=09=09<li style=3D"padding-left: 10px; position: relative; top: -3px;">acce=
+ss your <a href=3D"https://www.ua2go.com/ci/Login.jsp?return_to=3Dmpsummary=
+&country=3DUS">Mileage Plus=C2=AE account</a></li>
+=09=09<li style=3D"padding-left: 10px; position: relative; top: -3px;">chec=
+k <a href=3D"http://www.ua2go.com/flifo/FlightInput.do">flight status</a></=
+li>
+=09=09<li style=3D"padding-left: 10px; position: relative; top: -3px;">
+=09=09=09<a href=3D"http://www.united.com/page/article/0,6722,50446,00.html=
+">check in for your flight</a>
+=09=09=09(within 24 hours of departure)
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; position: relative; top: -3px;">
+=09=09=09<a href=3D"http://www.united.com/page/middlepage/1,,52070,00.html"=
+>view travel guidelines</a>
+=09=09</li>
+=09=09<li style=3D"padding-left: 10px; position: relative; top: -3px;">and =
+more</li>
+=09</ul>
+</div>
+<br><br>
+</div>
+</div>
+=09=09=09=09<!--  Book Hold Instructions ends here. -->
+=09=09=09</div>
+=09=09</body>
+=09</html>
+------=_Part_207248_6391100.1281510163047--
+
