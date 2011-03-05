@@ -3,8 +3,12 @@ class Trip < ActiveRecord::Base
   has_many :trip_users, :dependent => :destroy
   has_many :flights
 
+  def duration_in_days
+    duration_in_hours / 24
+  end
+
   def duration_in_hours
-    (end_date - start_date) / 3600
+    (end_date - start_date + 1.day) / 3600
   end
 
   def start_date_with_zone
