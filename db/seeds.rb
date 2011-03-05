@@ -6,12 +6,16 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
+TimeZone.destroy_all
+pst = TimeZone.create(:name => 'Pacific Time (US & Canada)')
+est = TimeZone.create(:name => 'Eastern Time (US & Canada)')
+
 Airport.destroy_all
-sfo = Airport.create(:airport_code => "SFO", :full_name => "San Francisco, CA")
-jfk = Airport.create(:airport_code => "JFK", :full_name => "New York, NY")
-lax = Airport.create(:airport_code => "LAX", :full_name => "Los Angeles, CA")
-sea = Airport.create(:airport_code => "SEA", :full_name => "Seattle, WA")
-lgb = Airport.create(:airport_code => "LGB", :full_name => "Long Beach, CA")
+sfo = Airport.create(:airport_code => "SFO", :full_name => "San Francisco, CA", :time_zone_id => pst.id)
+jfk = Airport.create(:airport_code => "JFK", :full_name => "New York, NY", :time_zone_id => est.id)
+lax = Airport.create(:airport_code => "LAX", :full_name => "Los Angeles, CA", :time_zone_id => pst.id)
+sea = Airport.create(:airport_code => "SEA", :full_name => "Seattle, WA", :time_zone_id => pst.id)
+lgb = Airport.create(:airport_code => "LGB", :full_name => "Long Beach, CA", :time_zone_id => pst.id)
 
 Carrier.destroy_all
 virgin = Carrier.create(:name => 'Virgin America')

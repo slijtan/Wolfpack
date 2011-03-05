@@ -1,0 +1,43 @@
+<% content_for :head do %>
+<style>
+	#itinerary-wrapper { width: 1000px; }
+	#trip-timeline,
+	.user-itinerary { height: 27px; position: relative; }
+	.dest-name,
+	.user-info { width: 150px; position: absolute; }
+	.timeline-header,
+	.user-timeline { left: 150px; position: absolute; width: 100%; }
+	.timeline-segment,
+	.flight-info { position: absolute; }
+	.timeline-segment { width: 100px; margin: 0 2px; }
+</style>
+<% end %>
+<% total_segments = num_trip_segments(@trip) %>
+<div id="itinerary-wrapper">
+	<div id="trip-timeline">
+		<% @destinations.each do |dest| %>
+		<div class="dest-name"><%= dest.carrier_flight.from.full_name %></div>
+		<div class="timeline-header">
+			<% (0..total_segments).each_with_index do |time_segment, index| %>
+				<div class="timeline-segment" style="left:<%= 3000 * (index)/total_segments %>px;">
+					<%= convert_index_to_time(@trip, index) %>
+				</div>
+			<% end %>
+		</div>
+		<% end %>
+	</div>
+	<% @trip.users.each do |user| %>
+		<div class="user-itinerary">
+			<div class="user-info">
+				<%= user.full_name %>
+			</div>
+			<div class="user-timeline">
+				<% user.flights.each do |flight| %>
+				<div class="flight-info" style="left:<%= flight_segment_starting_grid(flight) * 83.3333 %>px; width:<%= flight_segment_width(flight) * 83.3333 %>px; background-color: red;">
+					<%= flight.flight_duration %>
+				</div>
+				<% end %>
+			</div>
+		</div>
+	<% end %>
+</div>

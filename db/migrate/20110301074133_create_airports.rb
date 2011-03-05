@@ -3,6 +3,7 @@ class CreateAirports < ActiveRecord::Migration
     create_table :airports do |t|
       t.string :airport_code
       t.string :full_name
+      t.string :time_zone_id
     end
   end
 
