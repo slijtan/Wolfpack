@@ -8,7 +8,11 @@ class Trip < ActiveRecord::Base
   end
 
   def duration_in_hours
-    (end_date - start_date + 1.day) / 3600
+    duration_in_minutes / 60
+  end
+
+  def duration_in_minutes
+    (end_date - start_date + 1.day) / 60
   end
 
   def start_date_with_zone

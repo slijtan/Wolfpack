@@ -1,6 +1,5 @@
 <% content_for :head do %>
 <style>
-	#itinerary-wrapper { width: 1000px; }
 	#day-timeline,
 	#block-timeline,
 	.user-itinerary { height: 27px; position: relative; }
@@ -9,21 +8,19 @@
 	.user-info { width: 150px; position: absolute; }
 	.day-header,
 	.timeline-header,
-	.user-timeline { left: 150px; position: absolute; width: 100%; }
-	.day-segment { position: absolute; background-color: gray; width: 100px; }
-	.timeline-segment,
+	.user-timeline { left: 150px; position: absolute; right: 2px; }
+	.day-segment { position: absolute; background-color: gray; }
+	.timeline-segment { position: absolute; font-size: 8pt; }
 	.flight-info { position: absolute; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
-<% block_width_offset = 1000 / total_segments %>
-<% day_block_width = block_width_offset * num_segments_in_day %>
 <div id="itinerary-wrapper">
 	<div id="day-timeline">
 		<div class="day-offset"></div>
 		<div class="day-header">
 			<% (0..@trip.duration_in_days-1).each do |day_index| %>
-			<div class="day-segment" style="left:<%= day_block_width * day_index %>%; width: <%= day_block_width %>%">
+			<div class="day-segment" style="left:<%= 100 * day_index / (@trip.duration_in_days) %>%; width: <%= 100 / (@trip.duration_in_days) %>%">
 				<%= (@trip.start_date + day_index.day).strftime("%a - %m.%d") %>
 			</div>
 			<% end %>
@@ -34,7 +31,7 @@
 		<div class="dest-name"><%= dest.carrier_flight.from.full_name %></div>
 		<div class="timeline-header">
 			<% (0..total_segments).each_with_index do |time_segment, index| %>
-				<div class="timeline-segment" style="left:<%= block_width_offset * index %>%;">
+				<div class="timeline-segment" style="left:<%= (100 * index) / total_segments %>%;">
 					<%= convert_index_to_time(@trip, index) %>
 				</div>
 			<% end %>
@@ -48,7 +45,7 @@
 			</div>
 			<div class="user-timeline">
 				<% user.flights.each do |flight| %>
-				<div class="flight-info" style="left:<%= flight_segment_starting_grid(flight) * block_width_offset %>%; width:<%= flight_segment_width(flight) * block_width_offset %>%; background-color: red;">
+				<div class="flight-info" style="left:<%= 100 * flight.minutes_since_trip_start / @trip.duration_in_minutes %>%; width:<%= 100 * flight.flight_duration / @trip.duration_in_minutes %>%; background-color: red;">
 					<%= flight.flight_duration %>
 				</div>
 				<% end %>
