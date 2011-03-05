@@ -20,4 +20,4 @@ require File.join(SCRIPT_FOLDER, '../config/environment.rb')
 
 email_html = File.new(infile, "r")
 
-Flight.send("import_#{carrier}_email", email_html.read)
+p y Flight.send("import_#{carrier}_email", email_html.read)
