@@ -10,6 +10,6 @@ module TripsHelper
     time_segment = Time.use_zone(trip.start_time_zone) do
       (trip.start_date_with_zone + (index * NUM_HOURS_IN_SEGMENT).hours).strftime("%I%p")
     end
-    time_segment.starts_with?("0") ? time_segment[1..-1] : time_segment
+    time_segment.starts_with?("0") ? "<span style=\"visibility:hidden;\">0</span>".html_safe + time_segment[1..-1] : time_segment
   end
 end
