@@ -15,12 +15,10 @@
 	.day-segment { position: absolute; background-color: gray; text-align: center; }
 	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
-	.flight-info { position: absolute; top: 4px; }
-	.flight-info:hover .f-time { display: inline; }
-	.flight-duration { display: inline; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.d-time { position: absolute; left: -48px; }
-	.a-time { left: 40px; position: absolute; display: inline; }
-	.f-time { display: none; font-size: 8pt; top: 3px; padding: 0 4px; background-color: wheat; }
+	.flight-info { position: absolute; top: 4px; display: inline; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.d-time { margin-right: 5px; }
+	.a-time { margin-left: 5px; }
+	.f-time { display: none; position: absolute; font-size: 8pt; top: 7px; padding: 0 4px; background-color: wheat; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -63,15 +61,27 @@
 			</div>
 			<div class="user-timeline">
 				<% user.flights.each do |flight| %>
-				<div class="flight-info" style="left:<%= 100 * flight.minutes_since_trip_start / @trip.duration_in_minutes %>%; width: 10%;">
-					<span class="d-time f-time">7:35pm</span>
-					<div class="flight-duration" style="width:<%= 100 * flight.flight_duration / @trip.duration_in_minutes %>%; background-color: red;">
+					<% f_left = 100 * flight.minutes_since_trip_start / @trip.duration_in_minutes %>
+					<% f_width = 100 * flight.flight_duration / @trip.duration_in_minutes %>
+					<span class="d-time f-time" style="right: <%= 100 - f_left %>%"><%= flight.departure_time %></span>
+					<div class="flight-info" style="left:<%= f_left %>%; width:<%= f_width %>%; background-color: red;">
 						<%= flight.flight_duration %>
 					</div>
-					<span class="a-time f-time">3:44am</span>
-				</div>
+					<span class="a-time f-time" style="left: <%= f_left + f_width %>%"><%= flight.arrival_time %></span>
 				<% end %>
 			</div>
 		</div>
 	<% end %>
 </div>
+
+<% content_for :script do %>
+<script>
+	$('.flight-info').mouseover(function() {
+		$(this).prev().show();
+		$(this).next().show();
+	}).mouseout(function() {
+		$(this).prev().hide();
+		$(this).next().hide();
+	});
+</script>
+<% end %>
