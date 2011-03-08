@@ -39,7 +39,7 @@ mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email =>
 lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com")
 
 Trip.destroy_all
-new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2010, 12, 7), :end_date => Date.new(2010, 12 ,13))
+new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2010, 12, 10), :end_date => Date.new(2010, 12 ,13))
 los_angeles_trip = Trip.create(:name => "Los Angeles Trip", :start_date => Date.new(2011, 2, 7), :end_date => Date.new(2011, 2, 11))
 
 TripUser.destroy_all
@@ -54,7 +54,7 @@ lijen.trips << new_york_trip
 lijen.save!
 
 Flight.destroy_all
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2010, 12, 7))
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2010, 12, 10))
 Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :date => Date.new(2010, 12, 13))
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2010, 12, 7))
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2010, 12, 10))
 Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :date => Date.new(2010, 12, 13))
