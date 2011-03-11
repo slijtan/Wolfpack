@@ -73,3 +73,19 @@ Meal.create(:trip_id => new_york_trip.id, :user_id => mabel.id, :restaurant_id =
 Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => momo.id, :date => Date.new(2011,5,6), :start_time => 1080)
 Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => lam_zhou.id, :date => Date.new(2011,5,7), :start_time => 1080)
 Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => ippudo.id, :date => Date.new(2011,5,8), :start_time => 720)
+
+Hotel.destroy_all
+waldorf = Hotel.create(:name => "Waldorf Astoria", :address => "301 Park Avenue", :city => "New York", :state => "NY", :zip => "10022", :phone => "2123553000", :url => "waldorfnewyork.com", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=301+Park+Avenue,+New+York,+NY+10022&aq=&sll=40.756782,-73.973866&sspn=0.008338,0.0159&ie=UTF8&hq=&hnear=301+Park+Ave,+New+York,+10022&ll=40.756539,-73.974059&spn=0.008745,0.0159&z=16")
+w_hotel = Hotel.create(:name => "The W New York Hotel", :address => "201 Park Avenue South", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122539119", :url => "starwoodhotels.com", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=201+Park+Avenue+South,+New+York,+NY+10003&aq=&gl=us&ie=UTF8&hq=&hnear=201+Park+Ave+S,+New+York,+10003&z=16")
+
+Lodging.destroy_all
+l1 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => waldorf.id, :check_in_date => Date.new(2011,5,6), :check_out_date => Date.new(2011,5,7), :check_in_time => 1020, :check_out_time => 840)
+l2 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => w_hotel.id, :check_in_date => Date.new(2011,5,7), :check_out_date => Date.new(2011,5,8), :check_in_time => 1020, :check_out_time => 840)
+
+UserLodging.destroy_all
+UserLodging.create(:lodging_id => l1.id, :user_id => tony.id)
+UserLodging.create(:lodging_id => l1.id, :user_id => mabel.id)
+UserLodging.create(:lodging_id => l1.id, :user_id => lijen.id)
+UserLodging.create(:lodging_id => l2.id, :user_id => tony.id)
+UserLodging.create(:lodging_id => l2.id, :user_id => mabel.id)
+UserLodging.create(:lodging_id => l2.id, :user_id => lijen.id)

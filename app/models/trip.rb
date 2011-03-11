@@ -3,6 +3,7 @@ class Trip < ActiveRecord::Base
   has_many :trip_users, :dependent => :destroy
   has_many :flights
   has_many :meals
+  has_many :lodgings
 
   def duration_in_days
     duration_in_hours / 24
