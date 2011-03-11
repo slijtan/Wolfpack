@@ -7,8 +7,7 @@ class Flight < ActiveRecord::Base
 
   #TODO: We need to first automatically determine the carrier from the email contents
   def self.import_delta_email(raw_html)
-    flight_info = Hash.new
-    valid_dates = %{Mon Tue Wed Thu Fri Sat Sun}
+    flight_info = {}
 
     doc = Nokogiri::HTML::Document.parse(raw_html)
     content_blocks = doc.css('pre')
@@ -62,36 +61,8 @@ class Flight < ActiveRecord::Base
     
     new_flights
   end
-
-  def minutes_since_trip_start
-    (start_time_with_zone - Time.zone.parse(trip.start_date.to_s)) / 60
-  end
-
-  def departure_time
-    minutes_to_time(start_time)
-  end
-
-  def arrival_time
-    minutes_to_time(end_time)
-  end
-
-  private
   
-  def minutes_to_time(time_in_minutes)
-    Time.at(time_in_minutes * 60).gmtime.strftime('%I:%M%p')
-  end
-  
-  def start_time_with_zone
-    @date_time ||= Time.use_zone(self.from.time_zone.name) do
-      Time.zone.local(self.date.year, self.date.month, self.date.day, start_absolute_hours, start_absolute_minutes)
-    end
-  end
-
-  def start_absolute_hours
-    start_time / 60
-  end
-
-  def start_absolute_minutes
-    start_time % 60
+  def date_carrier_flight_id
+    "#{self.date.strftime("%Y_%m_%d")}_#{self.carrier_flight_id}"
   end
 end

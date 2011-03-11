@@ -1,12 +1,12 @@
 class CreateFlights < ActiveRecord::Migration
   def self.up
     create_table :flights do |t|
-      t.integer :trip_id
-      t.integer :user_id
-      t.integer :carrier_flight_id
+      t.integer :trip_id, :null => false
+      t.integer :user_id, :null => false
+      t.integer :carrier_flight_id, :null => false
       t.string :seat_number
-      t.string :confirmation_number
-      t.date :date
+      t.string :confirmation_number, :null => false
+      t.date :date, :null => false
 
       t.timestamps
     end

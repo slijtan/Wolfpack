@@ -2,6 +2,8 @@ class Trip < ActiveRecord::Base
   has_many :users, :through => :trip_users
   has_many :trip_users, :dependent => :destroy
   has_many :flights
+  has_many :meals
+  has_many :lodgings
 
   def duration_in_days
     duration_in_hours / 24
@@ -19,8 +21,95 @@ class Trip < ActiveRecord::Base
     Time.zone.parse(self.start_date.to_s)
   end
 
+  def event_blocks
+    event_array = []
+    block = []
+    events.each do |event|
+      fit_in_block = false
+      event_array.each_with_index do |block, index|
+        if event.minutes_since_trip_start > block.last.minutes_end_since_trip_start
+          block << event
+          fit_in_block = true
+          break
+        end
+      end
+      unless fit_in_block
+        # create new block
+        event_array << [event]
+      end
+    end
+    event_array
+  end
+
   # this is wrong..need to sort!
   def start_time_zone
     self.flights.first.from.time_zone.name
+  end
+
+  private
+
+  def events
+    @events ||= begin
+      events = get_flight_events
+      events << get_meal_events
+      events << get_lodging_events
+      events.flatten
+    end.sort_by(&:start_time_with_zone)
+  end
+
+  def get_flight_events
+    flights_hash = {}
+
+    flights.each do |flight|
+      generated_key = flight.date_carrier_flight_id
+      unless flights_hash[generated_key]
+        flights_hash[generated_key] = []
+      end
+      flights_hash[generated_key] << flight
+    end
+
+    flight_events = []
+    flights_hash.each_value do |flights|
+      flight_events << FlightEvent.new(flights)
+    end
+    flight_events
+  end
+
+  def get_meal_events
+    meals_hash = {}
+
+    meals.each do |meal|
+      generated_key = meal.date_restaurant_id
+      unless meals_hash[generated_key]
+        meals_hash[generated_key] = []
+      end
+      meals_hash[generated_key] << meal
+    end
+
+    meal_events = []
+    meals_hash.each_value do |meals|
+      meal_events << MealEvent.new(meals)
+    end
+    meal_events
+  end
+
+  def get_lodging_events
+    lodgings_hash = {}
+
+    lodgings.each do |lodging|
+      generated_key = lodging.check_in_hotel_id
+      unless lodgings_hash[generated_key]
+        lodgings_hash[generated_key] = []
+      end
+      lodgings_hash[generated_key] << lodging
+    end
+
+    lodging_events = []
+    lodgings_hash.each_value do |lodgings|
+      lodging = lodgings.first
+      lodging_events << LodgingEvent.new(lodgings, lodging.check_in_date, lodging.check_in_time)
+      lodging_events << LodgingEvent.new(lodgings, lodging.check_out_date, lodging.check_out_time)
+    end
+    lodging_events
   end
 end

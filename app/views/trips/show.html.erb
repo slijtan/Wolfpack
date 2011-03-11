@@ -3,22 +3,22 @@
 	#itinerary-wrapper { position: relative; }
 	#day-timeline,
 	#block-timeline,
-	.user-itinerary { height: 27px; position: relative; }
+	.block-itinerary { height: 20px; position: relative; }
 	#block-timeline { font-size: 8pt; }
-	.user-itinerary.odd { background-color: #EAEAEA; }
 	.s-offset { width: 150px; position: absolute; left: 10px; top: 4px; }
 	.timeline-header { height: 80%; }
 	.day-header { font-size: 8pt; }
 	.day-header,
 	.timeline-header,
-	.user-timeline { left: 150px; position: absolute; right: 2px; }
+	.event-timeline { left: 150px; position: absolute; right: 2px; }
 	.day-segment { position: absolute; background-color: gray; text-align: center; }
 	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
-	.flight-info { position: absolute; top: 4px; display: inline; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.d-time { margin-right: 5px; }
-	.a-time { margin-left: 5px; }
-	.f-time { display: none; position: absolute; font-size: 8pt; top: 7px; padding: 0 4px; background-color: wheat; }
+	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.s-time { margin-right: 5px; }
+	.e-time { margin-left: 5px; }
+	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -54,34 +54,52 @@
 		</div>
 		<% end %>
 	</div>
-	<% @trip.users.each do |user| %>
-		<div class="user-itinerary <%= cycle('odd', 'even') %>">
-			<div class="s-offset">
-				<%= user.full_name %>
-			</div>
-			<div class="user-timeline">
-				<% user.flights.each do |flight| %>
-					<% f_left = 100 * flight.minutes_since_trip_start / @trip.duration_in_minutes %>
-					<% f_width = 100 * flight.flight_duration / @trip.duration_in_minutes %>
-					<span class="d-time f-time" style="right: <%= 100 - f_left %>%"><%= flight.departure_time %></span>
-					<div class="flight-info" style="left:<%= f_left %>%; width:<%= f_width %>%; background-color: red;">
-						<%= flight.flight_duration %>
+	<% @event_blocks.each do |event_block| %>
+		<div class="block-itinerary">
+			<div class="s-offset"></div>
+			<div class="event-timeline">
+				<% event_block.each do |event| %>
+					<% e_left = 100 * event.minutes_since_trip_start / @trip.duration_in_minutes %>
+					<% e_width = 100 * event.duration / @trip.duration_in_minutes %>
+					<span class="s-time f-time" style="right: <%= 100 - e_left %>%"><%= event.start_time_str %></span>
+					<div class="event-segment" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>;">
+						<%= event.duration %>
 					</div>
-					<span class="a-time f-time" style="left: <%= f_left + f_width %>%"><%= flight.arrival_time %></span>
+					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
+					<% content_for :tool_tip do %>
+					<div class="event-info" id="info_<%= event.hash %>" style="left: <%= e_left %>%;">
+						<%= event.tool_tip_message %>
+					</div>
+					<% end %>
 				<% end %>
 			</div>
 		</div>
 	<% end %>
+	<div id="tool-tips">
+	<%= yield :tool_tip %>
+		</div>
+	</div>
 </div>
 
 <% content_for :script do %>
 <script>
-	$('.flight-info').mouseover(function() {
+	$('.event-segment').mouseover(function() {
 		$(this).prev().show();
 		$(this).next().show();
+
+		var offset = $(this).offset();
+		var topOffset = offset.top + 20;
+		var leftOffset = offset.left;
+		var eventId = $(this).first().data('info-id');
+		var toolTip = $('#info_' + eventId);
+		toolTip.attr('style', 'top:' + topOffset + 'px; left:' + leftOffset + 'px;').show();
 	}).mouseout(function() {
 		$(this).prev().hide();
 		$(this).next().hide();
+
+		var eventId = $(this).data('info-id');
+		var toolTip = $('#info_' + eventId);
+		toolTip.hide();
 	});
 </script>
 <% end %>
