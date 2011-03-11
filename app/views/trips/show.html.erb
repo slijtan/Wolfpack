@@ -3,9 +3,8 @@
 	#itinerary-wrapper { position: relative; }
 	#day-timeline,
 	#block-timeline,
-	.block-itinerary { height: 27px; position: relative; }
+	.block-itinerary { height: 20px; position: relative; }
 	#block-timeline { font-size: 8pt; }
-	.block-itinerary.odd { background-color: #EAEAEA; }
 	.s-offset { width: 150px; position: absolute; left: 10px; top: 4px; }
 	.timeline-header { height: 80%; }
 	.day-header { font-size: 8pt; }
@@ -15,11 +14,11 @@
 	.day-segment { position: absolute; background-color: gray; text-align: center; }
 	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
-	.event-segment { position: absolute; top: 4px; display: inline; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; border-radius: 5px; }
+	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 3; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
-	.f-time { display: none; position: absolute; font-size: 8pt; top: 7px; padding: 0 4px; background-color: wheat; }
+	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 2; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -56,8 +55,8 @@
 		<% end %>
 	</div>
 	<% @event_blocks.each do |event_block| %>
-		<div class="block-itinerary <%= cycle('odd', 'even') %>">
-			<div class="s-offset">hi</div>
+		<div class="block-itinerary">
+			<div class="s-offset"></div>
 			<div class="event-timeline">
 				<% event_block.each do |event| %>
 					<% e_left = 100 * event.minutes_since_trip_start / @trip.duration_in_minutes %>
