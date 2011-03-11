@@ -3,7 +3,7 @@ class FlightEvent < TripEvent
   attr_reader :carrier_flight
 
   def initialize(flights)
-    raise "Invalid Flight Event with flight ids: #{flights.collect(&:id).join(",")}" unless validate_flights(flights)
+    raise "Invalid Flight Event with flight ids: #{flights.collect(&:id).join(",")}" unless validate_entities(flights, :carrier_flight_id)
 
     first_flight = flights.first
     @trip = first_flight.trip
@@ -25,18 +25,5 @@ class FlightEvent < TripEvent
 
   def duration
     @carrier_flight.flight_duration
-  end
-
-  private
-
-  def validate_flights(flights)
-    # must all have the same carrier flight id and must be flying the same date
-    date_array, carrier_flight_array, trip_array = [], [], []
-    flights.each do |flight|
-      date_array << flight.date
-      carrier_flight_array << flight.carrier_flight_id
-      trip_array << flight.trip_id
-    end
-    date_array.uniq.size == 1 && carrier_flight_array.uniq.size == 1 && trip_array.uniq.size == 1
   end
 end
