@@ -39,12 +39,10 @@ mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email =>
 lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com")
 
 Trip.destroy_all
-new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2010, 12, 10), :end_date => Date.new(2010, 12 ,13))
-los_angeles_trip = Trip.create(:name => "Los Angeles Trip", :start_date => Date.new(2011, 2, 7), :end_date => Date.new(2011, 2, 11))
+new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2011,5,6), :end_date => Date.new(2011,5,8))
 
 TripUser.destroy_all
 tony.trips << new_york_trip
-tony.trips << los_angeles_trip
 tony.save!
 
 mabel.trips << new_york_trip
@@ -54,7 +52,24 @@ lijen.trips << new_york_trip
 lijen.save!
 
 Flight.destroy_all
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2010, 12, 10))
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :date => Date.new(2010, 12, 13))
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2010, 12, 10))
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :date => Date.new(2010, 12, 13))
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
+
+Restaurant.destroy_all
+momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york")
+lam_zhou = Restaurant.create(:name => "Lam Zhou Handmade Noodle", :address => "144 E Broadway", :city => "New York", :state => "NY", :zip => "10002", :phone => "2125666933", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=144+E+Broadway,+New+York,+NY&aq=&sll=40.73169,-73.985846&sspn=0.009317,0.013561&ie=UTF8&hq=&hnear=144+E+Broadway,+New+York,+10002&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/lam-zhou-handmade-noodle-new-york")
+ippudo = Restaurant.create(:name => "Ippudo NY", :address => "65 4th Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2123880088", :url => "www.ippudo.com/ny", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=ippudo+ny,+65+4th+Ave,+new+york,+ny&aq=&sll=40.730739,-73.990281&sspn=0.009317,0.013561&g=65+4th+Ave,+new+york,+ny&ie=UTF8&hq=Ippudo+Ny&hnear=Ippudo+Ny,+65+4th+Ave,+New+York,+10003&ll=40.731779,-73.990259&spn=0.035642,0.054245&z=14", :yelp_url => "http://www.yelp.com/biz/ippudo-ny-new-york")
+
+Meal.destroy_all
+Meal.create(:trip_id => new_york_trip.id, :user_id => tony.id, :restaurant_id => momo.id, :date => Date.new(2011,5,6), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => tony.id, :restaurant_id => lam_zhou.id, :date => Date.new(2011,5,7), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => tony.id, :restaurant_id => ippudo.id, :date => Date.new(2011,5,8), :start_time => 720)
+Meal.create(:trip_id => new_york_trip.id, :user_id => mabel.id, :restaurant_id => momo.id, :date => Date.new(2011,5,6), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => mabel.id, :restaurant_id => lam_zhou.id, :date => Date.new(2011,5,7), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => mabel.id, :restaurant_id => ippudo.id, :date => Date.new(2011,5,8), :start_time => 720)
+Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => momo.id, :date => Date.new(2011,5,6), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => lam_zhou.id, :date => Date.new(2011,5,7), :start_time => 1080)
+Meal.create(:trip_id => new_york_trip.id, :user_id => lijen.id, :restaurant_id => ippudo.id, :date => Date.new(2011,5,8), :start_time => 720)
