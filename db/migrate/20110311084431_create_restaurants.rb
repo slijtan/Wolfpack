@@ -4,7 +4,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.string :name, :null => false
       t.string :address
       t.string :city
-      t.string :state, :size => 2
+      t.string :state
       t.string :zip
       t.string :phone
       t.string :url
