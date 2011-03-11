@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Wolfpack</title>
-  <%= stylesheet_link_tag :all %>
+	<%= stylesheet_link_tag [@page_css].flatten.uniq.compact %>
 	<%= yield :head %>
   <%= csrf_meta_tag %>
 </head>
@@ -10,6 +10,7 @@
 <%= yield %>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+<%= javascript_include_tag [@page_js].flatten.uniq.compact %>
 <%= yield :script %>
 </body>
 </html>
