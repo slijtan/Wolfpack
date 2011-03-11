@@ -52,6 +52,7 @@ class Trip < ActiveRecord::Base
     @events ||= begin
       events = get_flight_events
       events << get_meal_events
+      events << get_lodging_events
       events.flatten
     end.sort_by(&:start_time_with_zone)
   end
@@ -90,5 +91,25 @@ class Trip < ActiveRecord::Base
       meal_events << MealEvent.new(meals)
     end
     meal_events
+  end
+
+  def get_lodging_events
+    lodgings_hash = {}
+
+    lodgings.each do |lodging|
+      generated_key = lodging.check_in_hotel_id
+      unless lodgings_hash[generated_key]
+        lodgings_hash[generated_key] = []
+      end
+      lodgings_hash[generated_key] << lodging
+    end
+
+    lodging_events = []
+    lodgings_hash.each_value do |lodgings|
+      lodging = lodgings.first
+      lodging_events << LodgingEvent.new(lodgings, lodging.check_in_date, lodging.check_in_time)
+      lodging_events << LodgingEvent.new(lodgings, lodging.check_out_date, lodging.check_out_time)
+    end
+    lodging_events
   end
 end
