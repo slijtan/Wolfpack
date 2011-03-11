@@ -2,7 +2,7 @@ class LodgingEvent < TripEvent
   attr_reader :hotel
 
   def initialize(lodgings, date, start_time)
-    raise "Invalid Lodging Event with lodging ids: #{lodgings.collect(&:id).join(",")}" unless validate_lodging(lodgings)
+    raise "Invalid Lodging Event with lodging ids: #{lodgings.collect(&:id).join(",")}" unless validate_entities(lodgings, :hotel_id, :check_in_date)
 
     lodging = lodgings.first
     @trip = lodging.trip
@@ -24,18 +24,5 @@ class LodgingEvent < TripEvent
 
   def duration
     30
-  end
-
-  private
-
-  def validate_lodging(lodgings)
-    # must all have the same carrier flight id and must be flying the same date
-    date_array, hotel_array, trip_array = [], [], []
-    lodgings.each do |lodging|
-      date_array << lodging.check_in_date
-      hotel_array << lodging.hotel_id
-      trip_array << lodging.trip_id
-    end
-    date_array.uniq.size == 1 && hotel_array.uniq.size == 1 && trip_array.uniq.size == 1
   end
 end

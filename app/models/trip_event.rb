@@ -37,6 +37,17 @@ class TripEvent
     raise "Abstract method tool_tip_message called!"
   end
 
+  def validate_entities(entities, entity_id_method, date_method=:date)
+    # must all be on the same date for the same trip
+    date_array, entity_array, trip_array = [], [], []
+    entities.each do |entity|
+      date_array << entity.send(date_method)
+      entity_array << entity.send(entity_id_method)
+      trip_array << entity.trip_id
+    end
+    date_array.uniq.size == 1 && entity_array.uniq.size == 1 && trip_array.uniq.size == 1
+  end
+
   def minutes_to_time(time_in_minutes)
     Time.at(time_in_minutes * 60).gmtime.strftime('%I:%M%p')
   end
