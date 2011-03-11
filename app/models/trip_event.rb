@@ -15,8 +15,16 @@ class TripEvent
 
   protected
 
+  def color
+    raise "Abstract method color called!"
+  end
+
   def duration
     raise "Abstract method duration called!"
+  end
+
+  def tool_tip_message
+    raise "Abstract method tool_tip_message called!"
   end
 
   def minutes_to_time(time_in_minutes)

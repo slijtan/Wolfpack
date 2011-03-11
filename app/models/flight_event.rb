@@ -15,6 +15,14 @@ class FlightEvent < TripEvent
     @time_zone = first_flight.from.time_zone.name
   end
 
+  def color
+    "red"
+  end
+
+  def tool_tip_message
+    "Passengers on this flight: #{@users.map(&:full_name).join(",")}"
+  end
+
   def duration
     @carrier_flight.flight_duration
   end

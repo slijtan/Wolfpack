@@ -2,6 +2,7 @@ class Trip < ActiveRecord::Base
   has_many :users, :through => :trip_users
   has_many :trip_users, :dependent => :destroy
   has_many :flights
+  has_many :meals
 
   def duration_in_days
     duration_in_hours / 24
@@ -49,6 +50,8 @@ class Trip < ActiveRecord::Base
   def events
     @events ||= begin
       events = get_flight_events
+      events << get_meal_events
+      events.flatten
     end.sort_by(&:start_time)
   end
 
@@ -68,5 +71,23 @@ class Trip < ActiveRecord::Base
       flight_events << FlightEvent.new(flights)
     end
     flight_events
+  end
+
+  def get_meal_events
+    meals_hash = {}
+
+    meals.each do |meal|
+      generated_key = meal.date_restaurant_id
+      unless meals_hash[generated_key]
+        meals_hash[generated_key] = []
+      end
+      meals_hash[generated_key] << meal
+    end
+
+    meal_events = []
+    meals_hash.each_value do |meals|
+      meal_events << MealEvent.new(meals)
+    end
+    meal_events
   end
 end
