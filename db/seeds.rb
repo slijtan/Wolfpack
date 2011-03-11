@@ -22,6 +22,9 @@ virgin = Carrier.create(:name => 'Virgin America')
 southwest = Carrier.create(:name => 'Southwest Airlines')
 united = Carrier.create(:name => 'United Airlines')
 jetblue = Carrier.create(:name => 'Jetblue')
+delta = Carrier.create(:name => 'Delta Airlines')
+us_airways = Carrier.create(:name => 'US Airways')
+vueling = Carrier.create(:name => 'Vueling')
 
 CarrierFlight.destroy_all
 cf1 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 455, :end_time => 960)

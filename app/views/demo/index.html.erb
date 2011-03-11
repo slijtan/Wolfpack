@@ -1,0 +1,93 @@
+<style>
+  #welcome_dialog {
+    border: 3px solid #000000;
+    background: #404040;
+    padding: 0px 10px 15px;
+    display: none;
+  }
+
+ #submit_email {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-bottom: 2px solid #000000;
+  padding: 5px;
+  width: 100%;
+  background: #404040;
+  color: #FFFFFF;
+  display: none;
+  }
+
+#submit_email a {
+  color: #FFFFFF;
+}
+
+  .carrier_receipt {
+  padding-top: 30px;
+ }
+</style>
+
+<div id="welcome_dialog">
+<h1>Welcome to our Demo</h1>
+
+<%= form_tag({}, {:id => "flight_info"}) do %>
+  <%= label_tag 'carrier_selector', "What's your favorite airline?" %>
+ <%= select_tag("carrier_selector", options_from_collection_for_select(@carriers, "short_name", "name")) %><br />
+
+ <%= label_tag 'name', "What's your name?" %>
+ <%= text_field_tag "full_name" %><br />
+
+ <%= submit_tag "Submit"%>
+<% end %>
+
+</div>
+
+<div id="submit_email">
+<%= form_tag do %>
+<%= hidden_field_tag "name" %>
+<%= hidden_field_tag "carrier" %>
+
+<%= submit_tag "FORWARD THIS EMAIL TO YOURTRIP@WOLFPACK.COM" %>
+<% end %>
+</div>
+
+<% @carriers.each do |carrier| %>
+<div id="<%= carrier.short_name %>" class="carrier_receipt">
+<%= render :partial => carrier.short_name %>
+</div>
+<% end %>
+
+<% add_to_js "jquery.scrollTo-1.4.2-min" %>
+<% add_to_js "jquery.simplemodal.1.4.1.min" %>
+
+<% content_for :script do %>
+
+<%= javascript_tag do %>
+$(document).ready(function() {
+  scroll_to_receipt();
+  $("#welcome_dialog").show().modal();
+});
+
+function scroll_to_receipt() {
+  $.scrollTo($("div#" + $('#carrier_selector').val()), 800);
+  $('#carrier').val($('#carrier_selector').val());
+}
+
+$('#carrier_selector').change(function() {
+  scroll_to_receipt();
+});
+
+$('#full_name').keyup(function(){
+  $('.traveler_name').html($('#full_name').val()).effect("highlight", {}, 300);
+  $('#name').val($('#full_name').val());
+});
+
+$('#flight_info').submit(function(event){
+  $.modal.close();
+  $('#welcome_dialog').hide();
+  $('#submit_email').show();
+  event.preventDefault();
+});
+
+<% end %>
+<% end %>
