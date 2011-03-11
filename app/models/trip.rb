@@ -26,7 +26,7 @@ class Trip < ActiveRecord::Base
     events.each do |event|
       fit_in_block = false
       event_array.each_with_index do |block, index|
-        if event.start_time > block.last.end_time
+        if event.minutes_since_trip_start > block.last.minutes_end_since_trip_start
           block << event
           fit_in_block = true
           break
@@ -52,7 +52,7 @@ class Trip < ActiveRecord::Base
       events = get_flight_events
       events << get_meal_events
       events.flatten
-    end.sort_by(&:start_time)
+    end.sort_by(&:start_time_with_zone)
   end
 
   def get_flight_events
