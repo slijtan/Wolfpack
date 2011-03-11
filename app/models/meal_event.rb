@@ -8,7 +8,7 @@ class MealEvent < TripEvent
     first_meal = meals.first
     @trip = first_meal.trip
     @restaurant = first_meal.restaurant
-    @date = first_meal.date
+    @start_date = first_meal.date
     @start_time = first_meal.start_time
     @end_time = @start_time + 90
     @users = meals.collect(&:user)

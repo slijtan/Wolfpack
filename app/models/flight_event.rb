@@ -8,7 +8,7 @@ class FlightEvent < TripEvent
     first_flight = flights.first
     @trip = first_flight.trip
     @carrier_flight = first_flight.carrier_flight
-    @date = first_flight.date
+    @start_date = first_flight.date
     @start_time = @carrier_flight.start_time
     @end_time = @carrier_flight.end_time
     @users = flights.collect(&:user)

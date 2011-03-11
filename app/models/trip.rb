@@ -107,8 +107,7 @@ class Trip < ActiveRecord::Base
     lodging_events = []
     lodgings_hash.each_value do |lodgings|
       lodging = lodgings.first
-      lodging_events << LodgingEvent.new(lodgings, lodging.check_in_date, lodging.check_in_time)
-      lodging_events << LodgingEvent.new(lodgings, lodging.check_out_date, lodging.check_out_time)
+      lodging_events << LodgingEvent.new(lodgings)
     end
     lodging_events
   end
