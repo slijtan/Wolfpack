@@ -4,6 +4,9 @@
     background: #404040;
     padding: 0px 10px 15px;
     display: none;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
   }
 
  #submit_email {
@@ -24,6 +27,7 @@
 
   .carrier_receipt {
   padding-top: 30px;
+  display: none;
  }
 </style>
 
@@ -57,7 +61,6 @@
 </div>
 <% end %>
 
-<% add_to_js "jquery.scrollTo-1.4.2-min" %>
 <% add_to_js "jquery.simplemodal.1.4.1.min" %>
 
 <% content_for :script do %>
@@ -69,7 +72,8 @@ $(document).ready(function() {
 });
 
 function scroll_to_receipt() {
-  $.scrollTo($("div#" + $('#carrier_selector').val()), 800);
+ $(".carrier_receipt").fadeOut();
+  $("#" + $('#carrier_selector').val()).fadeIn();
   $('#carrier').val($('#carrier_selector').val());
 }
 
