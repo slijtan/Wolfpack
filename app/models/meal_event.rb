@@ -24,7 +24,20 @@ class MealEvent < TripEvent
   end
 
   def tool_tip_message
-    "Eaters: #{@users.map(&:full_name).join(",")}"
+    tool_tip = "
+    <div class=\"tool-tip meal\">
+      <ul>
+        <li>#{@restaurant.name} @ #{start_time_str}
+        <li>#{@restaurant.address}
+        <li>#{@restaurant.city_state_zip}
+        <li>#{@restaurant.formatted_phone}
+      </ul>
+      <h6>Diners:</h6>"
+    @users.each do |user|
+      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo_url.nil? ? "no_user.jpg" : user.photo_url)}\"/>"
+    end
+    tool_tip << "</div>"
+    tool_tip.html_safe
   end
 
   def duration

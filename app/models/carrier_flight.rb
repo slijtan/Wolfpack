@@ -4,6 +4,10 @@ class CarrierFlight < ActiveRecord::Base
   belongs_to :from, :foreign_key => :from_id, :class_name => "Airport"
   belongs_to :to, :foreign_key => :to_id, :class_name => "Airport"
 
+  def flight_title
+    "#{carrier.name} Flight ##{number}"
+  end
+
   # time is stored in minutes
   def flight_duration
     (end_time_in_zone - start_time_in_zone) / 60

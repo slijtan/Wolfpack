@@ -25,7 +25,20 @@ class FlightEvent < TripEvent
   end
 
   def tool_tip_message
-    "Passengers on this flight: #{@users.map(&:full_name).join(",")}"
+    tool_tip = "
+    <div class=\"tool-tip flight\">
+      <ul>
+        <li>#{@carrier_flight.flight_title}
+        <li>From: #{@start_date.strftime("%a %m/%d")} #{start_time_str} #{@carrier_flight.from.airport_code}
+        <li>To: #{@end_date.strftime("%a %m/%d")} #{end_time_str} #{@carrier_flight.to.airport_code}
+        <li>
+      </ul>
+      <h6>Passengers:</h6>"
+    @users.each do |user|
+      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo_url.nil? ? "no_user.jpg" : user.photo_url)}\"/>"
+    end
+    tool_tip << "</div>"
+    tool_tip.html_safe
   end
 
   def duration
