@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
@@ -24,7 +25,6 @@ united = Carrier.create(:name => 'United Airlines')
 jetblue = Carrier.create(:name => 'Jetblue')
 delta = Carrier.create(:name => 'Delta Airlines')
 us_airways = Carrier.create(:name => 'US Airways')
-vueling = Carrier.create(:name => 'Vueling')
 
 CarrierFlight.destroy_all
 cf1 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 455, :end_time => 960)

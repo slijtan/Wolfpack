@@ -26,7 +26,6 @@
 }
 
   .carrier_receipt {
-  padding-top: 30px;
   display: none;
  }
 </style>
@@ -83,6 +82,7 @@ $('#carrier_selector').change(function() {
 
 $('#full_name').keyup(function(){
   $('.traveler_name').html($('#full_name').val()).effect("highlight", {}, 300);
+  $('.traveler_email').html($('#full_name').val().replace(" ", ".").toLowerCase()).effect("highlight", {}, 300);
   $('#name').val($('#full_name').val());
 });
 
