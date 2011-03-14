@@ -35,6 +35,8 @@ cf5 = CarrierFlight.create(:carrier_id => united.id, :number => "0064", :from_id
 cf6 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => lgb.id, :start_time => 640, :end_time => 729)
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
 cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1125, :end_time => 1350)
+cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
+cf9 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => jfk.id, :start_time => 640, :end_time => 1129)
 
 User.destroy_all
 tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com", :photo_url => "tony.png")
@@ -56,7 +58,7 @@ lijen.save!
 
 Flight.destroy_all
 Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
+Flight.create(:user_id => lijen.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf9.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
 Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
 Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
 Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")

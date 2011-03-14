@@ -1,9 +1,10 @@
 <% content_for :head do %>
 <style>
 	#itinerary-wrapper { position: relative; border-bottom: 1px solid #DDD; }
-	#day-timeline,
+	#day-timeline { height: 15px; position: relative; }
 	#block-timeline,
 	.block-itinerary { height: 20px; position: relative; }
+	.horizontal-line { width: 100%; border-bottom: 1px solid #DDD; }
 	#block-timeline { font-size: 8pt; }
 	.s-offset { width: 150px; position: absolute; left: 10px; top: 4px; }
 	.timeline-header { height: 80%; }
@@ -12,7 +13,7 @@
 	.timeline-header,
 	.event-timeline { left: 150px; position: absolute; right: 2px; }
 	.day-segment { position: absolute; text-align: center; padding: 1px 0; }
-	.vbars { position: absolute; top: -5px; bottom: 0; border-right: 1px solid #DDD; z-index: 1; }
+	.vbars { position: absolute; top: 46px; bottom: 0; border-right: 1px solid #DDD; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.event-segment.eventHover { opacity: 0.6; }
@@ -55,6 +56,7 @@
 			<% end %>
 		</div>
 	</div>
+	<div class="horizontal-line"></div>
 	<% @destinations.each do |airport| %>
 	<div id="block-timeline">
 		<div class="s-offset"><%= airport.full_name %></div>
@@ -67,6 +69,7 @@
 		</div>
 	</div>
 	<% end %>
+	<div class="horizontal-line"></div>
 	<% @event_blocks.each do |event_block| %>
 		<div class="block-itinerary">
 			<div class="s-offset"></div>
