@@ -13,13 +13,13 @@ class Flight < ActiveRecord::Base
     content_blocks = doc.css('pre')
     flight_block = content_blocks[1].content
     fair_block = content_blocks[3].content
-    
+
     #CONFIRMATION NUMBER
     regex = Regexp.new(/DELTA CONFIRMATION #:\s+([\w\d]+)/)
     matches = regex.match(flight_block)
-    
+
     flight_info[:confirmation_number] =  matches[1].strip
-    
+
     #FLIGHTS
     p y flight_info
   end
@@ -29,27 +29,27 @@ class Flight < ActiveRecord::Base
     carrier = Carrier.find_by_name("United Airlines")
     user = User.first
     trip = Trip.first
-    
+
     doc = Nokogiri::HTML::Document.parse(raw_html)
-    
+
     #CONFIRMATION NUMBER
     confirmation_block = doc.css('.prd-fxd-div')[1].content
     regex = Regexp.new(/Confirmation #\s+([\w\d]+)/)
     matches = regex.match(confirmation_block)
     confirmation_number =  matches[1].strip
-    
+
     #FLIGHTS
     flights_block = doc.css('table#flightTable tr')
     flights_block = flights_block.slice(2, flights_block.length - 3)
-    
+
     new_flights = Array.new
-    
+
     flights_block.each do |flight_block|
       new_flight = Flight.new(:user => user, :trip => trip, :confirmation_number => confirmation_number)
 
       regex = Regexp.new(/United (\d+).*((Mon|Tue|Wed|Thu|Fri|Sat|Sun),.*?(\w{3})\s(\d+),\s(\d{4})).*?((\d)+\w)/m)
       matches = regex.match(flight_block)
-      
+
       new_flight.carrier_flight =  carrier.carrier_flights.find_by_number(matches[1].strip)
       new_flight.date = Date.parse(matches[2].strip)
       new_flight.seat_number = matches[7].strip
@@ -58,10 +58,14 @@ class Flight < ActiveRecord::Base
 
       new_flights << new_flight
     end
-    
+
     new_flights
   end
-  
+
+  def airports
+    [carrier_flight.from, carrier_flight.to]
+  end
+
   def date_carrier_flight_id
     "#{self.date.strftime("%Y_%m_%d")}_#{self.carrier_flight_id}"
   end

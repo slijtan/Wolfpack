@@ -42,18 +42,18 @@
 			<% end %>
 		</div>
 	</div>
+	<% @destinations.each do |airport| %>
 	<div id="block-timeline">
-		<% @destinations.each do |dest| %>
-		<div class="s-offset"><%= dest.carrier_flight.from.full_name %></div>
+		<div class="s-offset"><%= airport.full_name %></div>
 		<div class="timeline-header">
 			<% (0..total_segments).each_with_index do |time_segment, index| %>
 				<div class="timeline-segment" style="left:<%= (100 * index) / total_segments %>%;">
-					<%= convert_index_to_time(@trip, index) %>
+					<%= convert_index_to_time(@trip, airport, index) %>
 				</div>
 			<% end %>
 		</div>
-		<% end %>
 	</div>
+	<% end %>
 	<% @event_blocks.each do |event_block| %>
 		<div class="block-itinerary">
 			<div class="s-offset"></div>
