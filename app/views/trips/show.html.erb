@@ -1,22 +1,22 @@
 <% content_for :head do %>
 <style>
-	#itinerary-wrapper { position: relative; }
+	#itinerary-wrapper { position: relative; border-bottom: 1px solid #DDD; }
 	#day-timeline,
 	#block-timeline,
 	.block-itinerary { height: 20px; position: relative; }
 	#block-timeline { font-size: 8pt; }
 	.s-offset { width: 150px; position: absolute; left: 10px; top: 4px; }
 	.timeline-header { height: 80%; }
-	.day-header { font-size: 8pt; }
+	.day-header { font-size: 8pt; height: 15px; background-color: gray; }
 	.day-header,
 	.timeline-header,
 	.event-timeline { left: 150px; position: absolute; right: 2px; }
-	.day-segment { position: absolute; background-color: gray; text-align: center; }
-	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; z-index: 1; }
+	.day-segment { position: absolute; text-align: center; padding: 1px 0; }
+	.vbars { position: absolute; top: -5px; bottom: 0; border-right: 1px solid #DDD; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.event-segment.eventHover { opacity: 0.6; }
-	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.event-info { position: absolute; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip.flight { background-color: #C33; }
 	.tool-tip.lodging { background-color: #9CF; }
@@ -29,6 +29,7 @@
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 
 	#participants { margin-left: 150px; }
+	#participants h5 { margin: 5px 0; }
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
 </style>
@@ -93,7 +94,7 @@
 	</div>
 </div>
 <div id="participants">
-	<h5>Trip Participants</h5>
+	<h5>Current Trip Participants</h5>
 	<% @trip.users.each do |u| %>
 		<div class="trip-person">
 			<%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
