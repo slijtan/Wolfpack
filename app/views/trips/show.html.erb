@@ -15,7 +15,8 @@
 	.vbars { position: absolute; top: -9px; bottom: 0; border-right: 1px solid; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.event-info { position: absolute; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.event-segment.eventHover { opacity: 0.6; }
+	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip.flight { background-color: #C33; }
 	.tool-tip.lodging { background-color: #9CF; }
@@ -26,6 +27,10 @@
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
+
+	#participants { margin-left: 150px; }
+	.trip-person { float: left; }
+	.trip-person img { height: 40px; margin: 5px; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -87,7 +92,14 @@
 		</div>
 	</div>
 </div>
-
+<div id="participants">
+	<h5>Trip Participants</h5>
+	<% @trip.users.each do |u| %>
+		<div class="trip-person">
+			<%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
+		</div>
+	<% end %>
+</div>
 <% content_for :script do %>
 <script>
 	$('.event-segment').mouseover(function() {
@@ -107,6 +119,25 @@
 		var eventId = $(this).data('info-id');
 		var toolTip = $('#info_' + eventId);
 		toolTip.hide();
+	});
+
+	$('.user-photo.p').draggable({ opacity: 0.5, snap: true, helper: 'clone' });
+	$('.event-segment').droppable({ hoverClass: 'eventHover',
+	 	drop: function(event, ui) {
+			var elExist = false;
+			var clientEl = ui.helper.clone();
+			var dataId = $(this).data('info-id');
+			var participantContainer = $('#info_' + dataId).find('.confirmed-participants');
+			participantContainer.find('img').each(function(i, el) {
+				if ($(el).attr('title') == clientEl.attr('title')) {
+					elExist = true;
+					return false;
+				}
+			});
+			if (!elExist) {
+				participantContainer.append(clientEl.addClass('user-photo').attr('style', ''));
+			}
+		}
 	});
 </script>
 <% end %>

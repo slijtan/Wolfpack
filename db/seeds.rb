@@ -88,7 +88,5 @@ l2 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => w_hotel.id, :chec
 UserLodging.destroy_all
 UserLodging.create(:lodging_id => l1.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l1.id, :user_id => mabel.id)
-UserLodging.create(:lodging_id => l1.id, :user_id => lijen.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => mabel.id)
-UserLodging.create(:lodging_id => l2.id, :user_id => lijen.id)

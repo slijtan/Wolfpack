@@ -32,11 +32,14 @@ class MealEvent < TripEvent
         <li>#{@restaurant.city_state_zip}
         <li>#{@restaurant.formatted_phone}
       </ul>
-      <h6>Diners:</h6>"
+      <h6>Diners:</h6>
+      <div class=\"confirmed-participants\">"
     @users.each do |user|
-      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo_url.nil? ? "no_user.jpg" : user.photo_url)}\"/>"
+      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo)}\"/>"
     end
-    tool_tip << "</div>"
+    tool_tip << "
+      </div>
+    </div>"
     tool_tip.html_safe
   end
 

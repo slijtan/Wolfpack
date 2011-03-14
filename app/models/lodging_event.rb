@@ -34,11 +34,14 @@ class LodgingEvent < TripEvent
         <li>Check In: #{start_date_str} #{start_time_str}
         <li>Check Out: #{end_date_str} #{end_time_str}
       </ul>
-      <h6>Guests:</h6>"
+      <h6>Guests:</h6>
+      <div class=\"confirmed-participants\">"
     @users.each do |user|
-      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo_url.nil? ? "no_user.jpg" : user.photo_url)}\"/>"
+      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo)}\"/>"
     end
-    tool_tip << "</div>"
+    tool_tip << "
+      </div>
+    </div>"
     tool_tip.html_safe
   end
 
