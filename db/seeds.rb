@@ -55,11 +55,11 @@ lijen.trips << new_york_trip
 lijen.save!
 
 Flight.destroy_all
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
 
 Restaurant.destroy_all
 momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york")

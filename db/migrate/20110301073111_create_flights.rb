@@ -6,7 +6,8 @@ class CreateFlights < ActiveRecord::Migration
       t.integer :carrier_flight_id, :null => false
       t.string :seat_number
       t.string :confirmation_number, :null => false
-      t.date :date, :null => false
+      t.date :start_date, :null => false
+      t.date :end_date, :null => false
 
       t.timestamps
     end
