@@ -16,7 +16,11 @@ class FlightEvent < TripEvent
   end
 
   def color
-    "red"
+    "#900000"
+  end
+
+  def border_color
+    "#730000"
   end
 
   def tool_tip_message

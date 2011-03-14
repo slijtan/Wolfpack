@@ -16,7 +16,11 @@ class MealEvent < TripEvent
   end
 
   def color
-    "green"
+    "#528B42"
+  end
+
+  def border_color
+    "#0F8F46"
   end
 
   def tool_tip_message

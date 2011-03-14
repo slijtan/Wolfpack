@@ -16,7 +16,11 @@ class LodgingEvent < TripEvent
   end
 
   def color
-    "blue"
+    "#000095"
+  end
+
+  def border_color
+    "#000073"
   end
 
   def tool_tip_message

@@ -62,7 +62,7 @@
 					<% e_left = 100 * event.minutes_since_trip_start / @trip.duration_in_minutes %>
 					<% e_width = 100 * event.duration / @trip.duration_in_minutes %>
 					<span class="s-time f-time" style="right: <%= 100 - e_left %>%"><%= event.start_time_str %></span>
-					<div class="event-segment" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>;">
+					<div class="event-segment" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>; border: 1px solid <%= event.border_color %>;">
 						<%= event.duration %>
 					</div>
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
