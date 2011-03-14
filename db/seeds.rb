@@ -37,9 +37,9 @@ cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id =
 cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1125, :end_time => 1350)
 
 User.destroy_all
-tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com")
-mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com")
-lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com")
+tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com", :photo_url => "tony.png")
+mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com", :photo_url => "mabel.png")
+lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com", :photo_url => "lijen.png")
 
 Trip.destroy_all
 new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2011,5,6), :end_date => Date.new(2011,5,8))
