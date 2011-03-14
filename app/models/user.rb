@@ -8,6 +8,6 @@ class User < ActiveRecord::Base
   end
 
   def photo
-    photo_url.nil? ? "no_user.jpg" : self.photo_url
+    photo_url.blank? ? "no_user.jpg" : self.photo_url
   end
 end
