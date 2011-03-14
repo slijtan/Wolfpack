@@ -17,6 +17,7 @@ jfk = Airport.create(:airport_code => "JFK", :full_name => "New York, NY", :time
 lax = Airport.create(:airport_code => "LAX", :full_name => "Los Angeles, CA", :time_zone_id => pst.id)
 sea = Airport.create(:airport_code => "SEA", :full_name => "Seattle, WA", :time_zone_id => pst.id)
 lgb = Airport.create(:airport_code => "LGB", :full_name => "Long Beach, CA", :time_zone_id => pst.id)
+lga = Airport.create(:airport_code => "LGA", :full_name => "La Guardia, NY", :time_zone_id => est.id)
 
 Carrier.destroy_all
 virgin = Carrier.create(:name => 'Virgin America')
@@ -35,6 +36,26 @@ cf5 = CarrierFlight.create(:carrier_id => united.id, :number => "0064", :from_id
 cf6 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => lgb.id, :start_time => 640, :end_time => 729)
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
 cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1125, :end_time => 1350)
+
+#demo seeds
+cf9 = CarrierFlight.create(:carrier_id => delta.id, :number => "2040", :from_id => sfo.id, :to_id => jfk.id, :start_time => 930, :end_time => 1439)
+cf10 = CarrierFlight.create(:carrier_id => delta.id, :number => "2865", :from_id => jfk.id, :to_id => sfo.id, :start_time => 435, :end_time => 640)
+
+cf11 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "648", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1325, :end_time => 395)
+cf12 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "641", :from_id => jfk.id, :to_id => sfo.id, :start_time => 485, :end_time => 705)
+
+cf13 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2103", :from_id => sfo.id, :to_id => jfk.id, :start_time => 660, :end_time => 1169)
+cf14 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1321", :from_id => jfk.id, :to_id => sfo.id, :start_time => 685, :end_time => 905)
+
+cf15 = CarrierFlight.create(:carrier_id => united.id, :number => "0014", :from_id => sfo.id, :to_id => jfk.id, :start_time => 963, :end_time => 32)
+cf16 = CarrierFlight.create(:carrier_id => united.id, :number => "0863", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1045, :end_time => 1270)
+
+cf17 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "1496", :from_id => sfo.id, :to_id => jfk.id, :start_time => 505, :end_time => 1007)
+cf18 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "469", :from_id => jfk.id, :to_id => sfo.id, :start_time => 955, :end_time => 1262)
+
+cf19 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 455, :end_time => 960)
+cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "29", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1150, :end_time => 1365)
+
 
 User.destroy_all
 tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com")
