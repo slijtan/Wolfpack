@@ -17,7 +17,7 @@
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.event-segment.eventHover { opacity: 0.6; }
-	.event-info { position: absolute; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip.flight { background-color: #C33; }
 	.tool-tip.lodging { background-color: #9CF; }
@@ -33,6 +33,7 @@
 	#participants h5 { margin: 5px 0; }
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
+	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -103,6 +104,9 @@
 			<%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
 		</div>
 	<% end %>
+	<div class="info-notice">
+		You can add an existing participant to an event by dragging their photo onto that event.
+	</div>
 </div>
 <% content_for :script do %>
 <script>
