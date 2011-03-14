@@ -23,24 +23,14 @@ class MealEvent < TripEvent
     "#0F8F46"
   end
 
-  def tool_tip_message
-    tool_tip = "
-    <div class=\"tool-tip meal\">
-      <ul>
-        <li>#{@restaurant.name} @ #{start_time_str}
-        <li>#{@restaurant.address}
-        <li>#{@restaurant.city_state_zip}
-        <li>#{@restaurant.formatted_phone}
-      </ul>
-      <h6>Diners:</h6>
-      <div class=\"confirmed-participants\">"
-    @users.each do |user|
-      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo)}\"/>"
-    end
-    tool_tip << "
-      </div>
-    </div>"
-    tool_tip.html_safe
+  def tool_tip_partial
+    "trips/meal_info"
+  end
+
+  def locals_hash
+    { :restaurant => @restaurant,
+      :start_time => @start_time,
+      :users => @users }
   end
 
   def duration

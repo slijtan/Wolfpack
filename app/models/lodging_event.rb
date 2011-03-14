@@ -23,26 +23,17 @@ class LodgingEvent < TripEvent
     "#000073"
   end
 
-  def tool_tip_message
-    tool_tip = "
-    <div class=\"tool-tip lodging\">
-      <ul>
-        <li>#{@hotel.name}
-        <li>#{@hotel.address}
-        <li>#{@hotel.city_state_zip}
-        <li>#{@hotel.formatted_phone}
-        <li>Check In: #{start_date_str} #{start_time_str}
-        <li>Check Out: #{end_date_str} #{end_time_str}
-      </ul>
-      <h6>Guests:</h6>
-      <div class=\"confirmed-participants\">"
-    @users.each do |user|
-      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo)}\"/>"
-    end
-    tool_tip << "
-      </div>
-    </div>"
-    tool_tip.html_safe
+  def tool_tip_partial
+    "trips/lodging_info"
+  end
+
+  def locals_hash
+    { :hotel => @hotel,
+      :start_date => @start_date,
+      :end_date => @end_date,
+      :start_time => @start_time,
+      :end_time => @end_time,
+      :users => @users }
   end
 
   def duration

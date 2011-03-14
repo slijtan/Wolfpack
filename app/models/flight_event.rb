@@ -24,24 +24,17 @@ class FlightEvent < TripEvent
     "#730000"
   end
 
-  def tool_tip_message
-    tool_tip = "
-    <div class=\"tool-tip flight\">
-      <ul>
-        <li>#{@carrier_flight.flight_title}
-        <li>From: #{@start_date.strftime("%a %m/%d")} #{start_time_str} #{@carrier_flight.from.airport_code}
-        <li>To: #{@end_date.strftime("%a %m/%d")} #{end_time_str} #{@carrier_flight.to.airport_code}
-        <li>
-      </ul>
-      <h6>Passengers:</h6>
-      <div class=\"confirmed-participants\">"
-    @users.each do |user|
-      tool_tip << "<img class=\"user-photo\" title=\"#{user.full_name}\" src=\"/images/#{(user.photo)}\"/>"
-    end
-    tool_tip << "
-      </div>
-    </div>"
-    tool_tip.html_safe
+  def tool_tip_partial
+    "trips/flight_info"
+  end
+
+  def locals_hash
+    { :carrier_flight => @carrier_flight,
+      :start_date => @start_date,
+      :end_date => @end_date,
+      :start_time => @start_time,
+      :end_time => @end_time,
+      :users => @users }
   end
 
   def duration

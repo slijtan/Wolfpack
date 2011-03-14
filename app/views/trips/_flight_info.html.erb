@@ -1,0 +1,13 @@
+<div class="tool-tip flight">
+  <ul>
+    <li><%= carrier_flight.flight_title %>
+    <li>From: <%= date_str(start_date) %> <%= minutes_to_time(start_time) %> <%= carrier_flight.from.airport_code %>
+    <li>To: <%= date_str(end_date) %> <%= minutes_to_time(end_time) %> <%= carrier_flight.to.airport_code %>
+  </ul>
+  <h6>Passengers:</h6>
+  <div class="confirmed-participants">
+	<% users.each do |user| %>
+		<%= user_photo(user) %>
+	<% end %>
+  </div>
+</div>

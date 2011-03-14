@@ -85,7 +85,7 @@
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
 					<% content_for :tool_tip do %>
 					<div class="event-info" id="info_<%= event.hash %>" style="left: <%= e_left %>%;">
-						<%= event.tool_tip_message %>
+						<%= render event.tool_tip_partial, event.locals_hash %>
 					</div>
 					<% end %>
 				<% end %>

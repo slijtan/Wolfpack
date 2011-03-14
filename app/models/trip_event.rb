@@ -29,14 +29,6 @@ class TripEvent
     end
   end
 
-  def start_date_str
-    date_str(@start_date)
-  end
-
-  def end_date_str
-    date_str(@end_date)
-  end
-
   protected
 
   def color
@@ -80,12 +72,6 @@ class TripEvent
 
   def end_absolute_minutes
     @end_time % 60
-  end
-
-  private
-
-  def date_str(date)
-    date.strftime("%a %m/%d")
   end
 
 end

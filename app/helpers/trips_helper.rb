@@ -12,4 +12,16 @@ module TripsHelper
     end
     time_segment.starts_with?("0") ? "<span style=\"visibility:hidden;\">0</span>".html_safe + time_segment[1..-1] : time_segment
   end
+
+  def minutes_to_time(time_in_minutes)
+    Time.at(time_in_minutes * 60).gmtime.strftime('%I:%M%p')
+  end
+
+  def date_str(date)
+    date.strftime("%a %m/%d")
+  end
+
+  def user_photo(user)
+    image_tag (user.photo_url.blank? ? "no_user.jpg" : user.photo_url), :title => user.full_name, :class => "user-photo"
+  end
 end

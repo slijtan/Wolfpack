@@ -1,0 +1,16 @@
+<div class="tool-tip lodging">
+  <ul>
+    <li><%= hotel.name %>
+    <li><%= hotel.address %>
+    <li><%= hotel.city_state_zip %>
+    <li><%= hotel.formatted_phone %>
+    <li>Check In: <%= date_str(start_date) %> <%= minutes_to_time(start_time) %>
+    <li>Check Out: <%= date_str(end_date) %> <%= minutes_to_time(end_time) %>
+  </ul>
+  <h6>Guests:</h6>
+  <div class="confirmed-participants">
+	<% users.each do |user| %>
+		<%= user_photo(user) %>
+	<% end %>
+  </div>
+</div>
