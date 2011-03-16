@@ -98,7 +98,7 @@
 	</div>
 </div>
 <div id="participants">
-	<h5>Current Trip Participants</h5>
+	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
 	<% @trip.users.each do |u| %>
 		<div class="trip-person">
 			<%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
