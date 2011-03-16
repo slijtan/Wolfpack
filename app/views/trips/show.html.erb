@@ -32,8 +32,8 @@
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 	#participants { margin-left: 10px; width: 300px;}
 	#participants .trip-person { float: left; clear: left;border-bottom:1px dashed #808080;width:100%;}
-	#participants .full_name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
-	#participants .full_name {margin-top: 5px;}
+	#participants .full-name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
+	#participants .full-name {margin-top: 5px;}
 	#participants .details { float:left; }
 	#participants .actions { clear:left; }
 	#participants .actions li { list-style: none; padding: 1px;5px; margin: 0 5px 0 0;font-size:8pt;}
@@ -91,7 +91,7 @@
 					</div>
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
 					<% content_for :tool_tip do %>
-					<div class="event-info" id="info_<%= event.hash %>" style="left: <%= e_left %>%;">
+					<div class="event-info" id="info-<%= event.hash %>" style="left: <%= e_left %>%;">
 						<%= render event.tool_tip_partial, event.locals_hash %>
 					</div>
 					<% end %>
@@ -114,7 +114,7 @@
 			  <img class="user-photo p" src="/images/<%= u.photo %>" data-uid="<%= u.id %>" title="<%= u.full_name %>">
 			  </div>
 			<div class="details">
-			  <span class="full_name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
+			  <span class="full-name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
 			  <ul class="actions">
 			    <li><a href="">view all</a></li>
 			    <li><a href="">view only</a></li>
@@ -128,7 +128,7 @@
 <script>
 	$(function() {
 		$('.trip-person.new').attr('style', 'background-color: #EFFF79;').animate({'background-color': 'transparent'}, 2000, function() {
-			$('.trip-person.new .full_name span').hide();
+			$('.trip-person.new .full-name span').hide();
 		});
 	})
 
@@ -140,14 +140,14 @@
 		var topOffset = offset.top + 20;
 		var leftOffset = offset.left;
 		var eventId = $(this).first().data('info-id');
-		var toolTip = $('#info_' + eventId);
+		var toolTip = $('#info-' + eventId);
 		toolTip.attr('style', 'top:' + topOffset + 'px; left:' + leftOffset + 'px;').show();
 	}).mouseout(function() {
 		$(this).prev().hide();
 		$(this).next().hide();
 
 		var eventId = $(this).data('info-id');
-		var toolTip = $('#info_' + eventId);
+		var toolTip = $('#info-' + eventId);
 		toolTip.hide();
 	});
 
@@ -165,7 +165,7 @@
 			var elExist = false;
 			var clientEl = ui.helper.clone();
 			var dataId = $(this).data('info-id');
-			var participantContainer = $('#info_' + dataId).find('.confirmed-participants');
+			var participantContainer = $('#info-' + dataId).find('.confirmed-participants');
 			participantContainer.find('img').each(function(i, el) {
 				if ($(el).attr('title') == clientEl.attr('title')) {
 					elExist = true;
