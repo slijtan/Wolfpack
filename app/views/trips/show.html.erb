@@ -107,14 +107,14 @@
 <div id="participants">
 	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
 
-	
+
 	<% @trip.users.each do |u| %>
-		<div class="trip-person">
+		<div class="trip-person <%= "new" if u.id == @new_id %>">
 			<div class="photo">
 			  <img class="user-photo p" src="/images/<%= u.photo %>" data-uid="<%= u.id %>" title="<%= u.full_name %>">
 			  </div>
 			<div class="details">
-			  <span class="full_name"><%= u.full_name %></span>
+			  <span class="full_name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
 			  <ul class="actions">
 			    <li><a href="">view all</a></li>
 			    <li><a href="">view only</a></li>
@@ -126,6 +126,12 @@
 </div>
 <% content_for :script do %>
 <script>
+	$(function() {
+		$('.trip-person.new').attr('style', 'background-color: #EFFF79;').animate({'background-color': 'transparent'}, 2000, function() {
+			$('.trip-person.new .full_name span').hide();
+		});
+	})
+
 	$('.event-segment').mouseover(function() {
 		$(this).prev().show();
 		$(this).next().show();
