@@ -16,11 +16,24 @@ class LodgingEvent < TripEvent
   end
 
   def color
-    "blue"
+    "#000095"
   end
 
-  def tool_tip_message
-    "Sleepers: #{@users.map(&:full_name).join(",")}"
+  def border_color
+    "#000073"
+  end
+
+  def tool_tip_partial
+    "trips/lodging_info"
+  end
+
+  def locals_hash
+    { :hotel => @hotel,
+      :start_date => @start_date,
+      :end_date => @end_date,
+      :start_time => @start_time,
+      :end_time => @end_time,
+      :users => @users }
   end
 
   def duration

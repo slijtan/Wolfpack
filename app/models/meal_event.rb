@@ -16,11 +16,21 @@ class MealEvent < TripEvent
   end
 
   def color
-    "green"
+    "#528B42"
   end
 
-  def tool_tip_message
-    "Eaters: #{@users.map(&:full_name).join(",")}"
+  def border_color
+    "#0F8F46"
+  end
+
+  def tool_tip_partial
+    "trips/meal_info"
+  end
+
+  def locals_hash
+    { :restaurant => @restaurant,
+      :start_time => @start_time,
+      :users => @users }
   end
 
   def duration

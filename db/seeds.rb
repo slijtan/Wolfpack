@@ -36,6 +36,8 @@ cf5 = CarrierFlight.create(:carrier_id => united.id, :number => "0064", :from_id
 cf6 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => lgb.id, :start_time => 640, :end_time => 729)
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
 cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1125, :end_time => 1350)
+cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
+cf9 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => jfk.id, :start_time => 640, :end_time => 1129)
 
 #demo seeds
 cf9 = CarrierFlight.create(:carrier_id => delta.id, :number => "2040", :from_id => sfo.id, :to_id => jfk.id, :start_time => 930, :end_time => 1439)
@@ -58,9 +60,9 @@ cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "29", :from_id 
 
 
 User.destroy_all
-tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com")
-mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com")
-lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com")
+tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com", :photo_url => "tony.png")
+mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com", :photo_url => "mabel.png")
+lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com", :photo_url => "lijen.png")
 
 Trip.destroy_all
 new_york_trip = Trip.create(:name => "New York Trip", :start_date => Date.new(2011,5,6), :end_date => Date.new(2011,5,8))
@@ -76,11 +78,11 @@ lijen.trips << new_york_trip
 lijen.save!
 
 Flight.destroy_all
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16E", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => lijen.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf9.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
 
 Restaurant.destroy_all
 momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york")
@@ -109,7 +111,5 @@ l2 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => w_hotel.id, :chec
 UserLodging.destroy_all
 UserLodging.create(:lodging_id => l1.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l1.id, :user_id => mabel.id)
-UserLodging.create(:lodging_id => l1.id, :user_id => lijen.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => mabel.id)
-UserLodging.create(:lodging_id => l2.id, :user_id => lijen.id)

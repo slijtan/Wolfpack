@@ -51,7 +51,7 @@ class Flight < ActiveRecord::Base
       matches = regex.match(flight_block)
 
       new_flight.carrier_flight =  carrier.carrier_flights.find_by_number(matches[1].strip)
-      new_flight.date = Date.parse(matches[2].strip)
+      new_flight.start_date = Date.parse(matches[2].strip)
       new_flight.seat_number = matches[7].strip
 
       new_flight.save!
@@ -67,6 +67,6 @@ class Flight < ActiveRecord::Base
   end
 
   def date_carrier_flight_id
-    "#{self.date.strftime("%Y_%m_%d")}_#{self.carrier_flight_id}"
+    "#{self.start_date.strftime("%Y_%m_%d")}_#{self.carrier_flight_id}"
   end
 end

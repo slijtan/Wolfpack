@@ -1,0 +1,14 @@
+<div class="tool-tip meal">
+  <ul>
+    <li><%= restaurant.name %> @ <%= minutes_to_time(start_time) %>
+    <li><%= restaurant.address %>
+    <li><%= restaurant.city_state_zip %>
+    <li><%= restaurant.formatted_phone %>
+  </ul>
+  <h6>Diners:</h6>
+  <div class="confirmed-participants">
+	<% users.each do |user| %>
+		<%= user_photo(user) %>
+	<% end %>
+  </div>
+</div>

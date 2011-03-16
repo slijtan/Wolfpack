@@ -6,4 +6,8 @@ class User < ActiveRecord::Base
   def full_name
     "#{self.first_name} #{self.last_name}"
   end
+
+  def photo
+    photo_url.blank? ? "no_user.jpg" : self.photo_url
+  end
 end
