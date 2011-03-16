@@ -20,11 +20,9 @@ class DemoController < ApplicationController
     
     user = User.create(:first_name => first_name, :last_name => last_name, :email => "#{email}@gmail.com")
     
-    p carrier
     dep_flight = departing_carrier_flight(carrier)
     ret_flight = returning_carrier_flight(carrier)
-    p dep_flight
-    p ret_flight
+
     dep_flight.create_flight(user, trip, departing_date)
     ret_flight.create_flight(user, trip, returning_date)
     
@@ -34,7 +32,7 @@ class DemoController < ApplicationController
   private
 
   def departing_carrier_flight(carrier)
-    p "DEPARTING CARRIER FLIGHT"
+
     case carrier.name
     when "Delta Airlines" then number = "2040"
     when "Virgin America" then number = "12"
@@ -48,7 +46,7 @@ class DemoController < ApplicationController
   end
 
   def returning_carrier_flight(carrier)
-    p "RETURNING CARRIER FLIGHT"
+
     case carrier.name
     when "Delta Airlines" then number = "2040"
     when "Virgin America" then number = "29"
