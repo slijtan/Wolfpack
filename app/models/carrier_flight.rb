@@ -9,6 +9,13 @@ class CarrierFlight < ActiveRecord::Base
     (end_time_in_zone - start_time_in_zone) / 60
   end
 
+  #flight creation factory
+  def create_flight(user, trip, date)
+    TripUser.create(:user => user, :trip => trip) unless TripUser.exists?(["user_id = ? AND trip_id = ?", user, trip])
+
+    Flight.create(:user => user, :trip => trip, :carrier_flight => self, :seat_number => "16E", :date => date, :confirmation_number => "ASDF1234")
+  end
+
   private
 
   def end_time_in_zone

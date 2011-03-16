@@ -2,6 +2,8 @@ Wolfpack::Application.routes.draw do
 
   resources :trips, :only => [:show]
 
+  match 'demo/create_flight' => 'demo#create_flight', :as => :demo_create_flight, :via => :post
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
