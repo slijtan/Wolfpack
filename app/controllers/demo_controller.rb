@@ -13,18 +13,16 @@ class DemoController < ApplicationController
 
     carrier = Carrier.find_by_short_name(carrier_short_name)
 
-    departing_date = Date.parse('2011-05-06')
-    returning_date = Date.parse('2011-05-08')
     email = full_name.downcase.gsub(/ /, ".")
     first_name, last_name = *full_name.split(" ", 2)
     
     user = User.create(:first_name => first_name, :last_name => last_name, :email => "#{email}@gmail.com")
     
-    dep_flight = departing_carrier_flight(carrier)
-    ret_flight = returning_carrier_flight(carrier)
+    dep_flight, dep_start_date, dep_end_date = departing_carrier_flight(carrier)
+    ret_flight, ret_start_date, ret_end_date = returning_carrier_flight(carrier)
 
-    dep_flight.create_flight(user, trip, departing_date)
-    ret_flight.create_flight(user, trip, returning_date)
+    dep_flight.create_flight(user, trip, dep_start_date, dep_end_date)
+    ret_flight.create_flight(user, trip, ret_start_date, ret_end_date)
     
     redirect_to trip_path(:id => trip), :notice => "Fights successfully added"
   end
@@ -32,31 +30,79 @@ class DemoController < ApplicationController
   private
 
   def departing_carrier_flight(carrier)
-
+    
     case carrier.name
-    when "Delta Airlines" then number = "2040"
-    when "Virgin America" then number = "12"
-    when "Southwest Airlines" then number = "2103"
-    when "United Airlines" then number = "0014"
-    when "US Airways" then number = "1496"
-    when "Jetblue" then number = "648"
+    when "Delta Airlines"
+      number = "2040"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-06')
+      
+    when "Virgin America"
+      number = "12"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-06')
+
+    when "Southwest Airlines"
+      number = "2113"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-06')
+      
+    when "United Airlines"
+      number = "0014"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-07')
+
+    when "US Airways"
+      number = "1496"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-06')
+
+    when "Jetblue"
+      number = "648"
+      departing_start_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-06')
+
     end
     
-    return CarrierFlight.where(["number = ? AND carrier_id = ?", number, carrier]).first
+    return CarrierFlight.where(["number = ? AND carrier_id = ?", number, carrier]).first, departing_start_date, departing_end_date
   end
 
   def returning_carrier_flight(carrier)
-
+    
     case carrier.name
-    when "Delta Airlines" then number = "2040"
-    when "Virgin America" then number = "29"
-    when "Southwest Airlines" then number = "1321"
-    when "United Airlines" then number = "0863"
-    when "US Airways" then number = "0863"
-    when "Jetblue" then number = "641"
+    when "Delta Airlines"
+      number = "2040"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
+    when "Virgin America"
+      number = "129"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
+    when "Southwest Airlines"
+      number = "1421"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
+    when "United Airlines"
+      number = "0863"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
+    when "US Airways"
+      number = "1496"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
+    when "Jetblue"
+      number = "641"
+      returning_start_date = Date.parse('2011-05-08')
+      returning_end_date = Date.parse('2011-05-08')
+
     end
 
-    return CarrierFlight.where(["number = ? AND carrier_id = ?", number, carrier]).first
+    return CarrierFlight.where(["number = ? AND carrier_id = ?", number, carrier]).first, returning_start_date, returning_end_date
   end
 
 end

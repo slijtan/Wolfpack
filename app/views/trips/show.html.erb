@@ -1,5 +1,6 @@
 <% content_for :head do %>
 <style>
+	a:visited, a:hover {color: #000000;}
 	#itinerary-wrapper { position: relative; border-bottom: 1px solid #DDD; }
 	#day-timeline { height: 15px; position: relative; }
 	#block-timeline,
@@ -28,9 +29,14 @@
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
-
-	#participants { margin-left: 150px; }
-	#participants h5 { margin: 5px 0; }
+	#participants { margin-left: 10px; width: 250px;}
+	#participants .trip-person { float: left; clear: left;border-bottom:1px dashed #808080;width:100%;}
+	#participants .full_name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
+	#participants .full_name {margin-top: 5px;}
+	#participants .details { float:left; }
+	#participants .actions { clear:left; }
+	#participants .actions li { list-style: none; padding: 1px;5px; margin: 0 5px 0 0;font-size:8pt;}
+	#participants h5 { margin: 5px 0; font-size: 15pt;}
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
@@ -98,15 +104,23 @@
 	</div>
 </div>
 <div id="participants">
-	<h5>Current Trip Participants</h5>
+	<h5>Trip Participants</h5>
+	
 	<% @trip.users.each do |u| %>
 		<div class="trip-person">
-			<%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
+			<div class="photo">
+			  <%= image_tag u.photo, :title => u.full_name, :class => 'user-photo p' %>
+			  </div>
+			<div class="details">
+			  <span class="full_name"><%= u.full_name %></span>
+			  <ul class="actions">
+			    <li><a href="">view all</a></li>
+			    <li><a href="">view only</a></li>
+			    <li><a href="">add to activity</a></li>
+			  </ul>
+			</div>
 		</div>
 	<% end %>
-	<div class="info-notice">
-		You can add an existing participant to an event by dragging their photo onto that event.
-	</div>
 </div>
 <% content_for :script do %>
 <script>

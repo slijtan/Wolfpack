@@ -14,10 +14,10 @@ class CarrierFlight < ActiveRecord::Base
   end
 
   #flight creation factory
-  def create_flight(user, trip, date)
+  def create_flight(user, trip, start_date, end_date)
     TripUser.create(:user => user, :trip => trip) unless TripUser.exists?(["user_id = ? AND trip_id = ?", user, trip])
 
-    Flight.create(:user => user, :trip => trip, :carrier_flight => self, :seat_number => "16E", :date => date, :confirmation_number => "ASDF1234")
+    Flight.create(:user => user, :trip => trip, :carrier_flight => self, :seat_number => "16E", :start_date => start_date, :end_date => end_date, :confirmation_number => "ASDF1234")
   end
 
   private
