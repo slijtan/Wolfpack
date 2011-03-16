@@ -10,4 +10,8 @@ class User < ActiveRecord::Base
   def photo
     photo_url.blank? ? "no_user.jpg" : self.photo_url
   end
+
+  def class_id_name
+    "u#{self.id}"
+  end
 end
