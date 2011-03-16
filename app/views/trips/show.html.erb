@@ -41,6 +41,11 @@
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+	#legend { float:left;padding:0;margin:6px;color:#FFF}
+	#legend li { float:left;list-style:none;font-size:10pt;margin-right: 5px;padding:1px 5px;}
+	#legend .flights {background-color: #730000}
+	#legend .lodging {background-color: #000073}
+	#legend .meals {background-color: #0f8f46}
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
@@ -123,7 +128,24 @@
 			</div>
 		</div>
 	<% end %>
+
+	<ul id="legend">
+	  <li class="flights">
+	    <%= check_box_tag 'checkbox_flights', "1" , {:class => "legend_flights"}  %>
+	    <a class="legend_flights">Flights</a>
+	  </li>
+	  <li class="lodging">
+	    <%= check_box_tag 'checkbox_lodging', "1", {:class => "legend_lodging"}  %>
+	    <a class="legend_lodging">Lodging</a>
+	  </li>
+	  <li class="meals">
+	    <%= check_box_tag 'checkbox_meals', "1", {:class => "legend_meals"}  %>
+	    <a id="legend_meals">Meals</a>
+	  </li>
+	</ul>
 </div>
+
+
 <% content_for :script do %>
 <script>
 	$('.event-segment').mouseover(function() {
