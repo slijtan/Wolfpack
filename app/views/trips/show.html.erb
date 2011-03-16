@@ -17,8 +17,8 @@
 	.vbars { position: absolute; top: 46px; bottom: 0; border-right: 1px solid #DDD; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.event-segment.eventHover,
-	.event-segment.dragHover { opacity: 0.6; }
+	.event-segment.eventHover:not(.blocked) { background-color: #EFFF79 !important; }
+	.event-segment.blocked { opacity: 0.6; }
 	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip.flight { background-color: #C33; }
@@ -148,11 +148,11 @@
 	$('.user-photo.p').draggable({ opacity: 0.5, snap: true, helper: 'clone',
 	 	start: function(event, ui) {
 			var uid = $(ui.helper).data('uid');
-			$(".event-segment:not(.u" + uid + ")").addClass('dragHover');
+			$(".event-segment.u" + uid).addClass('blocked');
 		},
 		stop: function(event, ui) {
 			var uid = $(ui.helper).data('uid');
-			$(".event-segment:not(.u" + uid + ")").removeClass('dragHover');
+			$(".event-segment.u" + uid).removeClass('blocked');
 		}});
 	$('.event-segment').droppable({ hoverClass: 'eventHover',
 	 	drop: function(event, ui) {
@@ -166,6 +166,7 @@
 					return false;
 				}
 			});
+			$(this).addClass('u' + $(ui.helper).data('uid'))
 			if (!elExist) {
 				participantContainer.append(clientEl.addClass('user-photo').attr('style', ''));
 			}
