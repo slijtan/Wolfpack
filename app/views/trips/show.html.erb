@@ -30,7 +30,7 @@
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
-	#participants { margin-left: 10px; width: 300px;}
+	#participants { margin-left:10px; width: 300px;clear:left;padding-top:10px;}
 	#participants .trip-person { float: left; clear: left;border-bottom:1px dashed #808080;width:100%;}
 	#participants .full_name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
 	#participants .full_name {margin-top: 5px;}
@@ -41,7 +41,7 @@
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	#legend { float:left;padding:0;margin:6px;color:#FFF}
+	#legend { float:right;padding:0;padding-top:10px;margin:6px;color:#FFF;}
 	#legend li { float:left;list-style:none;font-size:10pt;margin-right: 5px;padding:1px 5px;}
 	#legend .flights {background-color: #730000}
 	#legend .lodging {background-color: #000073}
@@ -91,7 +91,7 @@
 					<% e_left = 100 * event.minutes_since_trip_start / @trip.duration_in_minutes %>
 					<% e_width = 100 * event.duration / @trip.duration_in_minutes %>
 					<span class="s-time f-time" style="right: <%= 100 - e_left %>%"><%= event.start_time_str %></span>
-					<div class="event-segment <%= event.users.map(&:class_id_name).join(" ") %>" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>; border: 1px solid <%= event.border_color %>;">
+					<div class="event-segment <%= event_class(event) %> <%= event.users.map(&:class_id_name).join(" ") %>" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>; border: 1px solid <%= event.border_color %>;">
 						<%= event.duration %>
 					</div>
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
@@ -109,10 +109,21 @@
 		</div>
 	</div>
 </div>
+<ul id="legend">
+	  <li class="flights">
+	    <label><%= check_box_tag 'checkbox_flights', "1" , {}, {:class =>"legend_flights"}  %>Flights</label>
+	  </li>
+	  <li class="lodging">
+	    <label><%= check_box_tag 'checkbox_lodging', "1", {}, {:class => "legend_lodging"}  %>Lodging</label>
+	  </li>
+	  <li class="meals">
+	    <label><%= check_box_tag 'checkbox_meals', "1", {}, {:class => "legend_meals"}  %>Meals</label>
+	  </li>
+</ul>
+
 <div id="participants">
 	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
 
-	
 	<% @trip.users.each do |u| %>
 		<div class="trip-person">
 			<div class="photo">
@@ -129,25 +140,26 @@
 		</div>
 	<% end %>
 
-	<ul id="legend">
-	  <li class="flights">
-	    <%= check_box_tag 'checkbox_flights', "1" , {:class => "legend_flights"}  %>
-	    <a class="legend_flights">Flights</a>
-	  </li>
-	  <li class="lodging">
-	    <%= check_box_tag 'checkbox_lodging', "1", {:class => "legend_lodging"}  %>
-	    <a class="legend_lodging">Lodging</a>
-	  </li>
-	  <li class="meals">
-	    <%= check_box_tag 'checkbox_meals', "1", {:class => "legend_meals"}  %>
-	    <a id="legend_meals">Meals</a>
-	  </li>
-	</ul>
+	<div style="clear:both;"></div>
 </div>
 
 
 <% content_for :script do %>
 <script>
+
+        $('.legend_flights').click(function(){
+	$('.event-flight').fadeToggle();
+	});
+
+        $('.legend_lodging').click(function(){
+	$('.event-lodging').fadeToggle();
+	});
+
+        $('.legend_meals').click(function(){
+	$('.event-meal').fadeToggle();
+	});
+
+
 	$('.event-segment').mouseover(function() {
 		$(this).prev().show();
 		$(this).next().show();
@@ -193,5 +205,6 @@
 			}
 		}
 	});
+
 </script>
 <% end %>
