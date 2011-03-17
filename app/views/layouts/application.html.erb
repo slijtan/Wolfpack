@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Wolfpack</title>
-	<%= stylesheet_link_tag [@page_css].flatten.uniq.compact %>
+	<%= stylesheet_link_tag ['wolfpack', @page_css].flatten.uniq.compact %>
 	<%= yield :head %>
   <%= csrf_meta_tag %>
 </head>
