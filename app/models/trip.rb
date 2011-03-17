@@ -52,9 +52,10 @@ class Trip < ActiveRecord::Base
     @events ||= begin
       events = get_flight_events
       events << get_meal_events
-      events << get_lodging_events
-      events.flatten
-    end.sort_by(&:start_time_with_zone)
+      events = events.flatten.sort_by(&:start_time_with_zone)
+      lodging_events = get_lodging_events.sort_by(&:start_time_with_zone)
+      events.unshift(lodging_events).flatten!
+    end
   end
 
   def get_flight_events
