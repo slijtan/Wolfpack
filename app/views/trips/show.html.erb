@@ -31,9 +31,8 @@
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 
-	#participants { margin-left:10px; width: 300px;clear:left;padding-top:10px;}
+	#participants { margin-left:10px; width: 200px;clear:left;padding-top:10px;}
 	#participants .trip-person { float: left; clear:left;border-bottom:1px dashed #808080;width:100%;}
-	#participants { margin-left: 10px; width: 300px; }
 	#participants .trip-person { float: left; clear: left; border-bottom: 1px dashed #808080; }
 	#participants .trip-person:hover { background-color: #EFFF79; cursor: move; }
 	#participants .full-name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
@@ -42,7 +41,7 @@
 	#participants .details { float:left;}
 	#participants .actions { clear:left; }
 	#participants .actions li { list-style: none; padding: 1px;5px; margin: 0 5px 0 0;font-size:8pt;}
-	#participants h5 { margin: 5px 0; font-size: 15pt;}
+	#participants h5 { margin: 5px 0; font-size: 14pt;}
 	.trip-person { float: left; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
@@ -127,7 +126,7 @@
 </ul>
 
 <div id="participants">
-	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
+	<h5>Trip Participants (<%= @trip.users.size %>)</h5>
 
 	<% @trip.users.each do |u| %>
 		<div class="trip-person <%= "new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
@@ -137,9 +136,8 @@
 			<div class="details">
 			  <span class="full-name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
 			  <ul class="actions">
-			    <li><a href="">view all</a></li>
-			    <li><a href="">view only</a></li>
-			    <li><a href="">add to activity</a></li>
+			    <li><a href="">show</a></li>
+			    <li><a href="">hide</a></li>
 			  </ul>
 			</div>
 		</div>
