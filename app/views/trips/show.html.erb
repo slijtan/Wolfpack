@@ -30,8 +30,9 @@
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
-	#participants { margin-left: 10px; width: 300px;}
-	#participants .trip-person { float: left; clear: left;border-bottom:1px dashed #808080;width:100%;}
+	#participants { margin-left: 10px; width: 300px; }
+	#participants .trip-person { float: left; clear: left; border-bottom: 1px dashed #808080; }
+	#participants .trip-person:hover { background-color: #EFFF79; cursor: move; }
 	#participants .full-name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
 	#participants .full-name {margin-top: 5px;}
 	#participants .details { float:left; }
@@ -109,9 +110,9 @@
 
 
 	<% @trip.users.each do |u| %>
-		<div class="trip-person <%= "new" if u.id == @new_id %>">
+		<div class="trip-person <%= "new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
 			<div class="photo">
-			  <img class="user-photo p" src="/images/<%= u.photo %>" data-uid="<%= u.id %>" title="<%= u.full_name %>">
+			  <img class="user-photo p" src="/images/<%= u.photo %>" title="<%= u.full_name %>">
 			  </div>
 			<div class="details">
 			  <span class="full-name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
@@ -151,7 +152,7 @@
 		toolTip.hide();
 	});
 
-	$('.user-photo.p').draggable({ opacity: 0.5, snap: true, helper: 'clone',
+	$('.trip-person').draggable({ opacity: 0.5, snap: true, helper: 'clone',
 	 	start: function(event, ui) {
 			var uid = $(ui.helper).data('uid');
 			$(".event-segment.u" + uid).addClass('blocked');
@@ -174,7 +175,7 @@
 			});
 			$(this).addClass('u' + $(ui.helper).data('uid'))
 			if (!elExist) {
-				participantContainer.append(clientEl.addClass('user-photo').attr('style', ''));
+				participantContainer.append(clientEl.find('.user-photo').attr('style', ''));
 			}
 		}
 	});
