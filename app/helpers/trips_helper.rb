@@ -31,4 +31,15 @@ module TripsHelper
   def user_photo(user)
     image_tag (user.photo_url.blank? ? "no_user.jpg" : user.photo_url), :title => user.full_name, :class => "user-photo"
   end
+
+  def event_class(event)
+    case event.class.to_s
+    when "FlightEvent"
+      return "event-flight"
+    when "LodgingEvent"
+      return "event-lodging"
+    when "MealEvent"
+      return "event-meal"
+    end
+  end
 end
