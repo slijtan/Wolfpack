@@ -10,7 +10,14 @@ module TripsHelper
     time_segment = Time.use_zone(airport.time_zone.name) do
       (trip.start_date_with_zone + (index * NUM_HOURS_IN_SEGMENT).hours).strftime("%I%p")
     end
-    time_segment.starts_with?("0") ? "<span style=\"visibility:hidden;\">0</span>".html_safe + time_segment[1..-1] : time_segment
+    case time_segment
+      when "12AM"
+        "midnight"
+      when "12PM"
+        "noon"
+      else
+        time_segment.starts_with?("0") ? "<span style=\"visibility:hidden;\">0</span>".html_safe + time_segment[1..-1] : time_segment
+    end
   end
 
   def minutes_to_time(time_in_minutes)

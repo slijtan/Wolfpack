@@ -24,7 +24,7 @@ class DemoController < ApplicationController
     dep_flight.create_flight(user, trip, dep_start_date, dep_end_date)
     ret_flight.create_flight(user, trip, ret_start_date, ret_end_date)
     
-    redirect_to trip_path(:id => trip), :notice => "Fights successfully added"
+    redirect_to trip_path(:id => trip, :new_id => user.id), :notice => "Fights successfully added"
   end
 
   private

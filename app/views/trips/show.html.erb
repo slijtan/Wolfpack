@@ -17,8 +17,8 @@
 	.vbars { position: absolute; top: 46px; bottom: 0; border-right: 1px solid #DDD; z-index: 1; }
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-	.event-segment.eventHover,
-	.event-segment.dragHover { opacity: 0.6; }
+	.event-segment.eventHover:not(.blocked) { background-color: #EFFF79 !important; }
+	.event-segment.blocked { opacity: 0.6; }
 	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip.flight { background-color: #C33; }
@@ -30,11 +30,16 @@
 	.s-time { margin-right: 5px; }
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
+
 	#participants { margin-left:10px; width: 300px;clear:left;padding-top:10px;}
-	#participants .trip-person { float: left; clear: left;border-bottom:1px dashed #808080;width:100%;}
-	#participants .full_name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
-	#participants .full_name {margin-top: 5px;}
-	#participants .details { float:left; }
+	#participants .trip-person { float: left; clear:left;border-bottom:1px dashed #808080;width:100%;}
+	#participants { margin-left: 10px; width: 300px; }
+	#participants .trip-person { float: left; clear: left; border-bottom: 1px dashed #808080; }
+	#participants .trip-person:hover { background-color: #EFFF79; cursor: move; }
+	#participants .full-name, #participants .photo, .actions, .actions li{float: left; display: block;margin:0;padding-left:0;}
+	#participants .full-name {margin-top: 5px;}
+
+	#participants .details { float:left;}
 	#participants .actions { clear:left; }
 	#participants .actions li { list-style: none; padding: 1px;5px; margin: 0 5px 0 0;font-size:8pt;}
 	#participants h5 { margin: 5px 0; font-size: 15pt;}
@@ -96,7 +101,7 @@
 					</div>
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
 					<% content_for :tool_tip do %>
-					<div class="event-info" id="info_<%= event.hash %>" style="left: <%= e_left %>%;">
+					<div class="event-info" id="info-<%= event.hash %>" style="left: <%= e_left %>%;">
 						<%= render event.tool_tip_partial, event.locals_hash %>
 					</div>
 					<% end %>
@@ -125,12 +130,12 @@
 	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
 
 	<% @trip.users.each do |u| %>
-		<div class="trip-person">
+		<div class="trip-person <%= "new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
 			<div class="photo">
-			  <img class="user-photo p" src="/images/<%= u.photo %>" data-uid="<%= u.id %>" title="<%= u.full_name %>">
+			  <img class="user-photo p" src="/images/<%= u.photo %>" title="<%= u.full_name %>">
 			  </div>
 			<div class="details">
-			  <span class="full_name"><%= u.full_name %></span>
+			  <span class="full-name"><%= u.full_name %> <%= "<span>(Just Added)</span>".html_safe if u.id == @new_id %></span>
 			  <ul class="actions">
 			    <li><a href="">view all</a></li>
 			    <li><a href="">view only</a></li>
@@ -146,8 +151,13 @@
 
 <% content_for :script do %>
 <script>
+	$(function() {
+		$('.trip-person.new').attr('style', 'background-color: #EFFF79;').animate({'background-color': 'transparent'}, 2000, function() {
+			$('.trip-person.new .full-name span').hide();
+		});
+	})
 
-        $('.legend_flights').click(function(){
+       $('.legend_flights').click(function(){
 	$('.event-flight').fadeToggle();
 	});
 
@@ -159,7 +169,6 @@
 	$('.event-meal').fadeToggle();
 	});
 
-
 	$('.event-segment').mouseover(function() {
 		$(this).prev().show();
 		$(this).next().show();
@@ -168,40 +177,41 @@
 		var topOffset = offset.top + 20;
 		var leftOffset = offset.left;
 		var eventId = $(this).first().data('info-id');
-		var toolTip = $('#info_' + eventId);
+		var toolTip = $('#info-' + eventId);
 		toolTip.attr('style', 'top:' + topOffset + 'px; left:' + leftOffset + 'px;').show();
 	}).mouseout(function() {
 		$(this).prev().hide();
 		$(this).next().hide();
 
 		var eventId = $(this).data('info-id');
-		var toolTip = $('#info_' + eventId);
+		var toolTip = $('#info-' + eventId);
 		toolTip.hide();
 	});
 
-	$('.user-photo.p').draggable({ opacity: 0.5, snap: true, helper: 'clone',
+	$('.trip-person').draggable({ opacity: 0.5, snap: true, helper: 'clone',
 	 	start: function(event, ui) {
 			var uid = $(ui.helper).data('uid');
-			$(".event-segment:not(.u" + uid + ")").addClass('dragHover');
+			$(".event-segment.u" + uid).addClass('blocked');
 		},
 		stop: function(event, ui) {
 			var uid = $(ui.helper).data('uid');
-			$(".event-segment:not(.u" + uid + ")").removeClass('dragHover');
+			$(".event-segment.u" + uid).removeClass('blocked');
 		}});
 	$('.event-segment').droppable({ hoverClass: 'eventHover',
 	 	drop: function(event, ui) {
 			var elExist = false;
 			var clientEl = ui.helper.clone();
 			var dataId = $(this).data('info-id');
-			var participantContainer = $('#info_' + dataId).find('.confirmed-participants');
+			var participantContainer = $('#info-' + dataId).find('.confirmed-participants');
 			participantContainer.find('img').each(function(i, el) {
 				if ($(el).attr('title') == clientEl.attr('title')) {
 					elExist = true;
 					return false;
 				}
 			});
+			$(this).addClass('u' + $(ui.helper).data('uid'))
 			if (!elExist) {
-				participantContainer.append(clientEl.addClass('user-photo').attr('style', ''));
+				participantContainer.append(clientEl.find('.user-photo').attr('style', ''));
 			}
 		}
 	});
