@@ -137,7 +137,7 @@
 		$(this).next().show();
 
 		var offset = $(this).offset();
-		var topOffset = offset.top + 20;
+		var topOffset = offset.top + 10;
 		var leftOffset = offset.left;
 		var eventId = $(this).first().data('info-id');
 		var toolTip = $('#info-' + eventId);
@@ -149,6 +149,12 @@
 		var eventId = $(this).data('info-id');
 		var toolTip = $('#info-' + eventId);
 		toolTip.hide();
+	});
+
+	$('.event-info').mouseover(function() {
+		$(this).show();
+	}).mouseout(function() {
+		$(this).hide();
 	});
 
 	$('.trip-person').draggable({ opacity: 0.5, snap: true, helper: 'clone',
