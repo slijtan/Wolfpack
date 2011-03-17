@@ -6,6 +6,8 @@
     <li><%= hotel.formatted_phone %>
     <li>Check In: <%= date_str(start_date) %> <%= minutes_to_time(start_time) %>
     <li>Check Out: <%= date_str(end_date) %> <%= minutes_to_time(end_time) %>
+		<li><%= link_to "Map Link", hotel.map_url, :target => '_blank' %>
+		<li><%= link_to "Website", hotel.url, :target => '_blank' %>
   </ul>
   <h6>Guests:</h6>
   <div class="confirmed-participants">
