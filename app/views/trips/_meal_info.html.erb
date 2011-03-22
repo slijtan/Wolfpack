@@ -6,6 +6,7 @@
     <li><%= restaurant.formatted_phone %>
 		<li><%= link_to "Map Link", restaurant.map_url, :target => '_blank' %>
 		<li><%= link_to "Yelp Review", restaurant.yelp_url, :target => '_blank' %>
+		<li><div class="ratings <%= restaurant.yelp_rating_class %>"></div>
   </ul>
   <h6>Diners:</h6>
   <div class="confirmed-participants">
