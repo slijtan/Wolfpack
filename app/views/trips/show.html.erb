@@ -7,8 +7,9 @@
 <% content_for :head do %>
 <style>
 	#header #logo { float: left; }
-	#header #logo-text { border-bottom: 3px solid grey; margin-left: 95px; margin-top: 0.9px; padding-bottom: 5px; }
+	#header #logo-text { border-bottom: 3px solid grey; margin-left: 95px; margin-top: 0.9px; padding-bottom: 5px; font-family: Verdana; }
 	#header #logo-text img { margin: 32px 0 -6px 0; }
+
 
 	#itinerary-wrapper { position: relative; border-bottom: 1px solid #DDD; }
 	#day-timeline { height: 15px; position: relative; }
@@ -27,7 +28,7 @@
 	.timeline-segment { position: absolute; margin-left: -12px; top: 4px; }
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.event-segment.eventHover:not(.blocked) { background-color: #EFFF79 !important; }
-	.event-segment.blocked { opacity: 0.6; }
+	.event-segment.blocked { opacity: 0.3; }
 	.event-icon { height: 18px; float: left; margin: 0 10px; }
 	.event-icon.f { background-image: url('/images/plane_18x18.png'); width: 18px; }
 	.event-icon.m { background-image: url('/images/meals_18x18.png'); width: 18px; margin: 0 3px; }
@@ -193,7 +194,7 @@
 		$(this).next().show();
 
 		var offset = $(this).offset();
-		var topOffset = offset.top + 10;
+		var topOffset = offset.top - 147;
 		var leftOffset = offset.left;
 		var eventId = $(this).first().data('info-id');
 		var toolTip = $('#info-' + eventId);
@@ -213,7 +214,7 @@
 		$(this).hide();
 	});
 
-	$('.trip-person .full-name').draggable({ opacity: 0.5, helper: 'clone',
+	$('.trip-person .full-name').draggable({ opacity: 1, helper: 'clone',
 	 	start: function(event, ui) {
 			var uid = $(ui.helper).closest('.trip-person').data('uid');
 			$(".event-segment.u" + uid).addClass('blocked');
