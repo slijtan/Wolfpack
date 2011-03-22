@@ -1,6 +1,7 @@
 # flights that have the same carrier flights and dates
 class FlightEvent < TripEvent
   attr_reader :carrier_flight
+  COLOR = "#FAAFBE"
 
   def initialize(flights)
     raise "Invalid Flight Event with flight ids: #{flights.collect(&:id).join(",")}" unless validate_entities(flights, :carrier_flight_id, :start_date)
@@ -17,11 +18,7 @@ class FlightEvent < TripEvent
   end
 
   def color
-    "#900000"
-  end
-
-  def border_color
-    "#730000"
+    COLOR
   end
 
   def tool_tip_partial

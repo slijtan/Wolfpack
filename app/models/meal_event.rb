@@ -1,6 +1,7 @@
 # flights that have the same carrier flights and dates
 class MealEvent < TripEvent
   attr_reader :restaurant
+  COLOR = "#D0F5A9"
 
   def initialize(meals)
     raise "Invalid Meal Event with meals ids: #{meals.collect(&:id).join(",")}" unless validate_entities(meals, :restaurant_id)
@@ -16,11 +17,7 @@ class MealEvent < TripEvent
   end
 
   def color
-    "#528B42"
-  end
-
-  def border_color
-    "#0F8F46"
+    COLOR
   end
 
   def tool_tip_partial
