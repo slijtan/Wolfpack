@@ -6,6 +6,10 @@
 
 <% content_for :head do %>
 <style>
+	#header #logo { float: left; }
+	#header #logo-text { border-bottom: 3px solid grey; margin-left: 95px; margin-top: 40px; padding-bottom: 5px; }
+	#header #logo-text img { margin-top: 32px; }
+
 	#itinerary-wrapper { position: relative; border-bottom: 1px solid #DDD; }
 	#day-timeline { height: 15px; position: relative; }
 	#block-timeline,
@@ -71,6 +75,11 @@
 </style>
 <% end %>
 <% total_segments = num_trip_time_blocks(@trip) %>
+<div id='header'>
+	<div id="logo"><%= image_tag "wolfguy_84x120.png" %></div>
+	<div id="logo-text"><%= image_tag "wolfpack_logo_246x46.png" %> New York &mdash; May 2011</div>
+	<div style="clear:both;"></div>
+</div>
 <div id="itinerary-wrapper">
 	<div id="day-timeline">
 		<div class="s-offset"></div>
