@@ -23,7 +23,6 @@ Carrier.destroy_all
 virgin = Carrier.create(:name => 'Virgin America')
 southwest = Carrier.create(:name => 'Southwest Airlines')
 united = Carrier.create(:name => 'United Airlines')
-jetblue = Carrier.create(:name => 'Jetblue')
 delta = Carrier.create(:name => 'Delta Airlines')
 us_airways = Carrier.create(:name => 'US Airways')
 
@@ -33,19 +32,13 @@ cf2 = CarrierFlight.create(:carrier_id => virgin.id, :number => "29", :from_id =
 cf3 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2103", :from_id => lax.id, :to_id => sfo.id, :start_time => 365, :end_time => 445)
 cf4 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1321", :from_id => sfo.id, :to_id => lax.id, :start_time => 685, :end_time => 765)
 cf5 = CarrierFlight.create(:carrier_id => united.id, :number => "0064", :from_id => sfo.id, :to_id => sea.id, :start_time => 380, :end_time => 509)
-cf6 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => lgb.id, :start_time => 640, :end_time => 729)
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
 cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1125, :end_time => 1350)
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
-cf9 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "1433", :from_id => sfo.id, :to_id => jfk.id, :start_time => 640, :end_time => 1129)
 
 #demo seeds
 cf9 = CarrierFlight.create(:carrier_id => delta.id, :number => "2040", :from_id => sfo.id, :to_id => jfk.id, :start_time => 930, :end_time => 1439)
 cf10 = CarrierFlight.create(:carrier_id => delta.id, :number => "2865", :from_id => jfk.id, :to_id => sfo.id, :start_time => 435, :end_time => 640)
-
-cf11 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "648", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1325, :end_time => 395)
-cf12 = CarrierFlight.create(:carrier_id => jetblue.id, :number => "641", :from_id => jfk.id, :to_id => sfo.id, :start_time => 485, :end_time => 705)
-
 cf13 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2113", :from_id => sfo.id, :to_id => jfk.id, :start_time => 660, :end_time => 1169)
 cf14 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1421", :from_id => jfk.id, :to_id => sfo.id, :start_time => 685, :end_time => 905)
 
