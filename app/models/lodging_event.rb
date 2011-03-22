@@ -1,5 +1,6 @@
 class LodgingEvent < TripEvent
   attr_reader :hotel
+  COLOR = "#99CAFA"
 
   def initialize(lodgings)
     raise "Invalid Lodging Event with lodging ids: #{lodgings.collect(&:id).join(",")}" unless validate_entities(lodgings, :hotel_id, :check_in_date)
@@ -16,11 +17,7 @@ class LodgingEvent < TripEvent
   end
 
   def color
-    "#000095"
-  end
-
-  def border_color
-    "#000073"
+    COLOR
   end
 
   def tool_tip_partial

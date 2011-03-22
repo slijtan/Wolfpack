@@ -11,6 +11,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.string :photo_url
       t.string :map_url
       t.string :yelp_url
+      t.integer :yelp_rating
     end
   end
 

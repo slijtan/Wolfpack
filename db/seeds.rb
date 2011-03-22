@@ -53,7 +53,7 @@ cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "129", :from_id
 
 
 User.destroy_all
-tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com", :photo_url => "tony.png")
+tony = User.create(:first_name => "Tony", :last_name => "Chen", :email => "tonylc@gmail.com", :photo_url => "tony.png")
 mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com", :photo_url => "mabel.png")
 lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com", :photo_url => "lijen.png")
 
@@ -78,9 +78,9 @@ Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_fligh
 Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
 
 Restaurant.destroy_all
-momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "http://www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york")
-lam_zhou = Restaurant.create(:name => "Lam Zhou Handmade Noodle", :address => "144 E Broadway", :city => "New York", :state => "NY", :zip => "10002", :phone => "2125666933", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=144+E+Broadway,+New+York,+NY&aq=&sll=40.73169,-73.985846&sspn=0.009317,0.013561&ie=UTF8&hq=&hnear=144+E+Broadway,+New+York,+10002&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/lam-zhou-handmade-noodle-new-york")
-ippudo = Restaurant.create(:name => "Ippudo NY", :address => "65 4th Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2123880088", :url => "http://www.ippudo.com/ny", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=ippudo+ny,+65+4th+Ave,+new+york,+ny&aq=&sll=40.730739,-73.990281&sspn=0.009317,0.013561&g=65+4th+Ave,+new+york,+ny&ie=UTF8&hq=Ippudo+Ny&hnear=Ippudo+Ny,+65+4th+Ave,+New+York,+10003&ll=40.731779,-73.990259&spn=0.035642,0.054245&z=14", :yelp_url => "http://www.yelp.com/biz/ippudo-ny-new-york")
+momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "http://www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york", :yelp_rating => 40)
+lam_zhou = Restaurant.create(:name => "Lam Zhou Handmade Noodle", :address => "144 E Broadway", :city => "New York", :state => "NY", :zip => "10002", :phone => "2125666933", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=144+E+Broadway,+New+York,+NY&aq=&sll=40.73169,-73.985846&sspn=0.009317,0.013561&ie=UTF8&hq=&hnear=144+E+Broadway,+New+York,+10002&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/lam-zhou-handmade-noodle-new-york", :yelp_rating => 40)
+ippudo = Restaurant.create(:name => "Ippudo NY", :address => "65 4th Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2123880088", :url => "http://www.ippudo.com/ny", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=ippudo+ny,+65+4th+Ave,+new+york,+ny&aq=&sll=40.730739,-73.990281&sspn=0.009317,0.013561&g=65+4th+Ave,+new+york,+ny&ie=UTF8&hq=Ippudo+Ny&hnear=Ippudo+Ny,+65+4th+Ave,+New+York,+10003&ll=40.731779,-73.990259&spn=0.035642,0.054245&z=14", :yelp_url => "http://www.yelp.com/biz/ippudo-ny-new-york", :yelp_rating => 40)
 
 Meal.destroy_all
 Meal.create(:trip_id => new_york_trip.id, :user_id => tony.id, :restaurant_id => momo.id, :date => Date.new(2011,5,6), :start_time => 1080)
