@@ -35,9 +35,9 @@
 
 	#participants { margin-left:10px; clear: right; padding-top:10px; }
 	#participants .trip-person { float: left; border: 1px dashed #808080; width: 300px; }
-	#participants .trip-person:hover { background-color: #EFFF79 !important; cursor: move; }
 	#participants .photo { float: left; }
 	#participants .details { float: left; margin-top: 10px; }
+	#participants .full-name:hover { background-color: #EFFF79 !important; cursor: move; }
 	#participants h2 { margin: 5px 0; border-bottom: 5px solid; padding-bottom: 5px; }
 	#participants h2 span { font-size: 10pt; font-weight: normal; background-color: yellow; padding: 3px 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.trip-person img { height: 40px; margin: 5px; }
@@ -139,7 +139,7 @@
 </ul>
 
 <div id="participants">
-	<h2>Current Trip Participants (<%= @trip.users.size %>) <span>To add a user to an event, drag them to the event bar.</span></h2>
+	<h2>Current Trip Participants (<%= @trip.users.size %>) <span>To add a user to an event, drag their name to the event bar.</span></h2>
 	<% @trip.users.each do |u| %>
 		<div class="trip-person<%= " new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
 			<div class="photo">
@@ -199,20 +199,20 @@
 		$(this).hide();
 	});
 
-	$('.trip-person').draggable({ opacity: 0.5, snap: true, helper: 'clone',
+	$('.trip-person .full-name').draggable({ opacity: 0.5, helper: 'clone',
 	 	start: function(event, ui) {
-			var uid = $(ui.helper).data('uid');
+			var uid = $(ui.helper).closest('.trip-person').data('uid');
 			$(".event-segment.u" + uid).addClass('blocked');
 		},
 		stop: function(event, ui) {
-			var uid = $(ui.helper).data('uid');
+			var uid = $(ui.helper).closest('.trip-person').data('uid');
 			$(".event-segment.u" + uid).removeClass('blocked');
 		}});
 	$('.event-segment').droppable({
 		hoverClass: 'eventHover',
 	 	drop: function(event, ui) {
 			var elExist = false;
-			var clientEl = ui.helper.clone();
+			var clientEl = ui.draggable.closest('.trip-person').find('.user-photo').clone();
 			var dataId = $(this).data('info-id');
 			var participantContainer = $('#info-' + dataId).find('.confirmed-participants');
 			participantContainer.find('img').each(function(i, el) {
@@ -221,9 +221,9 @@
 					return false;
 				}
 			});
-			$(this).addClass('u' + $(ui.helper).data('uid'))
+			$(this).addClass('u' + $(ui.helper).closest('.trip-person').data('uid'))
 			if (!elExist) {
-				participantContainer.append(clientEl.find('.user-photo').attr('style', ''));
+				participantContainer.append(clientEl.attr('style', ''));
 			}
 		}
 	});
