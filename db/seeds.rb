@@ -41,7 +41,7 @@ cf10 = CarrierFlight.create(:carrier_id => delta.id, :number => "1865", :from_id
 cf13 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2113", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1145, :end_time => 245)
 cf14 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1421", :from_id => jfk.id, :to_id => sfo.id, :start_time => 750, :end_time => 965)
 
-cf15 = CarrierFlight.create(:carrier_id => united.id, :number => "0014", :from_id => sfo.id, :to_id => jfk.id, :start_time => 660, :end_time => 460)
+cf15 = CarrierFlight.create(:carrier_id => united.id, :number => "0014", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1380, :end_time => 460)
 cf16 = CarrierFlight.create(:carrier_id => united.id, :number => "0863", :from_id => jfk.id, :to_id => sfo.id, :start_time => 720, :end_time => 950)
 
 cf17 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "1496", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1410, :end_time => 492)

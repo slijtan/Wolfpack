@@ -91,7 +91,7 @@ class DemoController < ApplicationController
       returning_end_date = Date.parse('2011-05-08')
 
     when "US Airways"
-      number = "1496"
+      number = "469"
       returning_start_date = Date.parse('2011-05-08')
       returning_end_date = Date.parse('2011-05-08')
 
