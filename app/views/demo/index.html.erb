@@ -1,58 +1,78 @@
 <style>
+body{background-color: #ECECEC;}
+
   #welcome_dialog {
-    border: 3px solid #000000;
+    border: 6px solid #000000;
     background: #404040;
-    padding: 0px 10px 15px;
+    padding: 20px 10px 15px;
     display: none;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-  }
-
- #submit_email {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  border-bottom: 2px solid #000000;
-  padding: 5px;
-  width: 100%;
-  background: #404040;
-  color: #FFFFFF;
-  display: none;
-  }
-
-#submit_email a {
-  color: #FFFFFF;
-}
-
-  .carrier_receipt {
-  display: none;
+    width: 680px;
+    height: 230px;
+    background-image:url('https://github.com/images/modules/404/parallax_bg.jpg');
  }
+
+#welcome_dialog img{float:left}
+
+#welcome_dialog h1 {text-indent:-50000px;background-image:url('/images/wolfpack_text_300x56.png');width:300px;height:56px;float:left;}
+
+#welcome_form{float:left;padding:0 0 0 15px; font-weight:bold; width: 430px;}
+
+.simplemodal-container {top:20px !important;}
+
+#submit_email{float:left;padding:0 0 0 15px; font-weight:bold;width: 430px;}
+
+ .carrier_receipt {
+  display: none;
+  margin: 310px  auto 0;
+  padding: 20px;
+  width: 670px;
+  background-color: #FFF;
+ -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+ }
+
+
 </style>
 
+
 <div id="welcome_dialog">
+<%= image_tag('wolfguy_200x286.png') %>
+
 <h1>Welcome to our Demo</h1>
 
+<div id="welcome_form">
+<p style="font-size:11pt;margin: 0 0 30px;">Welcome to our demo!
+  Please "book"
+  a flight to New York.</p>
 <%= form_tag({}, {:id => "flight_info"}) do %>
-  <%= label_tag 'carrier_selector', "What's your favorite airline?" %>
+  <%= label_tag 'carrier_selector', "Pick an airline" %>
  <%= select_tag("carrier_selector", options_from_collection_for_select(@carriers, "short_name", "name")) %><br />
 
- <%= label_tag 'name', "What's your name?" %>
- <%= text_field_tag "full_name" %><br />
+ <%= label_tag 'name', "Tell us your name" %>
+ <%= text_field_tag "full_name" %><br /><br />
 
- <%= submit_tag "Submit"%>
+ <%= submit_tag "Book Your Flight!"%>
 <% end %>
-
 </div>
 
 <div id="submit_email">
+<p style="font-size:11pt;margin: 33px 0 15px;">Thank you for booking
+  your flight! Add yourself to the group trip by forwarding your flight receipt to trips@wolf-packs.com</p>
+
 <%= form_tag(demo_create_flight_path) do %>
 <%= hidden_field_tag "name" %>
 <%= hidden_field_tag "carrier" %>
 
-<%= submit_tag "FORWARD THIS EMAIL TO YOURTRIP@WOLFPACK.COM" %>
+<%= submit_tag "Forward Receipt" %>
 <% end %>
 </div>
+
+</div>
+
 
 <% @carriers.each do |carrier| %>
 <div id="<%= carrier.short_name %>" class="carrier_receipt">
@@ -60,14 +80,16 @@
 </div>
 <% end %>
 
-<% add_to_js "jquery.simplemodal.1.4.1.min" %>
+<% add_to_js "jquery.simplemodal.1.4.1.min", "jquery.jparallax" %>
 
 <% content_for :script do %>
 
 <%= javascript_tag do %>
 $(document).ready(function() {
-  scroll_to_receipt();
+//  scroll_to_receipt();
+  $("#submit_email").hide();
   $("#welcome_dialog").show().modal();
+//  $('#parallax').jparallax({});
 });
 
 function scroll_to_receipt() {
@@ -77,7 +99,7 @@ function scroll_to_receipt() {
 }
 
 $('#carrier_selector').change(function() {
-  scroll_to_receipt();
+
 });
 
 $('#full_name').keyup(function(){
@@ -87,9 +109,11 @@ $('#full_name').keyup(function(){
 });
 
 $('#flight_info').submit(function(event){
-  $.modal.close();
-  $('#welcome_dialog').hide();
+//  $.modal.close();
+//  $('#welcome_dialog').hide();
+  scroll_to_receipt();
   $('#submit_email').show();
+  $('#welcome_form').hide();
   event.preventDefault();
 });
 
