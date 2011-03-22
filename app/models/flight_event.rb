@@ -17,6 +17,10 @@ class FlightEvent < TripEvent
     @time_zone = first_flight.from.time_zone.name
   end
 
+  def icon_class
+    "f"
+  end
+
   def color
     COLOR
   end

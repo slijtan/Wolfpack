@@ -16,6 +16,10 @@ class LodgingEvent < TripEvent
     @time_zone = TimeZone.first.name
   end
 
+  def icon_class
+    "l"
+  end
+
   def color
     COLOR
   end

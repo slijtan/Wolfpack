@@ -16,6 +16,10 @@ class MealEvent < TripEvent
     @time_zone = TimeZone.first.name
   end
 
+  def icon_class
+    "m"
+  end
+
   def color
     COLOR
   end
@@ -31,6 +35,6 @@ class MealEvent < TripEvent
   end
 
   def duration
-    90
+    120
   end
 end
