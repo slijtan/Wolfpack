@@ -4,7 +4,7 @@ Wolfpack::Application.routes.draw do
 
   match 'demo/create_flight' => 'demo#create_flight', :as => :demo_create_flight, :via => :post
 
-  match 'demo/' => 'demo#index'
+  #match 'demo/' => 'demo#index'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -52,7 +52,7 @@ Wolfpack::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  #root :to => "demo#index"
+  root :to => "demo#index"
 
   # See how all your routes lay out with "rake routes"
 end
