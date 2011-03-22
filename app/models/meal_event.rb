@@ -13,7 +13,7 @@ class MealEvent < TripEvent
     @start_time = first_meal.start_time
     @end_time = @start_time + 90
     @users = meals.collect(&:user)
-    @time_zone = TimeZone.first.name
+    @time_zone = TimeZone.last.name
   end
 
   def icon_class
