@@ -60,7 +60,7 @@ cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "129", :from_id
 
 
 User.destroy_all
-tony = User.create(:first_name => "Tony", :last_name => "Newb", :email => "tonylc@gmail.com", :photo_url => "tony.png")
+tony = User.create(:first_name => "Tony", :last_name => "Chen", :email => "tonylc@gmail.com", :photo_url => "tony.png")
 mabel = User.create(:first_name => "Mabel", :last_name => "Yoshimoto", :email => "myoshimoto@gmail.com", :photo_url => "mabel.png")
 lijen = User.create(:first_name => "Lijen", :last_name => "Tan", :email => "lijentan@gmail.com", :photo_url => "lijen.png")
 
