@@ -39,6 +39,7 @@
 	#participants .photo { float: left; }
 	#participants .details { float: left; margin-top: 10px; }
 	#participants h2 { margin: 5px 0; border-bottom: 5px solid; padding-bottom: 5px; }
+	#participants h2 span { font-size: 10pt; font-weight: normal; background-color: yellow; padding: 3px 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	#legend { float: right; padding: 0; padding-top: 10px; margin: 6px; }
@@ -138,8 +139,7 @@
 </ul>
 
 <div id="participants">
-	<h2>Current Trip Participants (<%= @trip.users.size %>)</h2>
-
+	<h2>Current Trip Participants (<%= @trip.users.size %>) <span>To add a user to an event, drag them to the event bar.</span></h2>
 	<% @trip.users.each do |u| %>
 		<div class="trip-person<%= " new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
 			<div class="photo">
@@ -150,7 +150,6 @@
 			</div>
 		</div>
 	<% end %>
-
 	<div style="clear:both;"></div>
 </div>
 
