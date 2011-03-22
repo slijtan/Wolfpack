@@ -30,12 +30,12 @@
 	.e-time { margin-left: 5px; }
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 
-	#participants { margin-left:10px; clear:left; padding-top:10px; }
-	#participants .trip-person { float: left; border-right: 1px dashed #808080; width: 300px; }
+	#participants { margin-left:10px; clear: right; padding-top:10px; }
+	#participants .trip-person { float: left; border: 1px dashed #808080; width: 300px; }
 	#participants .trip-person:hover { background-color: #EFFF79 !important; cursor: move; }
 	#participants .photo { float: left; }
 	#participants .details { float: left; margin-top: 10px; }
-	#participants h5 { margin: 5px 0; font-size: 15pt;}
+	#participants h2 { margin: 5px 0; border-bottom: 5px solid; padding-bottom: 5px; }
 	.trip-person img { height: 40px; margin: 5px; }
 	.info-notice { float: left; border: 1px solid #EDCBA8; background-color: #FCF9D7; padding: 10px; width: 330px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	#legend { float: right; padding: 0; padding-top: 10px; margin: 6px; color: #FFF; }
@@ -131,10 +131,10 @@
 </ul>
 
 <div id="participants">
-	<h5>Current Trip Participants (<%= @trip.users.size %>)</h5>
+	<h2>Current Trip Participants (<%= @trip.users.size %>)</h2>
 
 	<% @trip.users.each do |u| %>
-		<div class="trip-person <%= "new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
+		<div class="trip-person<%= " new" if u.id == @new_id %>" data-uid="<%= u.id %>" >
 			<div class="photo">
 			  <img class="user-photo p" src="/images/<%= u.photo %>" title="<%= u.full_name %>">
 			  </div>
