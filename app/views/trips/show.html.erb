@@ -31,7 +31,7 @@
 	.f-time { display: none; position: absolute; font-size: 8pt; top: 4px; padding: 0 4px; background-color: wheat; z-index: 3; }
 
 	#participants { margin-left:10px; width: 300px;clear:left;padding-top:10px;}
-	#participants .trip-person { float: left; clear:left;border-bottom:1px dashed #808080;width:100%;}
+	#participants .trip-person { float: left; clear: left; border-bottom: 1px dashed #808080; width: 300px; }
 	#participants { margin-left: 10px; width: 300px; }
 	#participants .trip-person { float: left; clear: left; border-bottom: 1px dashed #808080; }
 	#participants .trip-person:hover { background-color: #EFFF79; cursor: move; }
@@ -87,7 +87,7 @@
 	</div>
 	<% end %>
 	<div class="horizontal-line"></div>
-	<% @event_blocks.each do |event_block| %>
+		<% @event_blocks.each do |event_block| %>
 		<div class="block-itinerary">
 			<div class="s-offset"></div>
 			<div class="event-timeline ">
@@ -107,9 +107,9 @@
 				<% end %>
 			</div>
 		</div>
-	<% end %>
-	<div id="tool-tips">
-	<%= yield :tool_tip %>
+		<% end %>
+		<div id="tool-tips">
+			<%= yield :tool_tip %>
 		</div>
 	</div>
 </div>
@@ -156,16 +156,16 @@
 		});
 	})
 
-       $('.legend_flights').click(function(){
-	$('.event-flight').fadeToggle();
+  $('.legend_flights').click(function(){
+		$('.event-flight').fadeToggle();
 	});
 
-        $('.legend_lodging').click(function(){
-	$('.event-lodging').fadeToggle();
+  $('.legend_lodging').click(function(){
+		$('.event-lodging').fadeToggle();
 	});
 
-        $('.legend_meals').click(function(){
-	$('.event-meal').fadeToggle();
+	$('.legend_meals').click(function(){
+		$('.event-meal').fadeToggle();
 	});
 
 	$('.event-segment').mouseover(function() {
@@ -202,7 +202,8 @@
 			var uid = $(ui.helper).data('uid');
 			$(".event-segment.u" + uid).removeClass('blocked');
 		}});
-	$('.event-segment').droppable({ hoverClass: 'eventHover',
+	$('.event-segment').droppable({
+		hoverClass: 'eventHover',
 	 	drop: function(event, ui) {
 			var elExist = false;
 			var clientEl = ui.helper.clone();
