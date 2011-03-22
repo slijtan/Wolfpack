@@ -71,7 +71,7 @@ class DemoController < ApplicationController
     
     case carrier.name
     when "Delta Airlines"
-      number = "2040"
+      number = "1865"
       returning_start_date = Date.parse('2011-05-08')
       returning_end_date = Date.parse('2011-05-08')
 

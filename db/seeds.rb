@@ -27,8 +27,8 @@ delta = Carrier.create(:name => 'Delta Airlines')
 us_airways = Carrier.create(:name => 'US Airways')
 
 CarrierFlight.destroy_all
-cf1 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 455, :end_time => 960)
-cf2 = CarrierFlight.create(:carrier_id => virgin.id, :number => "29", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1150, :end_time => 1365)
+cf1 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1025, :end_time => 100)
+cf2 = CarrierFlight.create(:carrier_id => virgin.id, :number => "29", :from_id => jfk.id, :to_id => sfo.id, :start_time => 785, :end_time => 1345)
 cf3 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2103", :from_id => lax.id, :to_id => sfo.id, :start_time => 365, :end_time => 445)
 cf4 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1321", :from_id => sfo.id, :to_id => lax.id, :start_time => 685, :end_time => 765)
 cf5 = CarrierFlight.create(:carrier_id => united.id, :number => "0064", :from_id => sfo.id, :to_id => sea.id, :start_time => 380, :end_time => 509)
@@ -37,19 +37,19 @@ cf8 = CarrierFlight.create(:carrier_id => virgin.id, :number => "28", :from_id =
 cf7 = CarrierFlight.create(:carrier_id => virgin.id, :number => "13", :from_id => sfo.id, :to_id => jfk.id, :start_time => 560, :end_time => 1000)
 
 #demo seeds
-cf9 = CarrierFlight.create(:carrier_id => delta.id, :number => "2040", :from_id => sfo.id, :to_id => jfk.id, :start_time => 930, :end_time => 1439)
-cf10 = CarrierFlight.create(:carrier_id => delta.id, :number => "2865", :from_id => jfk.id, :to_id => sfo.id, :start_time => 435, :end_time => 640)
-cf13 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2113", :from_id => sfo.id, :to_id => jfk.id, :start_time => 660, :end_time => 1169)
-cf14 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1421", :from_id => jfk.id, :to_id => sfo.id, :start_time => 685, :end_time => 905)
+cf9 = CarrierFlight.create(:carrier_id => delta.id, :number => "2040", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1085, :end_time => 160)
+cf10 = CarrierFlight.create(:carrier_id => delta.id, :number => "1865", :from_id => jfk.id, :to_id => sfo.id, :start_time => 765, :end_time => 983)
+cf13 = CarrierFlight.create(:carrier_id => southwest.id, :number => "2113", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1145, :end_time => 245)
+cf14 = CarrierFlight.create(:carrier_id => southwest.id, :number => "1421", :from_id => jfk.id, :to_id => sfo.id, :start_time => 750, :end_time => 965)
 
-cf15 = CarrierFlight.create(:carrier_id => united.id, :number => "0014", :from_id => sfo.id, :to_id => jfk.id, :start_time => 963, :end_time => 32)
-cf16 = CarrierFlight.create(:carrier_id => united.id, :number => "0863", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1045, :end_time => 1270)
+cf15 = CarrierFlight.create(:carrier_id => united.id, :number => "0014", :from_id => sfo.id, :to_id => jfk.id, :start_time => 660, :end_time => 460)
+cf16 = CarrierFlight.create(:carrier_id => united.id, :number => "0863", :from_id => jfk.id, :to_id => sfo.id, :start_time => 720, :end_time => 950)
 
-cf17 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "1496", :from_id => sfo.id, :to_id => jfk.id, :start_time => 505, :end_time => 1007)
-cf18 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "469", :from_id => jfk.id, :to_id => sfo.id, :start_time => 955, :end_time => 1262)
+cf17 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "1496", :from_id => sfo.id, :to_id => jfk.id, :start_time => 1410, :end_time => 492)
+cf18 = CarrierFlight.create(:carrier_id => us_airways.id, :number => "469", :from_id => jfk.id, :to_id => sfo.id, :start_time => 690, :end_time => 915)
 
-cf19 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 455, :end_time => 960)
-cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "129", :from_id => jfk.id, :to_id => sfo.id, :start_time => 1150, :end_time => 1365)
+#cf19 = CarrierFlight.create(:carrier_id => virgin.id, :number => "12", :from_id => sfo.id, :to_id => jfk.id, :start_time => 305, :end_time => 960)
+cf20 = CarrierFlight.create(:carrier_id => virgin.id, :number => "129", :from_id => jfk.id, :to_id => sfo.id, :start_time => 785, :end_time => 985)
 
 
 User.destroy_all
@@ -71,11 +71,12 @@ lijen.trips << new_york_trip
 lijen.save!
 
 Flight.destroy_all
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => lijen.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf9.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF2345")
-Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf2.id, :seat_number => "13E", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf7.id, :seat_number => "16F", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 6), :confirmation_number => "ASDF6352")
-Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf8.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16E", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 7), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => tony.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf20.id, :seat_number => "13E", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF1234")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf1.id, :seat_number => "16F", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 7), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => mabel.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf20.id, :seat_number => "13F", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF6352")
+Flight.create(:user_id => lijen.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf13.id, :seat_number => "18B", :start_date => Date.new(2011, 5, 6), :end_date => Date.new(2011, 5, 7), :confirmation_number => "ASDF2345")
+Flight.create(:user_id => lijen.id, :trip_id => new_york_trip.id, :carrier_flight_id => cf14.id, :seat_number => "18B", :start_date => Date.new(2011, 5, 8), :end_date => Date.new(2011, 5, 8), :confirmation_number => "ASDF2345")
 
 Restaurant.destroy_all
 momo = Restaurant.create(:name => "Momofuku Ssäm Bar", :address => "207 2nd Ave", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122543500", :url => "http://www.momofuku.com/ssam/default.asp", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=207+Second+Ave,+New+York,+NY&aq=0&sll=37.774593,-122.441097&sspn=0.009718,0.013561&ie=UTF8&hq=&hnear=207+2nd+Ave,+New+York,+10003&z=16&iwloc=A", :yelp_url => "http://www.yelp.com/biz/momofuku-ssam-bar-new-york", :yelp_rating => 40)
@@ -98,11 +99,13 @@ waldorf = Hotel.create(:name => "Waldorf Astoria", :address => "301 Park Avenue"
 w_hotel = Hotel.create(:name => "The W New York Hotel", :address => "201 Park Avenue South", :city => "New York", :state => "NY", :zip => "10003", :phone => "2122539119", :url => "http://starwoodhotels.com", :map_url => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=201+Park+Avenue+South,+New+York,+NY+10003&aq=&gl=us&ie=UTF8&hq=&hnear=201+Park+Ave+S,+New+York,+10003&z=16")
 
 Lodging.destroy_all
-l1 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => waldorf.id, :check_in_date => Date.new(2011,5,6), :check_out_date => Date.new(2011,5,7), :check_in_time => 1020, :check_out_time => 840)
-l2 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => w_hotel.id, :check_in_date => Date.new(2011,5,7), :check_out_date => Date.new(2011,5,8), :check_in_time => 1020, :check_out_time => 840)
+l1 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => waldorf.id, :check_in_date => Date.new(2011,5,6), :check_out_date => Date.new(2011,5,7), :check_in_time => 1020, :check_out_time => 720)
+l2 = Lodging.create(:trip_id => new_york_trip.id, :hotel_id => w_hotel.id, :check_in_date => Date.new(2011,5,7), :check_out_date => Date.new(2011,5,8), :check_in_time => 840, :check_out_time => 720)
 
 UserLodging.destroy_all
 UserLodging.create(:lodging_id => l1.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l1.id, :user_id => mabel.id)
+UserLodging.create(:lodging_id => l1.id, :user_id => lijen.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => tony.id)
 UserLodging.create(:lodging_id => l2.id, :user_id => mabel.id)
+UserLodging.create(:lodging_id => l2.id, :user_id => lijen.id)
