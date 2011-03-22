@@ -35,7 +35,7 @@ class DemoController < ApplicationController
     when "Delta Airlines"
       number = "2040"
       departing_start_date = Date.parse('2011-05-06')
-      departing_end_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-07')
       
     when "Virgin America"
       number = "12"
@@ -55,7 +55,7 @@ class DemoController < ApplicationController
     when "US Airways"
       number = "1496"
       departing_start_date = Date.parse('2011-05-06')
-      departing_end_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-07')
 
     when "Jetblue"
       number = "648"
