@@ -24,6 +24,11 @@
 	.event-segment { position: absolute; display: inline; z-index: 2; margin: 1px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.event-segment.eventHover:not(.blocked) { background-color: #EFFF79 !important; }
 	.event-segment.blocked { opacity: 0.6; }
+	.event-icon { height: 18px; float: left; margin: 0 10px; }
+	.event-icon.f { background-image: url('/images/plane_18x18.png'); width: 18px; }
+	.event-icon.m { background-image: url('/images/meals_18x18.png'); width: 18px; margin: 0 3px; }
+	.event-icon.l { background-image: url('/images/hotel_23x18.png'); width: 23px; }
+	.event-icon.a { background-image: url('/images/activities_15x18.png'); width: 15px; }
 	.event-info { position: absolute; display: none; background-color: white; border: 1px solid black; z-index: 4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 	.tool-tip { padding: 10px; font-size: 10pt; min-width: 200px; }
 	.tool-tip ul { padding-left: 0; list-style: none; }
@@ -109,7 +114,7 @@
 					<% e_width = 100 * event.duration / @trip.duration_in_minutes %>
 					<span class="s-time f-time" style="right: <%= 100 - e_left %>%"><%= event.start_time_str %></span>
 					<div class="event-segment <%= event_class(event) %> <%= event.users.map(&:class_id_name).join(" ") %>" data-info-id="<%= event.hash %>" style="left:<%= e_left %>%; width:<%= e_width %>%; background-color: <%= event.color %>;">
-						<%= event.duration %>
+						<span class="event-icon <%= event.icon_class %>"></span><%#= event.duration %>
 					</div>
 					<span class="e-time f-time" style="left: <%= e_left + e_width %>%"><%= event.end_time_str %></span>
 					<% content_for :tool_tip do %>

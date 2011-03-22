@@ -13,7 +13,11 @@ class LodgingEvent < TripEvent
     @start_time = lodging.check_in_time
     @end_time = lodging.check_out_time
     @users = lodging.user_lodgings.collect(&:user)
-    @time_zone = TimeZone.first.name
+    @time_zone = TimeZone.last.name
+  end
+
+  def icon_class
+    "l"
   end
 
   def color

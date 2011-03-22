@@ -3,7 +3,7 @@ class Flight < ActiveRecord::Base
   belongs_to :trip
   belongs_to :carrier_flight
 
-  delegate :flight_duration, :start_time, :end_time, :from, :to, :to => :carrier_flight
+  delegate :start_time, :end_time, :from, :to, :to => :carrier_flight
 
   #TODO: We need to first automatically determine the carrier from the email contents
   def self.import_delta_email(raw_html)
@@ -68,5 +68,24 @@ class Flight < ActiveRecord::Base
 
   def date_carrier_flight_id
     "#{self.start_date.strftime("%Y_%m_%d")}_#{self.carrier_flight_id}"
+  end
+
+  # time stored in minutes
+  def flight_duration
+    (end_time_in_zone - start_time_in_zone) / 60
+  end
+
+  private
+
+  def end_time_in_zone
+    Time.use_zone(self.to.time_zone.name) do
+      Time.zone.parse(self.end_date.to_s) + end_time.minutes
+    end
+  end
+
+  def start_time_in_zone
+    Time.use_zone(self.from.time_zone.name) do
+      Time.zone.parse(self.start_date.to_s) + start_time.minutes
+    end
   end
 end
