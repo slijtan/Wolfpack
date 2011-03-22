@@ -45,7 +45,7 @@ class DemoController < ApplicationController
     when "Southwest Airlines"
       number = "2113"
       departing_start_date = Date.parse('2011-05-06')
-      departing_end_date = Date.parse('2011-05-06')
+      departing_end_date = Date.parse('2011-05-07')
       
     when "United Airlines"
       number = "0014"
